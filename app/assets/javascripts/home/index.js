@@ -117,7 +117,7 @@ $(document).ready(function(){
   checkoutDate.setDate(dateToday.getDate() + 2);
   $('#search-checkin').val($.datepicker.formatDate('mm/dd/yy', dateToday));
   $('#search-checkout').val($.datepicker.formatDate('mm/dd/yy', checkoutDate));
-
+  $('#nights').val(2);
   // functions for Datepicker
   $(function() {
 
