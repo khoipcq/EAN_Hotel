@@ -1,0 +1,527 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  label:
+    home_page:
+      destination_string: "City, Landmark, Airport or Hotel"
+      arrival_date: "Check In (Optional)"
+      departure_date: "Check Out (Optional)"
+    error_code:
+      invalid_confimation_number: "Invalid Confirmation Number"
+      price_mismatch: "Price Mismatch"
+      confirmed_booking: "Confirmed Booking"
+      pending_process: "Pending Process"
+      multiple_locations: "Multiple Locations"
+  message:
+    not_found: "No result was found! Please change your search criteria"
+    multiple_locations: "We found many locations with your destination. Please specify more detail. Possible destinations are here: "
+    search_no_result: "No result found matching your criteria."
+    search_blank_destination: "Please enter a city, landmark, airport or hotel name."
+      
+  categories:
+    edit:
+      show: Show
+      back: Back
+      update: Update
+    index:
+      show: Show
+      edit: Edit
+      destroy: Destroy
+      confirm_destroy: 'Are you sure?'
+      new_category: New category
+    new:
+      back: Back
+      create: Create
+    show:
+      back: Back
+      edit: Edit
+    create:
+      success: 'Category was successfully created.'
+    update:
+      success: 'Category was successfully updated.'
+  home:
+    subregion_select:
+      select_country: Please select a country above
+    index:
+      title_question: 'Where are you going?'
+      destination: Destination
+      check_in: Check in
+      check_out: Check out
+      rooms: Rooms
+      room1: "Room 1:"
+      err_multi_location: Your Search Returned Multiple Locations
+      choose_correct_location: Please choose the correct location below
+      search: Search
+    test:
+      welcome: Welcome to Our Hotel Services
+      select_date: Select date
+  hotels:
+    no_result: "No result was found! Please change your search criteria to see more hotels."
+    edit:
+      title: Editing hotel
+      show: Show
+      back: Back
+      update: Update
+    get_bookings:
+      rooms_available: Rooms Available
+      hotel_info: Hotel Information
+      name: Name
+      address: Address
+      city: City
+      state_province_code: State Province Code
+      country: Country
+      trip_advisor_rating: Trip Advisor Rating
+      check_in_date: "Check-in Date:"
+      check_out_date: "Check-out Date:"
+      check_in_instruction: "Check-in Instruction:"
+      no_room_request: "Number of Rooms request:"
+      no: "No."
+      no_adults: "Number of adults:"
+      age_of_children: "Age of children:"
+      hotel_amenities: Hotel Amenities
+      credit_card_info: Credit Card Information
+      email: Email
+      first_name: First Name
+      last_name: Last Name
+      home_phone: Home Phone
+      work_phone: Work Phone
+      credit_card_type: Credit Card Type
+      credit_card_number: Credit Card Number
+      credit_card_identifier: Credit Card Identifier
+      expiration_month: Expiration Month
+      expiration_year: Expiration Year
+      list_available_rooms: List of available rooms
+      images: Images
+      room_type_desc: Room Type Description
+      tax_rate: Tax Rate
+      rate_change: Rate Change
+      non_refundable: Non Refundable
+      gurantee_req: Guarantee Required
+      deposit_req: Deposit Required
+      immediate_charge_req: Immediate Charge Required
+      current_allotment: Current Allotment
+      quoted_occupancy: Quoted Occupancy
+      min_guest_age: Min Guest Age
+      currency: Currency
+      nightly_rate_total: Nightly Rate Total
+      max_nightly_rate: Max Nightly Rate
+      surcharge_total: Surcharge Total
+      charge_total: Charge Total
+      room_amenities: Room Amenities
+      book_now: "Book now!"
+      no_rooms_available: "We are sorry. There is no rooms available now. Please try again later."
+      return_hotel: Return to hotel
+    get_status:
+      your_booking_status: Your Booking Status
+      booking_info: Booking Information
+      itinerary_id: "Itinerary ID:"
+      hotel_info: Hotel Information
+      hotel_id: "Hotel ID:"
+      hotel_city: "Hotel City:"
+      hotel_rating: "Hotel rating:"
+      hotel_name: "Hotel Name:"
+      hotel_state_province: "Hotel State/Province:"
+      trip_advisor_rating: "Trip advisor rating:"
+      hotel_address: "Hotel Address:"
+      hotel_country: "Hotel Country:"
+      high_rate: "High rate:"
+      phone: "Phone:"
+      hotel_postal_code: "Hotel Postal Code:"
+      low_rate: "Low rate:"
+      fax: "Fax:"
+      theme: "Theme:"
+      confidence: "Confidence:"
+      region: "Region:"
+      market: "Market:"
+      customer_info: Customer Information
+      email: "Email:"
+      home_phone: "Home Phone:"
+      city: "City:"
+      first_name: "First Name:"
+      work_phone: "Work Phone:"
+      state_province_code: "State/Province Code:"
+      last_name: "Last Name:"
+      address: "Address:"
+      country_code: "Country Code:"
+      postal_code: "Postal Code:"
+      room_info: "Room %{room} Information"
+      booking_information: "Booking Information:"
+      status: "Status:"
+      cancel_reservation: "You have cancelled this room reservation."
+      supplier_id: "Supplier ID:"
+      arrival_date: "Arrival Date:"
+      smoking_ref: "Smoking Reference:"
+      chain_code: "Chain Code:"
+      departure_date: "Departure Date:"
+      supplier_prop_id: "Supplier Property ID:"
+      confirm_number: "Confirmation Number:"
+      no_adults: "Number of Adults:"
+      non_refundable: "Non-refundable:"
+      no_children: "Number of Children:"
+      room_desc: "Room Description:"
+      cancellation_policy: "Cancellation Policy:"
+      currency: Currency
+      total: Total
+      surcharge_total: Surcharge Total
+      nightly_rate_total: Nightly Rate Total
+      max_nightly_rate: Max Nightly Rate
+      error: "We are sorry. There is an error now. Please try again later."
+    index:
+      address: Address
+      airport: Airport
+      city: City
+      country: Country
+      currency: Currency
+      description: Description
+      distance_to_POI: Distance to POI
+      distance_unit: Distance Unit
+      go_to_hotel: Go to hotel
+      high_rate: High Rate
+      hotel_rating: Hotel Rating
+      link: Link
+      list_hotels: Listing hotels
+      location: Location
+      low_rate: Low Rate
+      name: Name
+      no: "No."
+      no_hotel: "There is no hotel with your searching . Please click %{link} and fill again!"
+      paging: "Paging: %{size} hotels / page"
+      state_province_code: State Province Code
+      trip_advisor_rating: Trip Advisor Rating
+    index_new:
+      adults: Adults
+      age: Age
+      avg_nightly_rate: "Avg. Nightly Rate"
+      change_search: Change Search
+      check_in: Check in
+      check_out: Check out
+      children: Children
+      choose_correct_location: Please choose the correct location below
+      destination: Destination
+      hotel_in: "Hotels in %{dest},"
+      hotel_result: Hotel Results
+      multiple_locations: Your Search Returned Multiple Locations
+      price_display: "Prices displayed in:"
+      search: Search
+      room1: "Room 1:"
+      rooms: Rooms
+      sort_by: "Sort by:"
+      wait: "Wait a moment... it's loading!"
+      price_for_night: "Price for %{days} night(s)"
+    list:
+      avg_nightly_rate_from: "Avg.Nightly Rate from"
+      na: "N/A"
+      show_on_map: Show on map
+      price_for_night: "Price for %{days} night(s)"
+    set_booking:
+      address: Address
+      amount_charge: Amount Charged
+      bill_address: Billing Address
+      bill_name: Billing Name
+      book_info: Booking Confirmation      
+      cancellation_policy: "Cancellation Policy:"
+      cancel_booking: Cancel Booking
+      card_number: Card Number
+      card_number_sample: xxxxxxxxxxxx9999
+      check_in: Check in
+      check_in_time: "(Check in time %{time})"
+      check_out: Check out
+      check_out_time: "(Check out time %{time})"
+      confirm_number: Confirmation Number
+      contact: "If you have any questions please feel free to contact us:<br/>Wayfarer.com<br/>Address:<br/>Phone:<br/><br/>Thank you for using our service<br/>"
+      credit_card_type: Credit Card Type
+      email: Email
+      email_address: Email Address
+      email_sent: "An additional copy of your hotel confirmation has been sent to %{email}. Please check your spam folder if you don’t received this additional copy"
+      faxs: Faxs
+      first_name: First Name
+      for: For
+      hotel: Hotel
+      hotel_info: Hotel Information
+      itinerary_number: Your Itinerary Number
+      last_name: Last Name
+      na: "N/A"
+      payment_info: Payment Information
+      phone: Phone
+      reservation_details: Reservation Details
+      room: "Room %{id}"
+      room_details: Room Details
+      taxes_fees: "Taxes & Fees"
+      thank_you: Thank you for your reservation
+      total: Total
+      your_email: Your Email
+      your_name: Your Name
+    show:
+      adults: Adults
+      age: Age
+      amenities: Amenities
+      avg_nightly_rate: "Avrg. Nightly Rate"
+      available_rooms: Available Rooms
+      back: Back to search results
+      change_search: Change Search
+      check_in: Check in
+      check_out: Check out
+      children: Children
+      choose_correct_location: Please choose the correct location below
+      destination: Destination
+      hotel_details: Hotel Details
+      map: Map
+      multiple_locations: Your Search Returned Multiple Locations
+      no_rooms_available: "No available room was found. Please change your search criteria to see more rooms"
+      overview: Overview
+      price_display: "Prices displayed in:"
+      price_for_night: "Price for %{days} night(s)"
+      room1: "Room 1:"
+      rooms: Rooms
+      see_room_info: See room information
+    show_booking_screen:
+      accept: Please accept rate and room policies and then click submit
+      address: Address
+      address_require: Please enter address
+      agree: I agree to the rate and room policies of this reservation
+      bed_type: Bed Type
+      booking_summary: Your Booking Summary
+      bill_address: Billing Address
+      cancellation_policy: "Cancellation Policy:"
+      card_number: Card Number
+      card_number_invalid: Please enter card number
+      check_in: "Check in:"
+      check_in_time: "(Check in time %{time})"
+      check_out: "Check out:"
+      check_out_time: "(Check out time %{time})"
+      city: City
+      city_require: Please enter city
+      country: Country
+      credit_card_type: Credit Card Type
+      csv_code: CSV Code
+      csv_code_invalid: Please enter CSV code
+      email_address: Email Address
+      email_address_require: Please enter email address
+      expired_date: Expiry Date
+      expired_date_invalid: Please select your credit card expiry date
+      expired_date_wrong: Invalid expired date
+      expiry_month: Expiry Month
+      expiry_year: Expiry Year
+      first_name: First name
+      first_name_require: Please enter first name
+      last_name: Last Name
+      last_name_require: Please enter last name
+      payment_details: Payment Details
+      phone: Phone
+      phone_require: Please enter phone number
+      receive_email: "You'll receive a confirmation email"
+      room: "Room %{id}"
+      room_details: "Room Details:"
+      smoking_preferences: Smoking Preferences
+      special_request: Special Request
+      state: State
+      state_require: Please enter state
+      submit_details: Submit your details
+      taxes_fees: "Taxes & Fees"
+      total: Total
+      your_details: Your Details
+      zip_code: Zip Code
+      zip_code_require: Please enter zip code
+      char_only: "Please enter first name/last name that contains only letters, spaces, underscores and  hyphens."
+      card_number_error: "Please enter only numbers and hyphens for credit card number."
+      csv_code_error: "Please enter only numbers and hyphens for CSV code."
+      zip_code_number: "Please enter only numbers for zip code."
+      fullname_diff: "Please enter a different name for each room you book."
+      phone_error: "Please enter a phone number that contains only number and  hyphens"
+  layouts:
+    application:
+      company: " Company 2013"
+      hello: Hello
+      hotel_booking: Hotel Booking
+      my_reservation: My Reservations
+      user_management: User Management
+      sign_in: Sign in
+      sign_out: Sign out
+      sign_up: Sign up
+      please_login: "Please log in."
+      please_create_account: "Please create an account."
+      check_reservation: Check Reservations
+  passwords:
+    edit:
+      change_password: Change password
+      new_password: New password
+      password_hint: "Password hint:  Minimum 6 characters. Strong passwords include numbers, special characters (e.g., #, ?, !), upper and lower chars"
+      confirm_password: Confirm new password
+      save: Save
+      cancel: Cancel
+    update:
+      success: "Password has been changed successfully"
+      failed: Current password is invalid
+  reservations:
+    list:
+      your_reservation: Your Reservations
+      no: "No."
+      itinerary_id: Itinerary ID
+      hotel_name: Hotel Name
+      confirm_date: Confirmation Date
+      check_in: Check In
+      check_out: Check Out
+      total_charged: Total Charged
+      status: Status
+      view: View
+      no_result_found: "No result found."
+    show:
+      address: Address
+      amount_charged: Amount Charged
+      bed_type: Bed Type
+      billing_address: Billing Address
+      billing_name: Billing Name
+      booking_confirmation: Booking Confirmation
+      cancellation_policy: Cancellation Policy
+      cancel_booking: Cancel Booking
+      card_number: Card Number
+      card_number_sample: xxxxxxxxxxxx9999
+      check_in: Check in
+      check_out: Check out
+
+      confirm_number: Confirmation Number
+      confirmation_sent: "An additional copy of your hotel confirmation has been sent to %{email}. Please check your spam folder if you don’t received this additional copy"
+      contact: "If you have any questions please feel free to contact us:<br/>Wayfarer.com<br/>Address:<br/>Phone:<br/><br/>Thank you for using our service<br/>"
+      credit_card_type: Credit Card Type
+      email: Email
+      email_address: Email Address
+      faxs: Faxs
+      first_name: First Name
+      for: For
+      guest_name: Guest name
+      itinerary_number: Your Itinerary Number
+      hotel: Hotel
+      hotel_info: Hotel Information
+      last_name: Last Name
+      na: "N/A"
+      payment_info: Payment Information
+      phone: Phone
+      rates: Rates
+      room_details: Room Details
+      reservation_details: Reservation Details
+      smoking_preferences: Smoking Preferences
+      taxes_fees: "Taxes & Fees"
+      thank_you: Thank you for your reservation
+      your_name: Your Name
+      your_email: Your Email
+      cancel_confirmation: "Select room you want to cancel"
+      cancel: "Cancel"
+      close: "Close"
+    cancel:
+      title: "Cancel Your Reservation"
+      cancel_confirmation: "Are you sure you want to proceed cancelling booking?"
+      cancel_notice: "Before cancelling this reservation, please review the details carefully to see what refund-if any-you will receive"
+      hotel: "Hotel"
+      address: "Address"
+      checkin: "Check in"
+      checkout: "Check out"
+      nights: "Nights"
+      guest_name: "Guest Name"
+      booking_amount: "Booking amount"
+      cancellation_charged: "Cancellation Charged"
+      refund_amount: "Refund Amount"
+      cancel_policy: "Cancellation Policy:"   
+      refund_method: "Refund Method" 
+      refund_notice: "After you cancel this reservation, your refund will be posted to the original form of payment shown below"
+      credit_card_type: "Credit Card Type"
+      first_name: "First Name"
+      last_name: "Last Name"
+      card_number: "Card Number"
+      billing_address: "Billing Address"
+      lblyes: "Yes"
+      lblno: "No"
+      confirm_cancel: "Cancel Booking"
+      close: "Close"
+    search:
+      title: Your Reservation
+      sign_in: Sign In
+      search_tip: "Check a single booking or %{sign_in} to your account to view all your reservations."
+      itinerary_number: Itinerary Number 
+      itinerary_number_place_holder: Enter your itinerary number here ...
+      email: Email Address for Reservation
+      email_place_holder: Enter your email here ...
+      search: Search
+      missing_information: Please enter your itinerary number and email address
+      reservation_not_found: "We are sorry, but your itinerary cannot be found. Please check your confirmation email to get exactly your itinerary number and email address. If you continue to have problems, please contact our customer service agent."
+      email_required: "Please enter email address."
+      itinerary_number_required: "Please enter Itinerary Number."
+  shared:
+    error:
+      additional_message: "Additional Message:"
+      error: "There are some errors of your request."
+      back: "Please click 'Back' and check again!"
+      error_code: "Error code:"
+      error_info: Error Information
+      itinerary_id: "Itinerary ID:"
+      message: "Message:"
+      other_info: "Other Information:"
+      type: "Type:"
+      category: "Category:"
+    hotel_detail_error:
+      hotel_details: Hotel Details
+      back: Back to search results
+      no_result: "No result was found! Please change your search criteria to see more hotels."
+  users:
+    account_disabled: "Sorry, your account has been disabled."
+    edit:
+      title: Editing user
+      verify_email: (User needs to verify new email)
+      update: Update
+      show: Show
+      back: Back
+    update:
+      success: 'User was successfully updated.'
+    index:
+      add_new_user: Add new user
+      first_name: First name
+      last_name: Last name
+      email: Email
+      gender: Gender
+      status: Status
+      male: Male
+      female: Female
+      unspecified: Unspecified
+      enabled: Enabled
+      disabled: Disabled
+      disable: Disable
+      confirm_disable: Are you sure you want to disable this user?
+      enable: Enable
+      confirm_enable: Are you sure you want to enable this user?
+      reset_password: Reset Password
+      confirm_reset_password: Are you sure you want to reset password of this user?
+      delete: Delete
+      confirm_delete: Are you sure you want to delete this user?
+    new:
+      create_user: Creating user
+      email_exist: Email has already been taken
+      password_hint: "Password hint:  Minimum 6 characters. Strong passwords include numbers, special characters (e.g., #, ?, !), upper and lower chars"
+      add: Add
+      back: Back
+    create:
+      success: 'User was successfully created.'
+    show:
+      first_name: "First name:"
+      last_name: "Last name:"
+      email: "Email:"
+      role: "Role:"
+      edit: Edit
+      back: Back
+    reset_password: 
+      email_sent: "Email with instructions to reset password has been sent to user"
+  user_mailer:
+    confirmation_email:
+      greeting: "Dear %{name},<br/> Thank you for booking your travel with Wayfarer.com <br/> Your reservation is confirmed and your card has been charged <br/> Here are your booking details"
+      online_reservation: "View or cancel your booking online"
+      hotel_map: "Hotel Map"
+      room_charges: "Room Charges"
+      nightly_charge: "Nightly Charges"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password: 
+              blank: "Missing"
+            password_confirmation: 
+              blank: "Missing"

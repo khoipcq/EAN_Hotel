@@ -1,0 +1,16 @@
+development:
+  port: 9312
+  #config_file: "#{Rails.root}/config/development.sphinx.conf"
+  #searchd_log_file: "#{Rails.root}/log/development.searchd.log"
+  #query_log_file: "#{Rails.root}/log/searchd.query.log"
+  #pid_file: "#{Rails.root}/log/searchd.development.pid"
+  enable_star: true
+  min_prefix_len: 1
+  max_matches: 1000
+test:
+  port: 9313
+production:
+  port: 9312
+  enable_star: true
+  min_prefix_len: 1
+  max_matches: 1000

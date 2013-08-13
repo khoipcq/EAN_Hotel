@@ -1,0 +1,87 @@
+class CreateHotelTests < ActiveRecord::Migration
+  def change
+    create_table :hotel_tests do |t|
+      t.integer :hotelID
+      t.string :name
+      t.string :airportCode
+      t.text :address1
+      t.text :address2
+      t.text :address3
+      t.string :city
+      t.string :stateProvince
+      t.string :country
+      t.string :postalCode
+      t.float :longitude
+      t.float :latitude
+      t.string :lowRate
+      t.string :highRate
+      t.string :confidence
+      t.integer :marketingLevel
+      t.datetime :hotelModified
+      t.integer :propertyType
+      t.text :propertyDescription
+      t.string :timeZone
+      t.string :gMTOffset
+      t.string :yearPropertyOpened
+      t.string :yearPropertyRenovated
+      t.string :nativeCurrency
+      t.integer :numberOfRooms
+      t.integer :numberOfSuites
+      t.integer :numberOfFloors
+      t.string :checkInTime
+      t.string :checkOutTime
+      t.string :hasValetParking
+      t.string :hasContinentalBreakfast
+      t.string :hasInRoomMovies
+      t.string :hasSauna
+      t.string :hasWhirlpool
+      t.string :hasVoiceMail
+      t.string :has24HourSecurity
+      t.string :hasParkingGarage
+      t.string :hasElectronicRoomKeys
+      t.string :hasCoffeeTeaMaker
+      t.string :hasSafe
+      t.string :hasVideoCheckOut
+      t.string :hasRestrictedAccess
+      t.string :hasInteriorRoomEntrance
+      t.string :hasExteriorRoomEntrance
+      t.string :hasCombination
+      t.string :hasFitnessFacility
+      t.string :hasGameRoom
+      t.string :hasTennisCourt
+      t.string :hasGolfCourse
+      t.string :hasInHouseDining
+      t.string :hasInHouseBar
+      t.string :hasHandicapAccessible
+      t.string :hasChildrenAllowed
+      t.string :hasPetsAllowed
+      t.string :hasTVInRoom
+      t.string :hasDataPorts
+      t.string :hasMeetingRooms
+      t.string :hasBusinessCenter
+      t.string :hasDryCleaning
+      t.string :hasIndoorPool
+      t.string :hasOutdoorPool
+      t.string :hasNonSmokingRooms
+      t.string :hasAirportTransportation
+      t.string :hasAirConditioning
+      t.string :hasClothingIron
+      t.string :hasWakeUpService
+      t.string :hasMiniBarInRoom
+      t.string :hasRoomService
+      t.string :hasHairDryer
+      t.string :hasCarRentDesk
+      t.string :hasFamilyRooms
+      t.string :hasKitchen
+      t.string :hasMap
+      t.float :starRating
+      t.string :gDSChainCode
+      t.string :gDSChaincodeName
+      t.string :destinationID
+      t.text :drivingDirections
+      t.text :nearbyAttractions
+
+      t.timestamps
+    end
+  end
+end

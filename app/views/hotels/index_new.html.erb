@@ -1,0 +1,329 @@
+<%= javascript_include_tag "home/index" %>
+<%= javascript_include_tag "hotel/scrollpagination" %>
+<style>
+ #hotels-list
+ {
+
+  }
+  #hotels-list a
+  {
+    font-weight:bold;
+  }
+  #hotels-list p
+  {
+    margin-bottom:20px;width:90%
+  }
+  .loading{text-align:right;margin-top:-100px}
+</style>
+  <div>
+    <h1 style="text-align:center;margin-top:0px;color:black;"><%=t(".hotel_result")%></h1>
+  </div>
+
+  <div class="container">
+
+    <div class="row-fluid">
+      <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+        <tr>
+          <td style="width:50%"><div style="float:left">
+          </td>
+          <td style="width:35%">
+                <div style="float:right; padding-right: 5px"> <%=t(".price_display")%>
+                </div>
+          </td>
+          <td style="width:20%">
+            <div style="float:right"> <select class="span4" id="currency-filter" style="width:250px;">
+                <% @currencies.each do |currency| %>
+                  <% if currency.CurrencyCode == 'USD' %>
+                  <option value="<%= currency.CurrencyCode %>" selected >
+                  <% else %>
+                  <option value="<%= currency.CurrencyCode %>" >
+                  <% end %>
+                    <%= "#{currency.CurrencyCode} #{currency.CurrencyDescription}" %>
+                  </option>
+                <% end %>
+              </select>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="row-fluid row-bordered first">
+      <div class="span6">
+        <span class="bold-text" id="hotel_location"><%=t(".hotel_in", dest: params[:destination_string]) %>
+        </span>
+        <span id = "rooms-info">
+        </span>
+      </div>
+      <div class="span3" id="change_search_btn">
+        <a style="cursor:pointer;text-decoration:underline;"><%=t(".change_search")%></a>
+      </div>
+      <div class="span2 right-element">
+        <input type="button" href="#map_canvas" class="btn btn-small btn-primary span10" value="Show map"  id="toogle_view" onclick="showAllHotelMap()"/>
+      </div>
+    </div>
+    <br />
+    <div style="width:18%;float:left;" class="row-bordered first">
+      <div class="bold-text">
+        <%=t(".avg_nightly_rate")%>
+        <br />
+        <select class="span3 offset1" id="rate-filter" style="width:90%;">
+          <% @rate_filters.each do |rate_filter| %>
+            <option value="<%= rate_filter[:value] %>" <%= rate_filter[:selected] %> >
+              <%= rate_filter[:name] %>
+            </option>
+          <% end %>
+        </select>
+      </div>
+
+      <div class="bold-text" style="margin-top: 15px;">
+        Star Rating
+        <br />
+        <select class="span3 offset1" id="star-filter" style="width:90%;">
+          <% @star_filters.each do |star_filter| %>
+            <option value="<%= star_filter[:value] %>" <%= star_filter[:selected] %> >
+              <%= star_filter[:name] %>
+            </option>
+          <% end %>
+        </select>
+      </div>
+    </div>
+
+    <div style="width:80%;float:right;">
+      <div class="row-fluid row-bordered first">
+        <div class="span3">
+          <span class="span4 offset2 label-text"><%=t(".check_in")%></span>
+          <input type="text" class='search-field-text span6' value="<%= $checkin_date %>" id='search_checkin_inline' style="background:white;cursor:text;" />
+          <input type="hidden" value="<%= $checkin_date %>" id='h_search_checkin_inline' />
+        </div>
+        <div class="span3">
+          <span class="span5 label-text"><%=t(".check_out")%></span>
+          <input type="text" class='field-search-text span6' value="<%= $checkout_date %>" id='search_checkout_inline' style="background:white;cursor:text;" />
+          <input type="hidden" value="<%= $checkin_date %>" id='h_search_checkout_inline' />
+        </div>
+        <div class="span2">
+          <input type="button" class="btn btn-small btn-primary span10" value="<%=t(".search")%>"  id="btn-change-date" />
+        </div>
+        <div class="span4">
+          <span class="span3 label-text"><%=t(".sort_by")%></span>
+          <select class="right-element" id="sort-by">
+            <% @sort_filters.each do |sort_filter| %>
+              <option value="<%= sort_filter[:value] %>" <%= sort_filter[:selected] == 'true' ? 'selected' : '' %> >
+                <%= sort_filter[:name] %>
+              </option>
+            <% end %>
+          </select>
+        </div>
+      </div>
+
+      <br />
+      <div id = "hotels-list" style = "min-height: 100px;" class="row-fluid">
+
+      </div>
+
+    </div>
+
+  </div>
+<div class="loading" style="clear:both;display:none" id="loading"><%=t(".wait")%></div>
+<div style="display:none" >
+    <div id='map_canvas'></div>
+ </div>
+
+  <div style="display: none;" id ="box_text" >
+    <div id="search_box_text" style="width:900px;height:300px;overflow:hidden;">
+      <div id="search_light_box_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;width:890px;height:auto;max-height:290px;overflow:auto;">
+      <!-- Content of Popup -->
+
+        <div id="search-form-popup" >
+    <div class="row-fluid">
+      <div class="span4">
+        <%=t(".destination")%>
+        <br />
+        <input type="text" class='span11 search-field-text' value="<%= params[:destination_string] %>" id='popup_destination' />
+        <input type="hidden" id="item-id" name="item_id" value="<%= params[:item_id]%>" />
+        <input type="hidden" id="item-category" name="item_category" value="<%= params[:item_category]%>" />
+        <br />
+      </div>
+      <div class="span3">
+        <%=t(".check_in")%>
+        <br />
+        <input type="text" class='search-field-text' id='popup_checkin_date' value="<%= params[:arrival_date] %>" style="background:white;cursor:text;" />
+        <br />
+      </div>
+      <div class="span3">
+        <%=t(".check_out")%>
+        <br />
+        <input type="text" class='search-field-text' value="<%= params[:departure_date] %>" id='popup_checkout_date' style="background:white;cursor:text;" />
+      </div>
+      <div class="span2" style="">
+        <div class="row">
+          <br />
+            <input type="button" class="btn btn-large btn-primary span10" value="Search"  id="search-all-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="no_result" style="color:red; font-size:12pt; display: none;">
+      <%= I18n.t('message.search_no_result') %>
+    </div>
+    <div id="blank_destination" style="color:red; font-size:12pt; display: none;">
+      <%= I18n.t('message.search_blank_destination') %>
+    </div>
+    <br />
+
+    <div class="row-fluid">
+      <div class="span2">
+        <span class="span6">
+          <%=t(".rooms")%>
+        </span>
+        <select class="span6" id="search-room" name="search_room">
+          <% (1..8).each do |room_id| %>
+            <option value="<%= room_id %>"><%= room_id %></option>
+          <% end %>
+        </select>
+      </div>
+      <div class="span8" id="room-group-container">
+
+        <div id="room-group-0" class="room-group">
+          <div class="span0" style="display:none;">
+          </div>
+          <div class="span2 room-field" id="room-field-first">
+            Room 1:
+          </div>
+          <div class="span4 adult-field">
+            <div id="adult-block-0">
+              <span class="span8"><%=t(".adults")%></span>
+              <select class="span3" id="adult-1">
+                <% (1..4).each do |a_id| %>
+                  <option value="<%= a_id %>"><%= a_id %></option>
+                <% end %>
+              </select>
+            </div>
+          </div>
+          <div class="span4 child-field">
+            <div id="children-block-0" class="children-block">
+              <span class="span8"><%=t(".children")%></span>
+              <select class="span4 child-box" id="children-1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <br />
+              <% (0..3).each do |id| %>
+              <div id="age-block-<%= id %>" style="display:none" class="age-block">
+                <span class="span3">Age</span>
+                <select class="span3 age-field" id="age-<%= id %>">
+                  <option value="0"><1</option>
+                  <% (1..17).each do |id| %>
+                  <option value="<%= id %>"><%= id %></option>
+                  <% end %>
+                </select>
+              </div>
+              <% end %>
+            </div>
+
+          </div>
+          <br style="clear:both" />
+        </div>
+
+      </div>
+    </div>
+        </div>
+      <!-- End Content of Popup-->
+    </div>
+  </div>
+
+  <div class="template">
+    <div id="room-group-template">
+      <div class="span0" style="display:none;">
+      </div>
+      <div class="span2 room-field">
+        <%=t(".room1")%>
+      </div>
+      <div class="span4 adult-field">
+        <div id="adult-block-0">
+          <span class="span8"><%=t(".adults")%></span>
+          <select class="span3" id="adult-1">
+              <% (1..4).each do |a_id| %>
+                <option value="<%= a_id %>"><%= a_id %></option>
+              <% end %>
+          </select>
+        </div>
+      </div>
+      <div class="span4 child-field">
+        <div id="children-block-0" class="children-block">
+          <span class="span8"><%=t(".children")%></span>
+          <select class="span4 child-box" id="children-1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <% (0..3).each do |id| %>
+          <div id="age-block-<%= id %>" style="display:none" class="age-block">
+            <span class="span3"><%=t(".age")%></span>
+            <select class="span3 age-field" id="age-<%= id %>">
+              <option value="0"><1</option>
+              <% (1..17).each do |id| %>
+              <option value="<%= id %>"><%= id %></option>
+              <% end %>
+            </select>
+          </div>
+          <% end %>
+        </div>
+
+      </div>
+      <br style="clear:both" />
+    </div>
+  </div>
+</div>
+
+<!-- This conent for multiple location -->
+<div style="display: none;">
+  <div id="multiple_location_div" style="width:700px;height:500px;overflow:hidden;">
+     <h4><%=t(".multiple_locations")%></h4>
+     <p><%=t(".choose_correct_location")%></p>
+    <div id="multiple_location_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;width:500px;height:270px;overflow:auto;padding: 5px">
+    </div>
+    <br/>
+    <div style="width:50px;"><input id="light_box_search_all_btn" class="btn btn-medium btn-primary" type="button" value="Search"/></div>
+  </div>
+</div>
+<!-- This conent for multiple location -->
+ <%= javascript_include_tag "hotel/map" %>
+ <%= javascript_include_tag "hotel/hotel-index" %>
+
+  <script type="text/javascript">
+    var g_urlToList = "<%= list_hotels_path %>";
+    var g_urlshow = "<%= hotel_path(2)%>";
+    <%
+      copy_params = params.clone
+      
+      copy_params[:rooms] = nil
+      copy_params[:destination_string] = copy_params[:destination_string].to_s.gsub("'", "")
+    %>
+    $("#currency-filter").val('<%= (!params["currencyCode"].blank?) ? params["currencyCode"] : "USD" %>');
+  
+    var rate_filters = <%= raw @rate_filters.to_json %>;
+    $("#rate-filter").empty();
+    $.each(rate_filters, function(index, ele){
+      $("#rate-filter").append("<option value=" +  ele.value + " " + ele.selected + ">" + ele.name + "</option>");
+    });
+    var g_hashParams = $.parseJSON('<%= copy_params.to_json.html_safe %>');
+    g_hashParams["rooms"] = getURLParameter("rooms");
+    var g_first_open_fancy = true;
+    var g_fancy_html = "";
+    var g_old_select_room = 1;
+    var g_rooms =  JSON.parse(g_hashParams["rooms"]);
+    var g_is_selected = false;
+    var g_city_flag = false;
+    var g_hashParam_tmp = $.parseJSON('<%= copy_params.to_json.html_safe %>');
+    var g_fancy_html_tmp = "";
+    var g_allow_ajax_loading =false;
+    var g_cache_key ='';
+    var g_cache_location = '';
+    var g_is_more_results = true;
+    var g_total_results = 0;
+    var g_items_showed = 0;
+  </script>

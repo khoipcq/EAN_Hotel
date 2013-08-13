@@ -1,0 +1,12 @@
+<div id="hotels_state_code_wrapper">
+  <% parent_region ||= params[:parent_region] %>
+  <% country = Carmen::Country.coded(parent_region) %>
+
+  <% if country.nil? %>
+    <em><%=t(".select_country")%></em>
+  <% elsif country.subregions? %>
+    <%= subregion_select(:hotels, :state_code, parent_region) %>
+  <% else %>
+    <%= text_field(:hotels, :state_code) %>
+  <% end %>
+</div>

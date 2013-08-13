@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  stateCode: MyString
+  stateName: MyString
+  countryCode: MyString
+  countryName: MyString
+
+two:
+  stateCode: MyString
+  stateName: MyString
+  countryCode: MyString
+  countryName: MyString

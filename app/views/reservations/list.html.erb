@@ -1,0 +1,56 @@
+
+<div class="row-fluid" style= "float:none;border:0px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td align="center"><h3><%=t(".your_reservation")%></h3></td>
+    </tr>
+  </table>
+</div>
+
+<div class="row-fluid" style= "float:none;border:0px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td align="right"><input id="search" class="span3 search-field-text ui-autocomplete-input" type="text" name="search" value="" >&nbsp;<img width="25" height="25" src="/assets/hotels/search.jpg" alt="Star_rating_enabled"></td>
+    </tr>
+  </table>
+</div>
+
+<div class="row-fluid" style= "float:none;border:0px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%;padding: 10px">
+    <%if @reservation.size >0 %>
+      <tr style="border-bottom:1px solid">
+        <td align="center" width="5%"><b><%=t(".no")%><b></td>
+        <td align="center" width="15%"><b><%=t(".itinerary_id")%><b></td>
+        <td align="center" width="15%"><b><%=t(".hotel_name")%><b></td>
+        <td align="center" width="15%"><b><%=t(".confirm_date")%><b></td>
+        <td align="center" width="10%"><b><%=t(".check_in")%><b></td>
+        <td align="center" width="10%"><b><%=t(".check_out")%><b></td>
+        <td align="center" width="10%"><b><%=t(".total_charged")%><b></td>
+        <td align="center" width="13%"><b><%=t(".status")%><b></td>
+        <td align="center" width="12%"><b><b></td>
+      </tr>
+      <% 
+      i = 1
+      @reservation.each do |res|%>
+        <%money_unit = MONEY_SIGN[res.currency_code] ? MONEY_SIGN[res.currency_code] : MONEY_SIGN['USD']%>
+        <tr style="border-bottom:1px solid">
+          <td align="left" width="2%" style="text-align: right"><%=i%></td>
+          <td align="left" width="10%" style="text-align: center"><%=res.itinerary_number%></td>
+          <td align="center" width="20%" style="text-align: left"><%=res.hotel_name%></td>
+          <td align="center" width="15%"><%=res.confirm_date.strftime('%d/%m/%Y (%I:%M%p)')%></td>
+          <td align="center" width="10%"><%=res.check_in.strftime('%d/%m/%Y (%I:%M%p)')%></td>
+          <td align="center" width="10%"><%=res.check_out.strftime('%d/%m/%Y (%I:%M%p)')%></td>
+          <td align="center" width="10%" style="text-align: right"><%=number_to_currency res.total_rate, :unit => money_unit, :precision => 2%></td>
+          <td align="center" width="13%"><%=res.status%></td>
+          <td align="center" width="12%"><b> <%= link_to t(".view"), reservation_path(res.id)%> <b></td>
+        </tr>
+
+      <% i = i + 1
+      end %>
+    <%else%>
+      <tr>
+        <td ><b><%=t(".no_result_found")%><b></td>
+      </tr>
+    <%end %>
+  </table>
+</div>

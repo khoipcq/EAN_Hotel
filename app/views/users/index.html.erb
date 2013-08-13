@@ -1,0 +1,44 @@
+<div class="row-fluid">
+<h1 class="span3">Listing users</h1>
+<div class="span3 offset6">
+  <br />
+  <br />
+<%= link_to t(".add_new_user"), {:action => :new}, :class => "btn btn-success" %>
+</div>
+</div>
+<br />
+<table class="table table-striped">
+  <tr>
+    <th><%=t(".first_name")%></th>
+    <th><%=t(".last_name")%></th>
+    <th><%=t(".email")%></th>
+    <th><%=t(".gender")%></th>
+    <th><%=t(".status")%></th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%=h render_long_email(user.first_name)  %></td>
+    <td><%=h render_long_email(user.last_name) %></td>
+    <td><%= link_to render_long_email(user.email), {:action => :edit, :id => user.id} %></td>
+    <td><%=h user.gender == 'm' ? t(".male") : (user.gender == 'f' ? t(".female") : t(".unspecified")) %></td>
+    <td><%=h user.active ? t(".enabled") : t(".disabled") %></td>
+    <td>
+      <% if user.active? %>
+        <%= link_to t(".disable"), {:action => :disable_user, :id => user.id}, :method => :post, :confirm => t('.confirm_disable'), :class => "btn enable-disable-btn" %>
+      <% else %>
+        <%= link_to t(".enable"), {:action => :enable_user, :id => user.id}, :method => :post, :confirm => t('.confirm_enable'), :class => "btn enable-disable-btn" %>
+      <% end %>
+       
+    <%= link_to t(".reset_password"), {:action => :reset_password, :id => user.id}, :class => "btn", :confirm => t(".confirm_reset_password") %>
+    <%= link_to t('.delete'), {:action => :destroy, :id => user.id}, :method => :delete, :confirm => t('.confirm_delete'), :class => "btn btn-danger" %>
+</td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
+<%= will_paginate(@users) %>

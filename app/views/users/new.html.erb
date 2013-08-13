@@ -1,0 +1,55 @@
+<%= javascript_include_tag "devise/registration.new" %>
+<h1><%=t(".create_user")%></h1>
+
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <ul>
+      <%
+      @user.errors.full_messages.each do |msg| 
+        if msg != t(".email_exist")%>
+        <li><label class="error"><%= msg %> </label></li>
+        <% end %>  
+      <% end %>
+    </ul>
+  <% end %>
+
+  <p>
+    <%= f.label :first_name %> <span class='required-star'>(*)</span><br />
+    <%= f.text_field :first_name, :autofocus => 'true' %>
+  </p>
+  <p>
+    <%= f.label :last_name %> <span class='required-star'>(*)</span><br />
+    <%= f.text_field :last_name %>
+  </p>
+  <p>
+    <%= f.label :email %> <span class='required-star'>(*)</span><br />
+    <%= f.email_field :email, {:autocomplete => "off"} %>
+    <% if @user.errors.any? %>
+      <% 
+      @user.errors.full_messages.each do |msg| 
+        if msg == t(".email_exist")%>
+          <label id="email_error" class="error"><%= msg %> </label>
+         <% end %>
+      <% end %>
+    <% end %>
+  </p>
+    <p>
+    <%= f.label :gender %> <br />
+    <%= f.select :gender, genders_select %>
+  </p>
+  <p>
+    <%= f.label :password %> <span class='required-star'>(*)</span><br />
+    <%= f.password_field :password, {:autocomplete => "off"} %>
+    <%= image_tag("information.png", :size => "20x20", :id => "image-tooltip",:title => t(".password_hint"), :style => "margin-bottom:0px") %>
+    <span id="strength_result"></span>
+  </p>
+  <p>
+    <%= f.label :password_confirmation %> <span class='required-star'>(*)</span><br />
+    <%= f.password_field :password_confirmation %>
+  </p>
+  <p>
+    <%= f.submit t('.add'), :class => "btn btn-primary btn-large" %>
+  </p>
+<% end %>
+
+<%= link_to t('.back'), users_path %>

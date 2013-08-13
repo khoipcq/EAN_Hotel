@@ -1,0 +1,478 @@
+<%= javascript_include_tag "hotel/map" %>
+<%= javascript_include_tag "home/index" %>
+<%= javascript_include_tag "hotel/gallery" %>
+<%= javascript_include_tag "hotel/hotel_show_change_search" %>
+<%= javascript_include_tag "hotel/change_price" %>
+<h2 style="text-align:center;margin-top:15px;"><%=t(".hotel_details")%></h2>
+<p>
+  <div class="row-fluid">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td style="width:50%"><div style="float:left">
+      	<% if(params["is_index"])%>
+         <%= ""  %>
+      <%else%>
+      	<% back_params = params 
+      		 back_params[:destination_string] = params[:back_destination_string] if params[:back_destination_string]
+      		 back_params.delete(:back_destination_string)
+      	%>
+        <%= link_to t(".back"), hotels_path(:params => back_params)%>
+       <%end %></div></td>
+      <td style="width:35%">
+            <div style="float:right; padding-right: 5px"> <%=t(".price_display")%>
+            </div>
+      </td>
+      <td style="width:20%">
+        <div style="float:right"> <select style="width:250px" id="price-display" name="price-display">
+               <% @currencies.each do |currency| %>
+                <% if currency.CurrencyCode == 'USD' %>
+                <option value="<%= currency.CurrencyCode %>" selected />
+                <% else %>
+                <option value="<%= currency.CurrencyCode %>" />
+                <% end %>
+                  <%= "#{currency.CurrencyCode} #{currency.CurrencyDescription}" %>
+                </option>
+              <% end %>
+            </select>
+            </div>
+      </td>
+    </tr>
+  </table>
+</div>
+</p>
+
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><div class="span7" ><span id="hotel-name" style= "color:blue; padding-left:10px; font-weight:bold;"><%=raw display_html(@hotel_info["name"])%></span>, <span id = "rooms-info"><%=raw display_html(@rooms_info) %>
+ </span> <span id="hotel_info"> From <%= 
+ Date.strptime(params["arrival_date"] .to_s, "%m/%d/%Y").strftime("%b %d,%Y")  %> To <%= Date.strptime(params["departure_date"].to_s, "%m/%d/%Y").strftime("%b %d,%Y")  %> </span>
+  </div>
+  <div class="span5" id="change_search_btn">
+        <a style="cursor:pointer;text-decoration:underline;"><%=t(".change_search")%></a>
+  </div>
+ </td>
+    </tr>
+    <tr>
+      <td><span style= "padding-left:5px;">
+  ‌
+         <% stars = @hotel_info["hotelRating"].to_f %>
+        <% (1..stars).each do |star| %>
+          <%= image_tag("hotels/star_rating_enabled.png", :size => "20x20") %>
+        <% end %>
+
+        <% if stars > stars.to_i %>
+          <% disabled_stars = 5 - stars.to_i - 1 %>
+          <%= image_tag("hotels/half_star_rating.png", :size => "20x20") %>
+        <% else %>
+          <% disabled_stars = 5 - stars.to_i %>
+        <% end %>
+        <% if disabled_stars > 0 %>
+        <%  (1..disabled_stars).each do |star| %>
+            <%= image_tag("hotels/star_rating_disabled.png", :size => "20x20") %>
+          <% end %>
+        <% end %>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span id="address" style= "padding-left:10px;">
+          <%=h @hotel_address %>
+        </span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style= "border:1px solid;padding: 5px;display: <%= (@hotel_images_info["@size"].to_i == 0 ? 'none' : '')%>">
+    <div id="gallery span3" class="content" style= "border:1px solid">
+
+      <div class="slideshow-container">
+        <div id="loading" class="loader"></div>
+        <div id="slideshow" class="slideshow"></div>
+      </div>
+      <div id="controls" class="controls"></div>
+    </div>
+
+    <div id="thumbs" class="navigation span9" style= "border:1px solid;padding: 10px;float:right">
+        <ul class="thumbs noscript">
+          <% hotel_image_size = @hotel_images_info["@size"]
+             hotel_images = @hotel_images_info["HotelImage"]
+          %>
+          <% (0..hotel_image_size.to_i - 1).each do |image_num|%>
+          <li>
+            <a class="thumb" name="<%=image_num%>" href="<%= hotel_images[image_num]["url"]%>" title="">
+              <img src="<%= hotel_images[image_num]["thumbnailUrl"]%>"  alt="Title #<%=image_num%>" />
+            </a>
+
+          </li>
+          <%end%>
+
+        </ul>
+      </div>
+
+</div>
+<br/>
+<div class="row-fluid" style= "border:1px solid;padding: 5px">
+  <ul class='tabs'>
+    <li><a href='#tab1'><%=t(".available_rooms")%></a></li>
+    <li><a href='#tab2'><%=t(".overview")%></a></li>
+    <li><a href='#tab3'><%=t(".amenities")%></a></li>
+    <li><a href='#tab4' onclick="showHotelMap('<%= @hotel_info["hotelId"] %>')"><%=t(".map")%></a></li>
+  </ul>
+  <div id='tab1' class="tab-content">
+      <% room_count = 1 %>
+    <table class='info-tbl' style="width:100%">
+     <% 
+     if @rooms.length > 0 %>
+      <% @rooms.each do |room| 
+        %>
+        
+        <tr class="<%= (room_count % 2 == 0) ? 'odd-row' : 'even-row'%>">
+          <td style="width:160px">
+            <% unless room["image_urls"].nil? %>
+              <% 
+              if room["image_urls"].length > 0
+              room["image_urls"].each do |url| 
+                %>
+                <img src='<%= url %>' width="140px" height = "92px"/>
+              <% end %>
+              <% else %>
+              <img src='<%= image_path "photo_not_available.jpg"%>' width="140px" height = "92px"/>
+               
+              <% end %>
+            <%else%>
+             <img src='<%= image_path "photo_not_available.jpg"%>' width="140px" height = "92px"/>
+            <% end %>
+          </td>
+          <td>
+            <b><%=h raw room["roomTypeDescription"] %></b>
+            <br /><br /><br />
+            <% 
+            if (!@room_types["RoomType"].blank?) && (!@room_types["RoomType"].is_a?Array)
+              @room_types["RoomType"] = [] << @room_types["RoomType"]
+            end
+            %>
+            <%if !@room_types["RoomType"].blank? %>
+            <a href='#room_detail_box' onclick="showRoomDetail(<%= (@room_types["RoomType"].detect{|f| f["@roomCode"].to_s == room["roomTypeCode"].to_s}.to_json) %>, 'averageRate_<%=room["rateCode"].to_s%>')"><%=t(".see_room_info")%></a>
+          	<%end%>
+          </td>
+          <td class="center-text">
+            <%=t(".avg_nightly_rate")%>
+            <br />
+            <span id = "averageRate_<%=room["rateCode"].to_s%>"> <%= raw @money_sign.to_s + ((room["RateInfo"]["ConvertedRateInfo"].blank?) ? number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@averageRate"].to_s, :precision => 2): number_with_precision(room["RateInfo"]["ConvertedRateInfo"]["@averageRate"].to_s, :precision => 2))%>
+            </span>
+          </td>
+          <td class="center-text">
+            <%=t(".price_for_night", days: @dates_of_stay)%>
+            <br />
+            <span id = "ChargeableRateInfo_<%=room["rateCode"].to_s%>">              
+              
+              <%=raw @money_sign.to_s + ((room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@total"].to_s, :precision => 2)) : (number_with_precision(room["RateInfo"]["ConvertedRateInfo"]["@total"].to_s, :precision => 2))) %>
+            </span>
+          </td>
+
+          
+          <td class="center-text" style="width:150px">
+            <form id="booking_form" accept-charset="UTF-8" action="/hotels/<%= @hotel_info['hotelId'] %>/show_booking_screen" method="post">
+              <input type='hidden' name='authenticity_token' value='<%=form_authenticity_token %>'/>
+              <input type='hidden' name='room' value='<%= room.to_json %>'/>
+              <input type='hidden' name='hotel_rating' value='<%= @hotel_info['hotelRating'] %>'/>
+              <input type='hidden' name='cancellation_policy' value='<%= room["cancellationPolicy"] %>'/>
+              <input type='hidden' name='room_detail' value='<%= ((@room_types["RoomType"]) ? (@room_types["RoomType"].detect{|f| f["@roomCode"].to_s == room["roomTypeCode"].to_s}.to_json) : "{}") %>'/>
+              <input type='hidden' name='address' value='<%= @hotel_address %>'/>
+              <input type='hidden' name='city' value='<%= @hotel_info['city'] %>'/>
+              <input type='hidden' name='stateProvinceCode' value='<%= @hotel_info['stateProvinceCode'] %>'/>
+              <input type='hidden' name='countryCode' value='<%= @hotel_info['countryCode'] %>'/>
+              <input type='hidden' name='book_info' value='<%= @book_info.to_json %>'/>
+              <input type='hidden' name='rate_key' value='<%= @book_info["rateKey"] %>'/>
+              <input type='hidden' name='room_info1' value='<%= @room_info1 %>'/>
+              <input type='hidden' name='room_info2' value='<%= @room_info2 %>'/>
+              <input type='hidden' name='arrival_date' value='<%= @book_info["arrivalDate"] %>'/>
+              <input type='hidden' name='departure_date' value='<%= @book_info["departureDate"] %>'/>
+              <input type='hidden' name='room_info' value='<%= (params["roomInfos"]) ? (params["roomInfos"].to_s) : "{}"%>' />
+              <input type='hidden' name='rooms' value='<%=params["rooms"]%>' /> 
+              <input type='hidden' name='money_sign' value='<%=@money_sign.to_s%>'/>
+              <input type='hidden' name='check_in_time' value='<%=@hotel_details["checkInTime"]%>'/>
+              <input type='hidden' name='check_out_time' value='<%=@hotel_details["checkOutTime"]%>'/>
+              <input type='hidden' name='latitude' value='<%= @latitude %>'/>
+  						<input type='hidden' name='longitude' value='<%= @longitude %>'/>
+              <input type='submit' value='Book now' id='book-btn'/>
+            </form>
+          </td>
+        </tr>
+        <% room_count = room_count + 1 %>
+      <% end %>
+      <% else %>
+        <tr><td><h5> <%=t(".no_rooms_available")%></h5></td> </tr>
+      <% end %>
+    </table>
+  </div>
+  <div id='tab2' class="tab-content">
+     <%=raw display_html(@hotel_details["propertyDescription"]) %>
+  </div>
+  <div id='tab3' class="tab-content">
+    <table class='information-tbl'>
+      <ul >
+      <% 
+      if !@hotel_amenities.blank?
+        hotel_amenities_size =  @hotel_amenities["PropertyAmenity"].size
+        (0..hotel_amenities_size - 1).step(3) do |i|
+          hotel_amenity1 = @hotel_amenities["PropertyAmenity"][i]  
+          hotel_amenity2 = @hotel_amenities["PropertyAmenity"][i + 1]  
+          hotel_amenity3 = @hotel_amenities["PropertyAmenity"][i + 2]  
+          %>
+          <tr>
+            <td class='left-text' style="padding-left:50px"><%= raw (hotel_amenity1 != nil) ? ("<li>" + hotel_amenity1["amenity"].to_s  + "</li>" ) : "" %></td>
+            <td class='left-text' style="padding-left:50px"><%= raw (hotel_amenity2 != nil) ? ("<li>" + hotel_amenity2["amenity"].to_s  + "</li>" ) : ""  %></td>
+            <td class='left-text' style="padding-left:50px"><%= raw (hotel_amenity3 != nil) ? ("<li>" + hotel_amenity3["amenity"].to_s + "</li>" ): ""  %></td>
+          </tr>
+      <% end
+      end %>
+      <ul>
+    </table>
+  </div>
+  <div id='tab4' class="tab-content">
+      <div id='map_canvas'></div>
+  </div>
+</div>
+
+
+<div style="display: none;">
+  <div id="room_detail_box" style="overflow:hidden;">
+     <h4><div id="room_description"></div></h4>
+    <div id="room_detail_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;padding: 5px">
+    </div>
+    <br/>
+    <div id="room_amenities_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;padding: 5px"></div>
+  </div>
+</div>
+
+
+
+
+<div style="display: none;" id ="box_text" >
+    <div id="search_box_text" style="width:900px;height:300px;overflow:hidden;">
+      <div id="search_light_box_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;width:890px;height:auto;max-height:290px;overflow:auto;">
+      <!-- Content of Popup -->
+
+        <div id="search-form-popup" >
+    <div class="row-fluid">
+      <div class="span4">
+        <%=t(".destination")%>
+        <br />
+        <input type="text" class='span11 search-field-text' value="<%= params[:destination_string] %>" id='popup_destination' />
+        <input type="hidden" id="item-id" name="item_id" value="<%= params[:item_id]%>" />
+        <input type="hidden" id="item-category" name="item_category" value="<%= params[:item_category]%>" />
+        <br />
+      </div>
+      <div class="span3">
+        <%=t(".check_in")%>
+        <br />
+        <input type="text" class='search-field-text' id='popup_checkin_date' value="<%= params[:arrival_date] %>"/>
+        <br />
+      </div>
+      <div class="span3">
+        <%=t(".check_out")%>
+        <br />
+        <input type="text" class='search-field-text' value="<%= params[:departure_date] %>" id='popup_checkout_date' style="background:white;cursor:text;" />
+      </div>
+      <div class="span2" style="">
+        <div class="row">
+          <br />
+            <input type="button" class="btn btn-large btn-primary span10" value="Search"  id="search-all-btn" />
+        </div>
+      </div>
+    </div>
+
+    <div id="no_result" style="color:red; font-size:12pt; display: none;">
+      <%= I18n.t('message.search_no_result') %>
+    </div>
+    <div id="blank_destination" style="color:red; font-size:12pt; display: none;">
+      <%= I18n.t('message.search_blank_destination') %>
+    </div>
+    <br />
+
+    <div class="row-fluid">
+      <div class="span2">
+        <span class="span6">
+          <%=t(".rooms")%>
+        </span>
+        <select class="span6" id="search-room" name="search_room">
+          <% (1..8).each do |room_id| %>
+            <option value="<%= room_id %>"><%= room_id %></option>
+          <% end %>
+        </select>
+      </div>
+      <div class="span8" id="room-group-container">
+
+        <div id="room-group-0" class="room-group">
+          <div class="span0" style="display:none;">
+          </div>
+          <div class="span2 room-field" id="room-field-first">
+            <%=t(".room1")%>
+          </div>
+          <div class="span4 adult-field">
+            <div id="adult-block-0">
+              <span class="span8"><%=t(".adults")%></span>
+              <select class="span3" id="adult-1">
+                <% (1..4).each do |a_id| %>
+                  <option value="<%= a_id %>"><%= a_id %></option>
+                <% end %>
+              </select>
+            </div>
+          </div>
+          <div class="span4 child-field">
+            <div id="children-block-0" class="children-block">
+              <span class="span8"><%=t(".children")%></span>
+              <select class="span4 child-box" id="children-1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <br />
+              <% (0..3).each do |id| %>
+              <div id="age-block-<%= id %>" style="display:none" class="age-block">
+                <span class="span3"><%=t(".age")%></span>
+                <select class="span3 age-field" id="age-<%= id %>">
+                  <option value="0"><1</option>
+                  <% (1..17).each do |id| %>
+                  <option value="<%= id %>"><%= id %></option>
+                  <% end %>
+                </select>
+              </div>
+              <% end %>
+            </div>
+
+          </div>
+          <br style="clear:both" />
+        </div>
+
+      </div>
+    </div>
+        </div>
+      <!-- End Content of Popup-->
+    </div>
+  </div>
+  <div class="template">
+      <div id="room-group-template">
+        <div class="span0" style="display:none;">
+        </div>
+        <div class="span2 room-field">
+          <%=t(".room1")%>
+        </div>
+        <div class="span4 adult-field">
+          <div id="adult-block-0">
+            <span class="span8"><%=t(".adults")%></span>
+            <select class="span3" id="adult-1">
+                <% (1..4).each do |a_id| %>
+                  <option value="<%= a_id %>"><%= a_id %></option>
+                <% end %>
+            </select>
+          </div>
+        </div>
+        <div class="span4 child-field">
+          <div id="children-block-0" class="children-block">
+            <span class="span8"><%=t(".children")%></span>
+            <select class="span4 child-box" id="children-1">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <% (0..3).each do |id| %>
+            <div id="age-block-<%= id %>" style="display:none" class="age-block">
+              <span class="span3"><%=t(".age")%></span>
+              <select class="span3 age-field" id="age-<%= id %>">
+                <option value="0"><1</option>
+                <% (1..17).each do |id| %>
+                <option value="<%= id %>"><%= id %></option>
+                <% end %>
+              </select>
+            </div>
+            <% end %>
+          </div>
+
+        </div>
+        <br style="clear:both" />
+      </div>
+    </div>
+</div>
+
+<!-- This conent for multiple location -->
+<div style="display: none;">
+  <div id="multiple_location_div" style="width:700px;height:500px;overflow:hidden;">
+     <h4><%=t(".multiple_locations")%></h4>
+     <p><%=t(".choose_correct_location")%></p>
+    <div id="multiple_location_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;width:500px;height:270px;overflow:auto;padding: 5px">
+    </div>
+    <br/>
+    <div style="width:50px;"><input id="btn_light_box_search_all" class="btn btn-medium btn-primary" type="button" value="Search"/></div>
+  </div>
+</div>
+<input type="hidden" class='search-field-text span6' value="<%= params["arrival_date"]  %>" id='search_checkin_inline' />
+<input type="hidden" class='field-search-text span6' value="<%= params["departure_date"]  %>" id='search_checkout_inline' />
+<script type="text/javascript">
+  var g_urlToList = "<%= list_hotels_path %>";
+  var g_urlshow = "<%= hotel_path(2)%>";
+  <%
+    copy_params = params.clone
+    copy_params[:rooms] = nil
+    copy_params[:destination_string] = copy_params[:destination_string].to_s.gsub("'", "")
+  %>
+  var g_hashParams = $.parseJSON('<%= copy_params.to_json.html_safe %>');
+  g_hashParams["rooms"] = getURLParameter("rooms");
+  var g_rooms =  JSON.parse(g_hashParams["rooms"]);
+  var g_first_open_fancy = true;
+  var g_hashParam_tmp = $.parseJSON('<%= copy_params.to_json.html_safe %>');
+  var g_city_flag = false;
+  var g_is_selected = false;
+  var back_destination_string = g_hashParams.destination_string;
+  function showRoomDetail(roomDetails, averageRate_id){
+    if (roomDetails != ""){
+
+      var room_detail = roomDetails["description"] + " - " + $("#" + averageRate_id + "").text().trim() + " per night";
+      var room_detail_content = "<p><h5>ROOM DESCRIPTION</h5></p>" + roomDetails["descriptionLong"];
+      var room_amenities_content = "<p><h5>ROOM AMENITIES</h5></p>";
+      var room_amenities = roomDetails["roomAmenities"];
+      console.log(room_amenities);
+      if(room_amenities && parseInt(room_amenities["@size"]) > 0){
+
+        room_amenities_content = room_amenities_content + "<ul><table cellpadding = 12px cellspacing = 5px>";
+
+        var room_amenity = room_amenities["RoomAmenity"];
+
+        for(var i = 0; i < room_amenity.length + 2; i = i + 3){
+          var amenity1 = (room_amenity[i] != undefined) ? room_amenity[i]["amenity"] : "";
+          
+          var amenity2 = (room_amenity[i + 1] != undefined) ? room_amenity[i + 1]["amenity"] : "";
+          var amenity3 = (room_amenity[i + 2] != undefined) ? room_amenity[i + 2]["amenity"] : "";
+          room_amenities_content += "<tr >";
+          room_amenities_content = (amenity1 != "") ? (room_amenities_content + "<td ><li>" + amenity1 + "</li></td>") : (room_amenities_content + "<td>" + amenity1 + "</td>");
+          room_amenities_content = (amenity2 != "") ? (room_amenities_content + "<td><li>" + amenity2 + "</li></td>") : (room_amenities_content + "<td>" + amenity2 + "</td>");
+          room_amenities_content = (amenity3 != "") ? (room_amenities_content + "<td><li>" + amenity3 + "</li></td>") : (room_amenities_content + "<td>" + amenity3 + "</td>");
+          room_amenities_content += "</tr>";
+        }
+        room_amenities_content = room_amenities_content + "</table></ul>";
+      }
+      $("#room_description").html(room_detail);
+      $("#room_detail_content").show();
+      $("#room_detail_content").html(room_detail_content);
+      $("#room_amenities_content").show();
+      $("#room_amenities_content").html(room_amenities_content);
+    }else{
+      $("#room_description").text("No data");
+      $("#room_detail_content").hide();
+      $("#room_amenities_content").hide();
+    }
+    $.fancybox({
+      'content' : $("#room_detail_box").html(),
+    });
+  }
+  
+  $("#price-display").val('<%=((params["currencyCode"] != nil) ? params["currencyCode"] : "USD")%>');
+</script>

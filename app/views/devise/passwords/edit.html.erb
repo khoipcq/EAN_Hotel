@@ -1,0 +1,26 @@
+<h2><%=t(".title")%></h2>
+
+<%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f| %>
+  <%= devise_error_messages! %>
+  <%= f.hidden_field :reset_password_token %>
+
+  <div>
+    <%= f.label :password, t(".new_password") %><br />
+    <%= f.password_field :password, :autofocus => true %>
+  	<%= image_tag("information.png", :size => "20x20", :id => "image-tooltip",:title => t(".password_hint"), :style => "margin-bottom:0px") %>
+    <span id="strength_result"></span>
+  </div>
+  <br/>
+
+  <div>
+    <%= f.label :password_confirmation, t(".confirm_password") %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+
+  <div><%= f.submit t(".change_my_password"), :class => "btn" %></div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+<%= javascript_include_tag "devise/registration.edit" %>
+<%= javascript_include_tag "devise/registration.new" %>

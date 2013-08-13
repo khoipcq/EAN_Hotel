@@ -1,0 +1,181 @@
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t(".book_info")%></h4></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%;padding: 10px">
+    <tr>
+      <td colspan=4><b><%=t(".thank_you")%><b></td>
+    </tr>
+    <tr>
+      <td colspan=4>
+        <%=t(".email_sent", email: params["email"])%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".itinerary_number")%></b></td>
+      <td colspan=3><%= @book_info["itineraryId"] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".confirm_number")%></b></td>
+      <td colspan=3><%=@book_info["confirmationNumbers"]%></td>
+
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".your_name")%></b></td>
+      <td colspan=3><%= params["first_name"] + " " + params["last_name"] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".your_email")%></b></td>
+      <td colspan=3><%=params["email"]%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t(".hotel_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".hotel")%></b></td>
+      <td colspan=3><%= @book_info["hotelName"] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".address")%></b></td>
+      <td colspan=3><%=h @book_info["hotelAddress"]%>, <%=h @book_info["hotelCity"]%>, <%=h @book_info["hotelStateProvinceCode"]%>, <%=h get_country_name(@book_info["hotelCountryCode"]) %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".phone")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".faxs")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".email")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t(".reservation_details")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".check_in")%></b></td>
+      <td width="30%"><%=params["arrival_date"]%> 
+        <%=t(".check_in_time", time: params["check_in_time"])%> </td>
+      <td colspan=2><b>Rates</b></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".check_out")%></b></td>
+      <td width="30%"><%=params["departure_date"]%> <%=t(".check_out_time", time: params["check_out_time"])%></td>
+      <td width="20%"><b><%=params["rate_room_description"]%></b></td>
+      <td width="30%"><%=params["rate_room_price"]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".for")%></b></td>
+      <td width="30%"><%=params["room_info"]%></td>
+      <td width="20%"><b><%=t(".taxes_fees")%></b></td>
+      <td width="30%"><%=params["tax_fee"]%></td>
+    </tr>
+    <tr>
+      <td colspan=2></td>
+      <td width="20%"><b><%=t(".total")%></b></td>
+      <td width="30%"><%=params["total"]%></td>
+      
+    </tr>
+    
+      <tr>
+        <td colspan=4><h4><%=t(".room_details")%><br/>-----------------------------------------------</h4>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=4><b><%=t(".room_detail")%>:</b> <%=raw params["room_detail"]%></td>
+      </tr>
+      <tr>
+        <td colspan=4><%=raw params["noti_fee"]%></td>
+      </tr>
+      <tr>
+        <td colspan=4><b><%=t(".cancellation_policy")%></b> <%=raw display_html(params["cancellationPolicy"]) %></td>
+      </tr>
+      <%(1..params["number_of_rooms"].to_i).each do |room_id|%>
+
+      <tr>
+        <td colspan=4><h5><%=t(".room", id: room_id)%></h5>
+        </td>
+      </tr>
+      <tr>
+        <td width="20%"><b><%=t(".guest_name")%></b></td>
+        <td colspan=3><%=params["r#{room_id}_first_name"] + " " + params["r#{room_id}_last_name"] %></td>
+      </tr>
+      
+    <%end%>
+    <tr>
+      <td colspan=4><h4><%=t(".payment_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".credit_card_type")%></b></td>
+      <td colspan=3><%=get_credit_card(params["credit_card_type"])%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".first_name")%></b></td>
+      <td colspan=3><%=params["p_first_name"]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".last_name")%></b></td>
+      <td colspan=3><%=params["p_last_name"]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".card_number")%></b></td>
+      <td colspan=3><%=t(".card_number_sample")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".amount_charge")%></b></td>
+      <td colspan=3><%=params["total"]%></td>
+    </tr>
+
+    <tr>
+      <td colspan=4><h4><%=t(".bill_address")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".bill_name")%></b></td>
+      <td colspan=3><%= params["first_name"] + " " + params["last_name"] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".address")%></b></td>
+      <td colspan=3><%=params["ba_address"]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".phone")%></b></td>
+      <td colspan=3><%=params["phone"]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".email_address")%></b></td>
+      <td colspan=3><%=params["email"]%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4><%= raw t(".contact")%>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td align="center" width="15%"><input type='button' value='Confirm' id='confirm'> &nbsp;&nbsp; <input type='button' value='<%=t(".cancel_booking")%>' id='cancel_booking'></td>
+     
+    </tr>
+  </table>
+</div>
+
+<%= javascript_include_tag "hotel/hotel_show_booking_screen" %>

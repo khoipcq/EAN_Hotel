@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  AttributeID: 1
+  LanguageCode: MyString
+  AttributeDesc: MyText
+  Type: MyString
+  SubType: MyString
+
+two:
+  AttributeID: 1
+  LanguageCode: MyString
+  AttributeDesc: MyText
+  Type: MyString
+  SubType: MyString

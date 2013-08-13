@@ -1,0 +1,143 @@
+
+<div>
+<% @hotels.each_with_index do |hotel, index| 
+  %>
+<% if index != 0 %>
+<div class="row-fluid row-bordered">
+<% else %>
+<div class="row-fluid row-bordered first">
+<% end %>
+  <div class="span12 row-hotel">
+    <div class="span2" style = "text-align: center">
+      <img src="http://images.travelnow.com<%= hotel["thumbNailUrl"] %>" class="image_url" width="80" height="80">
+    </div>
+    <div class="span3">
+      <span class="bold-blue-text">
+        <%= link_to raw(display_html(hotel["name"])),{ :controller => :hotels, :action => :show,
+        :id => hotel["hotelId"], :hotel_link => hotel['deepLink'], :hotelId => hotel["hotelId"],
+        :roomInfos => (@rooms_information[:number_of_rooms].to_s + " room(s), " + 
+        							 @rooms_information[:number_of_adults].to_s + " adult(s), " + 
+        							 @rooms_information[:number_of_children].to_s + " children"), 
+			  :params => @history_params},
+			  {:class => 'hotel-detail-href'}%>
+      </span>
+      <br />
+      <span>
+        <% stars = hotel["hotelRating"].to_f %>
+        <% (1..stars).each do |star| %>
+          <%= image_tag("hotels/star_rating_enabled.png", :size => "20x20") %>
+        <% end %>
+
+        <% if stars > stars.to_i %>
+          <% disabled_stars = 5 - stars.to_i - 1 %>
+          <%= image_tag("hotels/half_star_rating.png", :size => "20x20") %>
+        <% else %>
+          <% disabled_stars = 5 - stars.to_i %>
+        <% end %>
+        <% if disabled_stars > 0 %>
+        <%  (1..disabled_stars).each do |star| %>
+            <%= image_tag("hotels/star_rating_disabled.png", :size => "20x20") %>
+          <% end %>
+        <% end %>
+
+      </span>
+      <br />
+      <span class="small-text">
+        <%= raw display_html(hotel["locationDescription"]) %>
+      </span>
+      <br />
+      <span class="small-text">
+        <a class='map-link' href="#map_canvas" tab="<%= hotel["hotelId"] %>" onclick="showHotelMap(<%= hotel["hotelId"] %>)"><%=t(".show_on_map")%></a>
+      </span>
+    </div>
+    <div class="span4"> 
+    	<div class="span12" style="min-height: 10px;" align="center">    		
+  			<%if hotel["RoomRateDetailsList"] && hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["@promo"] == "true"%>
+      		<span style="color: orange;font-size:12px"><%= hotel["RoomRateDetailsList"]["RoomRateDetails"]["promoDescription"]%></span>
+     	 <%else%>
+      		<span style="font-size:12px">&nbsp;</span>
+      	<%end%>	    		
+    	</div>
+    	<div class="span12">
+	    	<div class="span6" align="center">	      
+		      <span class="small-text">
+		        <%=t(".avg_nightly_rate_from")%>
+		      </span>
+	    		<br/>
+		      <span>
+		        <% if hotel["RoomRateDetailsList"] && hotel["RoomRateDetailsList"]["RoomRateDetails"] %>
+		          <%if hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["@promo"] == "true"%>
+		          	<strike>
+		          	<%= raw @money_sign + number_with_precision(hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["ChargeableRateInfo"]["@averageBaseRate"], :precision => 2)%>
+		          	</strike>
+		          	&nbsp;
+		          	<span style="color: orange">
+		          	<%= raw @money_sign + number_with_precision(hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"], :precision => 2)%>
+		          	</span>
+		          <% else %>
+		          	<%= raw @money_sign + number_with_precision(hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"], :precision => 2)%>
+		        	<% end %>
+		        <% else %>
+		          <%=t(".na")%>
+		        <% end %>
+		      </span>
+		     </div>
+		    <div class="span6" align="center">		      
+		      <span class="small-text">
+		        <%=t(".price_for_night", days: @dates_of_stay)%>
+		      </span>
+		    	<br/>
+		      <span>
+		        <% if hotel["RoomRateDetailsList"] && hotel["RoomRateDetailsList"]["RoomRateDetails"] %>
+		          <%if hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["@promo"] == "true"%>
+		          	<span style="color: orange">
+		          	<%= raw @money_sign + number_with_precision(hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["ChargeableRateInfo"]["@total"], :precision => 2)%>
+		          	</span>
+		          <% else %>
+		          	<%= raw @money_sign + number_with_precision(hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfo"]["ChargeableRateInfo"]["@total"], :precision => 2)%>
+		        	<% end %>
+		        <% else %>
+		          <%=t(".na")%>
+		        <% end %>
+		      </span>
+		    </div>
+	    </div>	    
+    </div>
+    <div class="span3" align="center"> 
+      <span class="span12 offset2">
+      	 <br/>	
+         <%= link_to display_button(),{ :controller => :hotels, :action => :show,
+          :id => hotel["hotelId"], :hotel_link => hotel['deepLink'], :hotelId => hotel["hotelId"],
+          :roomInfos => (@rooms_information[:number_of_rooms].to_s + " room(s), " + 
+          							 @rooms_information[:number_of_adults].to_s + " adult(s), " + 
+          							 @rooms_information[:number_of_children].to_s + " children"), 
+					:params => @history_params},
+					{:class => 'hotel-detail-href'}%>
+      </span>
+    </div>
+  </div>
+</div>
+<% end %>
+</div>
+<script type="text/javascript">
+  var roomInfos = '<%= @rooms_information[:number_of_rooms].to_s + " room(s), " + @rooms_information[:number_of_adults].to_s + " adult(s), " + @rooms_information[:number_of_children].to_s + " children" %>';
+  
+  $("#rooms-info").html(roomInfos);
+  $("#loading").html("<div style = 'float:right'><img class='image_url' src='/assets/loader.gif'></div>")
+  g_cache_key = "<%= @cache_key%>";
+  g_cache_location = "<%= @cache_location%>";
+  g_is_more_results = "<%= @is_more_results%>";
+  g_total_results = "<%= @total_hotels%>";
+  rate_filters = <%= raw @rate_filters.to_json %>;
+  var g_url_root ='<%= image_path "photo_not_available.jpg"%>';
+  $(".image_url").error(function(){
+      this.src = g_url_root;
+   });
+  $(document).ready(function(){
+    //initialize Google Map here
+    $("a.map-link").fancybox({
+    });
+
+
+  })
+</script>

@@ -1,0 +1,26 @@
+// Place all the styles related to the reservations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#choose-room {
+  width: 300px;
+  padding: 10px;
+  input[type=radio] {
+    margin: -5px 0 0;
+  }
+  #button-div {
+    width: 120px;
+    margin: auto;
+  }  
+}
+
+table tr td {
+  vertical-align: top
+}
+
+table tr td p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.1em;
+}
+

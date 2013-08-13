@@ -1,0 +1,42 @@
+
+<h2 style="text-align:center;margin-top:15px;"><%=t(".hotel_details")%></h2>
+<p>
+  <div class="row-fluid">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td style="width:50%"><div style="float:left"><% if(params["is_index"])%>
+         <%= ""  %>
+      <%else%>
+        <%= link_to t(".back"), hotels_path(:params => params)%>
+       <%end %></div></td>
+      <td style="width:35%">
+            
+      </td>
+      <td style="width:20%">
+        
+      </td>
+    </tr>
+  </table>
+</div>
+</p>
+
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+
+
+      <td><div class="span12" ><span style= "color:blue; padding-left:10px; font-weight:bold;"><%=raw display_html(@destination_string) + ", "%></span> <span id = "rooms-info"><%=raw display_html(@rooms_info) %>
+ </span> <span id="hotel_info"> From <%= 
+ Date.strptime($checkin_date.to_s, "%m/%d/%Y").strftime("%b %d,%Y")  %> To <%= Date.strptime($checkout_date.to_s, "%m/%d/%Y").strftime("%b %d,%Y")  %> </span>
+  </div>
+  
+ </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style= "border:1px solid;padding: 5px;">
+      <span style="color:red"> <%=t(".no_result")%></span>
+</div>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  HotelID: 1
+  PropertyDescription: MyText
+  GDSChainCode: MyString
+  GDSChainCodeName: MyString
+
+two:
+  HotelID: 1
+  PropertyDescription: MyText
+  GDSChainCode: MyString
+  GDSChainCodeName: MyString

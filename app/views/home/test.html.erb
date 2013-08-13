@@ -1,0 +1,13 @@
+<h1 style="text-align:center"><%=t(".welcome")%></h1>
+
+<br /><br />
+
+
+<form>
+  <%=t(".select_date")%>: <input type="text" id="date" />
+</form>
+<script>
+$(document).ready(function(){
+  $("#date").datepicker();
+})
+</script>

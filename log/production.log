@@ -1,0 +1,247 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/hotels?utf8=%E2%9C%93&destination_string=Tokyo&arrival_date=Check+In+%28Optional%29&departure_date=Check+Out+%28Optional%29" for 127.0.0.1 at 2013-01-10 10:57:14 +0700
+Processing by HotelsController#index as HTML
+  Parameters: {"utf8"=>"✓", "destination_string"=>"Tokyo", "arrival_date"=>"Check In (Optional)", "departure_date"=>"Check Out (Optional)"}
+  Rendered hotels/index.html.erb within layouts/application (1240.9ms)
+Compiled common.css  (1ms)  (pid 23276)
+Compiled main.css  (0ms)  (pid 23276)
+Compiled jquery-ui.css  (0ms)  (pid 23276)
+Compiled jquery.ui.theme.css  (0ms)  (pid 23276)
+Compiled system.js  (1ms)  (pid 23276)
+Compiled jquery-1.8.3.js  (4ms)  (pid 23276)
+Compiled jquery-ui-1.9.2.custom.min.js  (8ms)  (pid 23276)
+Completed 200 OK in 15017ms (Views: 9951.9ms | ActiveRecord: 24.6ms)
+Started GET "/assets/common-5ddb7761462dd11d8894a8e35e809540.css" for 127.0.0.1 at 2013-01-10 10:57:30 +0700
+Served asset /common-5ddb7761462dd11d8894a8e35e809540.css - 200 OK (0ms)
+Started GET "/assets/application-c166881446804895c16bab6995ca0710.js" for 127.0.0.1 at 2013-01-10 10:57:30 +0700
+Compiled jquery.js  (4ms)  (pid 23276)
+Compiled jquery_ujs.js  (0ms)  (pid 23276)
+Compiled jquery-ui-1.9.2.custom.js  (25ms)  (pid 23276)
+Compiled application.js  (188ms)  (pid 23276)
+Served asset /application-c166881446804895c16bab6995ca0710.js - 200 OK (19606ms)
+Started GET "/assets/jquery.ui-153f48d9b35920012e66d8da0749e880.theme" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /jquery.ui-153f48d9b35920012e66d8da0749e880.theme - 200 OK (0ms)
+Started GET "/assets/main-2d2d73df85c259e6af8e42e1362c3ac0.css" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /main-2d2d73df85c259e6af8e42e1362c3ac0.css - 200 OK (0ms)
+Started GET "/assets/jquery-ui-5bd8e9a509d1dd6e6b3a5a5911f0e0a2.css" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /jquery-ui-5bd8e9a509d1dd6e6b3a5a5911f0e0a2.css - 200 OK (0ms)
+Started GET "/assets/system-d90db80fb929641efc4d0db020523d5b.js" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /system-d90db80fb929641efc4d0db020523d5b.js - 200 OK (0ms)
+Started GET "/assets/jquery-1.8-8e3eeec9a63c444507aff45ee83b99f1.3" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /jquery-1.8-8e3eeec9a63c444507aff45ee83b99f1.3 - 200 OK (0ms)
+Started GET "/assets/jquery-ui-1.9.2.custom-c6ab2d417ed41854ed38a8daac90d566.min" for 127.0.0.1 at 2013-01-10 10:57:50 +0700
+Served asset /jquery-ui-1.9.2.custom-c6ab2d417ed41854ed38a8daac90d566.min - 200 OK (0ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-01-10 10:57:54 +0700
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-03-06 09:20:02 +0700
+Processing by HomeController#index as HTML
+Compiled home/index.js  (0ms)  (pid 3533)
+  Rendered home/index.html.erb within layouts/application (1873.2ms)
+Completed 200 OK in 2004ms (Views: 2001.1ms | ActiveRecord: 2.4ms | Sphinx: 0.0ms)
+Started GET "/assets/application-ea9a15ee7e1c9e665487e460728ec307.css" for 127.0.0.1 at 2013-03-06 09:20:05 +0700
+Compiled galleriffic-3.css  (0ms)  (pid 3533)
+Compiled basic.css  (0ms)  (pid 3533)
+Compiled bootstrap_and_overrides.css  (729ms)  (pid 3533)
+Compiled jquery-ui.css  (0ms)  (pid 3533)
+Compiled common.css  (18ms)  (pid 3533)
+Compiled main.css  (6ms)  (pid 3533)
+Compiled jquery.fancybox-1.3.4.css  (0ms)  (pid 3533)
+Compiled jquery.loadmask.css  (0ms)  (pid 3533)
+Compiled application.css  (789ms)  (pid 3533)
+Served asset /application-ea9a15ee7e1c9e665487e460728ec307.css - 200 OK (5598ms)
+Started GET "/assets/application-c166881446804895c16bab6995ca0710.js" for 127.0.0.1 at 2013-03-06 09:20:10 +0700
+Compiled jquery-1.8.3.js  (4ms)  (pid 3533)
+Compiled jquery_ujs.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 3533)
+Compiled twitter/bootstrap.js  (147ms)  (pid 3533)
+Compiled jquery-ui-1.9.2.custom.js  (9ms)  (pid 3533)
+Compiled jquery.validate.js  (95ms)  (pid 3533)
+Compiled system.js  (0ms)  (pid 3533)
+Compiled passwordStrengthMeter.js  (0ms)  (pid 3533)
+Compiled jquery.fancybox-1.3.4.pack.js  (0ms)  (pid 3533)
+Compiled jquery.loadmask.min.js  (0ms)  (pid 3533)
+Compiled jquery.history.js  (0ms)  (pid 3533)
+Compiled jquery.galleriffic.js  (0ms)  (pid 3533)
+Compiled jquery.opacityrollover.js  (0ms)  (pid 3533)
+Compiled application.js  (369ms)  (pid 3533)
+Served asset /application-c166881446804895c16bab6995ca0710.js - 200 OK (8412ms)
+Started GET "/assets/home/index-d79d4c7d21b9d753fab4b1693eb7b3dd.js" for 127.0.0.1 at 2013-03-06 09:20:19 +0700
+Served asset /home/index-d79d4c7d21b9d753fab4b1693eb7b3dd.js - 200 OK (0ms)
+Started GET "/assets/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" for 127.0.0.1 at 2013-03-06 09:20:45 +0700
+Served asset /images/ui-bg_inset-hard_100_fcfdfd_1x100.png - 200 OK (68ms)
+Started GET "/home/search.json?s=New" for 127.0.0.1 at 2013-03-06 09:21:16 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New"}
+Completed 200 OK in 447ms (Views: 1.7ms | ActiveRecord: 17.1ms | Sphinx: 21.3ms)
+Started GET "/assets/loading_small.gif" for 127.0.0.1 at 2013-03-06 09:21:17 +0700
+Served asset /loading_small.gif - 200 OK (4ms)
+Started GET "/home/search.json?s=New" for 127.0.0.1 at 2013-03-06 09:21:17 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New"}
+Completed 200 OK in 57ms (Views: 1.5ms | ActiveRecord: 4.3ms | Sphinx: 22.8ms)
+Started GET "/home/search.json?s=New+y" for 127.0.0.1 at 2013-03-06 09:21:18 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New y"}
+Completed 200 OK in 50ms (Views: 2.9ms | ActiveRecord: 5.0ms | Sphinx: 15.6ms)
+Started GET "/home/search.json?s=New+yo" for 127.0.0.1 at 2013-03-06 09:21:19 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New yo"}
+Completed 200 OK in 65ms (Views: 1.6ms | ActiveRecord: 3.6ms | Sphinx: 23.7ms)
+Started GET "/home/search.json?s=New+yoi" for 127.0.0.1 at 2013-03-06 09:21:19 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New yoi"}
+Completed 200 OK in 94ms (Views: 0.1ms | ActiveRecord: 0.0ms | Sphinx: 89.9ms)
+Started GET "/home/search.json?s=New+yoir" for 127.0.0.1 at 2013-03-06 09:21:19 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New yoir"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Sphinx: 9.4ms)
+Started GET "/home/search.json?s=New+yor" for 127.0.0.1 at 2013-03-06 09:21:22 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New yor"}
+Completed 200 OK in 55ms (Views: 2.0ms | ActiveRecord: 3.5ms | Sphinx: 23.4ms)
+Started GET "/home/search.json?s=New+york" for 127.0.0.1 at 2013-03-06 09:21:22 +0700
+Processing by HomeController#search as JSON
+  Parameters: {"s"=>"New york"}
+Completed 200 OK in 56ms (Views: 1.6ms | ActiveRecord: 6.0ms | Sphinx: 15.7ms)
+Started GET "/assets/images/ui-bg_glass_75_d0e5f5_1x400.png" for 127.0.0.1 at 2013-03-06 09:21:23 +0700
+Served asset /images/ui-bg_glass_75_d0e5f5_1x400.png - 200 OK (19ms)
+Started GET "/hotels?utf8=%E2%9C%93&destination_string=New+York+Douglaston+Station%2C+Rego+Park%2C+New+York%2C+United+States+of+America&item_id=570940&item_category=Landmarks&arrival_date=03%2F06%2F2013&departure_date=03%2F08%2F2013&search_room=1&rooms=%5B%7B%22adults%22%3A%221%22%2C%22children%22%3A%220%22%2C%22ages%22%3A%5B%5D%7D%5D" for 127.0.0.1 at 2013-03-06 09:21:26 +0700
+Processing by HotelsController#index as HTML
+  Parameters: {"utf8"=>"✓", "destination_string"=>"New York Douglaston Station, Rego Park, New York, United States of America", "item_id"=>"570940", "item_category"=>"Landmarks", "arrival_date"=>"03/06/2013", "departure_date"=>"03/08/2013", "search_room"=>"1", "rooms"=>"[{\"adults\":\"1\",\"children\":\"0\",\"ages\":[]}]"}
+Compiled hotel/scrollpagination.js  (0ms)  (pid 3533)
+Compiled hotel/map.js  (0ms)  (pid 3533)
+Compiled hotel/hotel-index.js  (0ms)  (pid 3533)
+  Rendered hotels/index_new.html.erb within layouts/application (189.6ms)
+Completed 200 OK in 222ms (Views: 207.7ms | ActiveRecord: 2.0ms | Sphinx: 0.0ms)
+Started GET "/assets/hotel/scrollpagination-2d604f750a38533eed80bb58ff98f5c4.js" for 127.0.0.1 at 2013-03-06 09:21:27 +0700
+Served asset /hotel/scrollpagination-2d604f750a38533eed80bb58ff98f5c4.js - 200 OK (0ms)
+Started GET "/assets/hotel/map-4383fc254f77e2ec0bf0dba8926ecf8a.js" for 127.0.0.1 at 2013-03-06 09:21:27 +0700
+Served asset /hotel/map-4383fc254f77e2ec0bf0dba8926ecf8a.js - 200 OK (0ms)
+Started GET "/assets/hotel/hotel-index-ec53d83d5a9fd01b65baba647298078e.js" for 127.0.0.1 at 2013-03-06 09:21:27 +0700
+Served asset /hotel/hotel-index-ec53d83d5a9fd01b65baba647298078e.js - 200 OK (0ms)
+Started GET "/hotels/list?utf8=%E2%9C%93&destination_string=New+York+Douglaston+Station%2C+Rego+Park%2C+New+York%2C+United+States+of+America&item_id=570940&item_category=Landmarks&arrival_date=03%2F06%2F2013&departure_date=03%2F08%2F2013&search_room=1&rooms=%5B%7B%22adults%22%3A%221%22%2C%22children%22%3A%220%22%2C%22ages%22%3A%5B%5D%7D%5D&action=index&controller=hotels&number_of_results=70&minStarRating=1&sort=QUALITY&currencyCode=USD" for 127.0.0.1 at 2013-03-06 09:21:28 +0700
+Processing by HotelsController#list as */*
+  Parameters: {"utf8"=>"✓", "destination_string"=>"New York Douglaston Station, Rego Park, New York, United States of America", "item_id"=>"570940", "item_category"=>"Landmarks", "arrival_date"=>"03/06/2013", "departure_date"=>"03/08/2013", "search_room"=>"1", "rooms"=>"[{\"adults\":\"1\",\"children\":\"0\",\"ages\":[]}]", "number_of_results"=>"70", "minStarRating"=>"1", "sort"=>"QUALITY", "currencyCode"=>"USD"}
+  Rendered hotels/list.html.erb (240.1ms)
+Completed 200 OK in 3053ms (Views: 241.3ms | ActiveRecord: 0.6ms | Sphinx: 0.0ms)
+Started GET "/assets/hotels/star_rating_enabled-9a4da9d431f47e20830a026483ebaffb.png" for 127.0.0.1 at 2013-03-06 09:21:31 +0700
+Served asset /hotels/star_rating_enabled-9a4da9d431f47e20830a026483ebaffb.png - 200 OK (0ms)
+Started GET "/assets/hotels/half_star_rating-ebee4f487ef02eb5c9e40959e2d856de.png" for 127.0.0.1 at 2013-03-06 09:21:31 +0700
+Served asset /hotels/half_star_rating-ebee4f487ef02eb5c9e40959e2d856de.png - 200 OK (0ms)
+Started GET "/assets/hotels/star_rating_disabled-f06c49b8c54ba0f5167ac3f142c1f820.png" for 127.0.0.1 at 2013-03-06 09:21:31 +0700
+Served asset /hotels/star_rating_disabled-f06c49b8c54ba0f5167ac3f142c1f820.png - 200 OK (0ms)
+Started GET "/assets/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" for 127.0.0.1 at 2013-03-06 09:24:58 +0700
+Served asset /images/ui-bg_inset-hard_100_fcfdfd_1x100.png - 200 OK (0ms)
+Compiled jquery-1.8.3.js  (2ms)  (pid 1545)
+Compiled jquery_ujs.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (76ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap.js  (344ms)  (pid 1545)
+Compiled jquery-ui-1.9.2.custom.js  (10ms)  (pid 1545)
+Compiled jquery.validate.js  (1ms)  (pid 1545)
+Compiled system.js  (0ms)  (pid 1545)
+Compiled passwordStrengthMeter.js  (0ms)  (pid 1545)
+Compiled jquery.fancybox-1.3.4.pack.js  (0ms)  (pid 1545)
+Compiled jquery.loadmask.min.js  (0ms)  (pid 1545)
+Compiled jquery.history.js  (0ms)  (pid 1545)
+Compiled jquery.galleriffic.js  (0ms)  (pid 1545)
+Compiled jquery.opacityrollover.js  (0ms)  (pid 1545)
+Compiled application.js  (729ms)  (pid 1545)
+Compiled galleriffic-3.css  (0ms)  (pid 1545)
+Compiled basic.css  (0ms)  (pid 1545)
+Compiled bootstrap_and_overrides.css  (1420ms)  (pid 1545)
+Compiled jquery-ui.css  (0ms)  (pid 1545)
+Compiled common.css  (13ms)  (pid 1545)
+Compiled main.css  (12ms)  (pid 1545)
+Compiled jquery.fancybox-1.3.4.css  (0ms)  (pid 1545)
+Compiled jquery.loadmask.css  (0ms)  (pid 1545)
+Compiled application.css  (1607ms)  (pid 1545)
+Compiled jquery-1.8.3.js  (2ms)  (pid 1545)
+Compiled jquery_ujs.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (68ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 1545)
+Compiled twitter/bootstrap.js  (246ms)  (pid 1545)
+Compiled jquery-ui-1.9.2.custom.js  (65ms)  (pid 1545)
+Compiled jquery.validate.js  (0ms)  (pid 1545)
+Compiled system.js  (0ms)  (pid 1545)
+Compiled passwordStrengthMeter.js  (0ms)  (pid 1545)
+Compiled jquery.fancybox-1.3.4.pack.js  (0ms)  (pid 1545)
+Compiled jquery.loadmask.min.js  (0ms)  (pid 1545)
+Compiled jquery.history.js  (0ms)  (pid 1545)
+Compiled jquery.galleriffic.js  (54ms)  (pid 1545)
+Compiled jquery.opacityrollover.js  (0ms)  (pid 1545)
+Compiled application.js  (586ms)  (pid 1545)
+Compiled galleriffic-3.css  (0ms)  (pid 1545)
+Compiled basic.css  (2ms)  (pid 1545)
+Compiled bootstrap_and_overrides.css  (1003ms)  (pid 1545)
+Compiled jquery-ui.css  (0ms)  (pid 1545)
+Compiled common.css  (11ms)  (pid 1545)
+Compiled main.css  (8ms)  (pid 1545)
+Compiled jquery.fancybox-1.3.4.css  (0ms)  (pid 1545)
+Compiled jquery.loadmask.css  (0ms)  (pid 1545)
+Compiled application.css  (1178ms)  (pid 1545)

@@ -1,0 +1,293 @@
+<h2 style="text-align:center;margin-top:15px;">Here are</h2>
+<br />
+<h1 style="text-align:center;margin-top:0px;color:blue;"><span style="font-size:2.5em"><%=t(".rooms_available")%></span></h1>
+
+<% if @rooms.size > 0 && !@book_info.nil? %>
+  <p>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".hotel_info")%>
+      </div>
+    </div><br />
+
+    <table class='information-tbl'>
+      <tr>
+        <th width="25%"><%=t(".name")%></th>
+        <th width="25%"><%=t(".address")%></th>
+        <th width="10%"><%=t(".city")%></th>
+        <th width="10"><%=t(".state_province_code")%></th>
+        <th width="10%"><%=t(".country")%></th>
+        <th width="20%"><%=t(".trip_advisor_rating")%></th>
+      </tr>
+      <tr class="odd-row">
+        <td><%=h @book_info["hotelName"] %></td>
+        <td><%=h @book_info["hotelAddress"] %></td>
+        <td><%=h @book_info["hotelCity"] %></td>
+        <td><%=h @book_info["hotelStateProvince"] %></td>
+        <td><%=h @book_info["hotelCountry"] %></td>
+        <td><%=h @book_info["tripAdvisorRating"] %></td>
+      </tr>
+    </table>
+
+  </p>
+  <p>
+
+    <b class="detail-info"><%=t(".check_in_date")%></b>
+    <%=h @book_info["arrivalDate"] %><br />
+    <br />
+
+    <b class="detail-info"><%=t(".check_out_date")%></b>
+    <%=h @book_info["departureDate"] %><br />
+    <br />
+
+    <b class="detail-info"><%=t(".check_in_instruction")%></b>
+    <%=raw display_html(@book_info["checkInInstructions"]) %><br />
+    <br />
+
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".no_room_request")%> <%=h @book_info["numberOfRoomsRequested"] %>
+      </div>
+    </div><br />
+
+    <table class='information-tbl'>
+      <tr>
+        <th width="10%"><%=t(".no")%></td>
+        <th width="30%"><%=t(".no_adults")%></td>
+        <th width="30%"><%=t(".age_of_children")%></td>
+      </tr>
+      <tr class="odd-row">
+        <td><b>#1:</b></td>
+        <td><%=h @room_info1[0..0] %></td>
+        <td><%=h @room_info1.split(',')[1..@room_info1.split(',').size].join(', ') %></td>
+      </tr>
+      <tr class="even-row">
+        <td><b>#2:</b></td>
+        <td><%=h @room_info2[0..0] %></td>
+        <td><%=h @room_info2.split(',')[1..@room_info2.split(',').size].join(', ') %></td>
+      </tr>
+    </table>
+  </p>
+
+<% if @hotel_amenities && @hotel_amenities["@size"].to_i > 0 %>
+  <% count = 1 %>
+  <% if @hotel_amenities["@size"].to_i == 1
+      hotel_amenities = []
+      hotel_amenities << @hotel_amenities["PropertyAmenity"]
+    else
+      hotel_amenities = @hotel_amenities["PropertyAmenity"]
+    end
+  %>
+  <p>
+
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".hotel_amenities")%>
+      </div>
+    </div><br />
+    <table class='information-tbl'>
+      <tr>
+        <th width="10%">No.</td>
+        <th width="30%">Amenity ID</td>
+        <th width="60%">Description</td>
+      </tr>
+      <% @hotel_amenities["PropertyAmenity"].each do |hotel_amenity| %>
+        <tr class="<%= (count % 2 == 0) ? 'even-row' : 'odd-row'%>">
+          <td class='right-text'><%= count %></td>
+          <td class='right-text'><%= hotel_amenity["amenityId"] %></td>
+          <td class='left-text'><%= hotel_amenity["amenity"] %></td>
+        </tr>
+        <% count = count + 1 %>
+      <% end %>
+    </table>
+  </p>
+<% end %>
+
+  <p>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".credit_card_info")%>
+      </div>
+    </div><br />
+
+    <div class='search-content' id='cc-content'>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".email")%> (*):</div>
+        <div class='search-input'><input type='text' name="email" id='email' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".first_name")%> (*):</div>
+        <div class='search-input'><input type='text' name="firstName" id='firstName' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".last_name")%> (*):</div>
+        <div class='search-input'><input type='text' name="lastName" id='lastName' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".home_phone")%> (*):</div>
+        <div class='search-input'><input type='text' name="homePhone" id='homePhone' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".work_phone")%></div>
+        <div class='search-input'><input type='text' name="workPhone" id='workPhone' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".credit_card_type")%> (*):</div>
+        <div class='search-input'><input type='text' name="creditCardType" id='creditCardType' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".credit_card_number")%> (*):</div>
+        <div class='search-input'><input type='text' name="creditCardNumber" id='creditCardNumber' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".credit_card_identify")%> (*):</div>
+        <div class='search-input'><input type='text' name="creditCardIdentifier" id='creditCardIdentifier' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".expiration_month")%> (*):</div>
+        <div class='search-input'><input type='text' name="creditCardExpirationMonth" id='creditCardExpirationMonth' size='40'></div>
+      </div>
+      <div class='search-field'>
+        <div class='search-label'><%=t(".expiration_year")%> (*):</div>
+        <div class='search-input'><input type='text' name="creditCardExpirationYear" id='creditCardExpirationYear' size='40'></div>
+      </div>
+    </div>
+    <br /><br />
+    <div class='reset-btn' style="clear:both;margin-left:205px;">
+      <input type='button' value='Reset to default' id='reset-cc-btn' onclick='reset_cc_to_default();'>
+    </div>
+  </p>
+
+  <p>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".list_available_rooms")%>
+      </div>
+    </div><br />
+    <% room_count = 1 %>
+    <table class='information-tbl'>
+      <tr>
+        <th><%=t(".no")%></th>
+        <th></th>
+        <th></th>
+        <th><%=t(".images")%></th>
+        <th><%=t(".room_type_desc")%></th>
+        <th><%=t(".tax_rate")%></th>
+        <th><%=t(".rate_change")%></th>
+        <th><%=t(".non_refundable")%></th>
+        <th><%=t(".gurantee_req")%></th>
+        <th><%=t(".deposit_req")%></th>
+        <th><%=t(".immediate_charge_req")%></th>
+        <th><%=t(".current_allotment")%></th>
+        <th><%=t(".quoted_occupancy")%></th>
+        <th><%=t(".min_guest_age")%></th>
+        <th><%=t(".currency")%></th>
+        <th><%=t(".nightly_rate_total")%></th>
+        <th><%=t(".max_nightly_rate")%></th>
+        <th><%=t(".surcharge_total")%></th>
+        <th><%=t(".charge_total")%></th>
+        <th><%=t(".room_amenities")%></td>
+      </tr>
+      <% @rooms.each do |room| %>
+        <tr class="<%= (room_count % 2 == 0) ? 'even-row' : 'odd-row'%>">
+          <td class="right-text"><%= room_count %></td>
+          <td>
+            <form accept-charset="UTF-8" action="/hotels/<%= @hotel_info['hotelId'] %>/set_booking" method="post">
+              <input type='hidden' name='room' value='<%= room.to_json %>'>
+              <input type='hidden' name='book_info' value='<%= @book_info.to_json %>'>
+              <input type='hidden' name='rate_key' value='<%= @book_info["rateKey"] %>'>
+              <input type='hidden' name='room_info1' value='<%= @room_info1 %>'>
+              <input type='hidden' name='room_info2' value='<%= @room_info2 %>'>
+              <input type='hidden' name='arrival_date' value='<%= @book_info["arrivalDate"] %>'>
+              <input type='hidden' name='departure_date' value='<%= @book_info["departureDate"] %>'>
+              <input type='button' value='<%=t(".book_now")%>' id='book-btn'>
+            </form>
+          <td><a href='<%= room["deepLink"] %>'>See details and start Bookings</a></td>
+          </td>
+          <td>
+            <% unless room["image_urls"].nil? %>
+              <% room["image_urls"].each do |url| %>
+                <img src='<%= url %>'>
+              <% end %>
+            <% end %>
+          </td>
+          <td class="left-text"><%=h room["roomTypeDescription"] %></td>
+          <td class="left-text"><%=h room["taxRate"] %></td>
+          <td class="left-text"><%= display_require(room["rateChange"]) %></td>
+          <td class="left-text"><%= display_require(room["nonRefundable"]) %></td>
+          <td class="left-text"><%= display_require(room["guaranteeRequired"]) %></td>
+          <td class="left-text"><%= display_require(room["depositRequired"]) %></td>
+          <td class="left-text"><%= display_require(room["immediateChargeRequired"]) %></td>
+          <td class="right-text"><%=h room["currentAllotment"] %></td>
+          <td class="right-text"><%=h room["quotedOccupancy"] %></td>
+          <td class="right-text"><%=h room["minGuestAge"] %></td>
+          <td class="center-text"><%=h room["RateInfo"]["ChargeableRateInfo"]["@currencyCode"] %></td>
+          <td class="right-text"><%= number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@nightlyRateTotal"], :precision => 2) %></td>
+          <td class="right-text"><%= number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@maxNightlyRate"], :precision => 2) %></td>
+          <td class="right-text"><%= number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@surchargeTotal"], :precision => 2) %></td>
+          <td class="right-text"><%= number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@total"], :precision => 2) || number_with_precision(room["RateInfo"]["ChargeableRateInfo"]["@commissionableUsdTotal"], :precision => 2)%></td>
+          <td class='left-text'>
+            <% if room["RoomType"] && room["RoomType"]["roomAmenities"] && room["RoomType"]["roomAmenities"]["@size"].to_i > 0 %>
+              <% amenities = [] %>
+              <% room["roomAmenities"]["RoomAmenity"].each{|ra| amenities << ra["amenity"] } %>
+              <%=raw display_html(amenities.join('<br />')) %>
+            <% end %>
+          </td>
+        </tr>
+        <% room_count = room_count + 1 %>
+      <% end %>
+    </table>
+  </p>
+
+<% else %>
+  <h2> <%=t(".no_rooms_available")%><h2>
+<% end %>
+
+<p>
+  <%= link_to t(".return_hotel"), :controller => :hotels, :action => :show, :id => @hotel_info["hotelId"] %>
+</p>
+
+<script type="text/javascript">
+  function reset_cc_to_default(){
+    if ($('#cc-content')){
+      $('#email').val('longph@elarion.com');
+      $('#firstName').val('Test Booking');
+      $('#lastName').val('Test Booking');
+      $('#homePhone').val('2145370159');
+      $('#workPhone').val('2145370159');
+      $('#creditCardType').val('CA');
+      $('#creditCardNumber').val('5401999999999999');
+      $('#creditCardIdentifier').val('123');
+      $('#creditCardExpirationMonth').val('11');
+      $('#creditCardExpirationYear').val('2013');
+   }
+  }
+
+  $("#book-btn").live('click', function(){
+    //get form tag
+    var form  = $(this).closest("form");
+    //submit it to server
+    var values = {};
+    $.each(form.serializeArray(), function(i, field){
+        values[field.name] = field.value;
+    });
+
+    // get credit card information
+    var cc_content = document.getElementById('cc-content');
+
+    if (cc_content){
+      var cc_fields = cc_content.getElementsByTagName('input');
+      $.each(cc_fields, function(index, field){
+        values[field['name']] = field['value'];
+        var input = $("<input>").attr("type", "hidden").attr("name", field["name"]).val(field["value"]);
+        form.append($(input));
+      });
+    }
+
+    // add token
+    var input = $("<input>").attr("type", "hidden").attr("name", 'authenticity_token').val(g_token);
+    form.append($(input));
+
+    form.submit();
+  });
+</script>

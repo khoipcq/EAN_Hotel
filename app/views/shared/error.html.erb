@@ -1,0 +1,29 @@
+<h2 style="text-align:center;margin-top:15px;">OOps!</h2>
+<br />
+<h1 style="text-align:center;margin-top:0px;color:blue;"><span style="font-size:2.5em"><%=t(".error")%> </span></h1>
+<br />
+
+<h2> <%=t(".back")%></h2>
+
+<p>
+    <div class="header-info">
+        <div style="padding-top:15px;">
+          <%=t(".error_info")%>
+        </div>
+      </div><br />
+
+    <b class="detail-info"><%=t(".type")%></b>
+    <%=h @error["type"] %><br />
+    <b class="detail-info"><%=t(".category")%></b>
+    <%=h @error["category"] %><br />
+    <b class="detail-info"><%=t(".error_code")%></b>
+    <%=h @error["error_code"] %><br />
+    <b class="detail-info"><%=t(".message")%></b>
+    <%=h @error["message"] %><br />
+    <b class="detail-info"><%=t(".additional_message")%></b>
+    <%=h @error["detail_message"] %><br />
+    <b class="detail-info"><%=t(".itinerary_id")%></b>
+    <%=h @error["itinerary_id"] %><br />
+    <b class="detail-info"><%=t(".other_info")%></b>
+    <%=h @error["other_info"] %><br />
+</p>

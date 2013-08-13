@@ -1,0 +1,23 @@
+<%= devise_error_messages! %>
+<div class="span6 offset4">
+<h2><%=t(".change_password")%></h2>
+<%= form_for(resource, :as => resource_name, :url => "/passwords/update", :html => { :method => :put, :id => "edit_user" }) do |f| %>
+
+   <p><%= f.label :current_password %> <span class='required-star'>(*)</span><br /> 
+   <%= f.password_field :current_password, :autofocus => true %></p>
+
+  <p><%= f.label :password, t(".new_password") %> <span class='required-star'>(*)</span><br />
+  <%= f.password_field :password %>
+    <%= image_tag("information.png", :size => "20x20", :id => "image-tooltip",:title => t('.password_hint'), :style => "margin-bottom:0px") %>
+  <span id="strength_result"></span><br/>
+  </p>
+
+  <p><%= f.label :password_confirmation, t(".confirm_password") %> <span class='required-star'>(*)</span><br />
+  <%= f.password_field :password_confirmation %></p>
+
+  <p><%= f.submit t(".save"), :class => "btn" %>
+  	<%= link_to t(".cancel"), edit_user_registration_path, {:class => "btn"} %>
+  </p>
+<% end %>
+</div>
+<%= javascript_include_tag "devise/registration.edit" %>

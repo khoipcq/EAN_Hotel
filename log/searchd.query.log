@@ -1,0 +1,1220 @@
+[Fri Aug  2 09:48:01.556 2013] 0.034 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  2 09:48:01.687 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  2 09:48:01.905 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  2 09:48:01.941 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  2 09:48:02.068 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  2 09:48:02.078 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  2 09:48:02.084 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  2 09:48:02.093 2013] 0.005 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  2 09:48:02.758 2013] 0.007 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Fri Aug  2 09:48:02.775 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Fri Aug  2 09:48:02.784 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Fri Aug  2 09:48:02.806 2013] 0.007 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Fri Aug  2 09:48:03.003 2013] 0.003 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Fri Aug  2 09:48:03.013 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Fri Aug  2 09:48:03.019 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Fri Aug  2 09:48:03.025 2013] 0.002 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Fri Aug  2 09:48:03.138 2013] 0.003 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Fri Aug  2 09:48:03.148 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Fri Aug  2 09:48:03.153 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Fri Aug  2 09:48:03.160 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Fri Aug  2 09:48:04.119 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Fri Aug  2 09:48:04.136 2013] 0.011 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Fri Aug  2 09:48:04.146 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Fri Aug  2 09:48:04.157 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Tue Aug  6 14:33:05.059 2013] 0.076 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug  6 14:33:05.130 2013] 0.037 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug  6 14:33:05.299 2013] 0.019 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug  6 14:33:05.347 2013] 0.024 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug  6 14:33:05.630 2013] 0.016 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Tue Aug  6 14:33:05.686 2013] 0.047 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Tue Aug  6 14:33:05.697 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Tue Aug  6 14:33:05.735 2013] 0.032 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Tue Aug  6 14:33:05.808 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug  6 14:33:05.821 2013] 0.007 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug  6 14:33:05.828 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug  6 14:33:05.837 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug  6 14:33:05.923 2013] 0.046 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 14:33:05.961 2013] 0.032 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Tue Aug  6 14:33:05.990 2013] 0.021 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 14:33:06.024 2013] 0.029 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Tue Aug  6 14:33:06.099 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 14:33:06.124 2013] 0.019 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Tue Aug  6 14:33:06.136 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 14:33:06.161 2013] 0.018 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Tue Aug  6 14:33:06.541 2013] 0.011 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Tue Aug  6 14:33:06.571 2013] 0.020 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Tue Aug  6 14:33:06.583 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Tue Aug  6 14:33:06.601 2013] 0.013 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Tue Aug  6 15:06:09.782 2013] 0.008 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug  6 15:06:09.825 2013] 0.020 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug  6 15:06:10.156 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug  6 15:06:10.197 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug  6 15:06:10.374 2013] 0.005 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Tue Aug  6 15:06:10.392 2013] 0.010 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Tue Aug  6 15:06:10.399 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Tue Aug  6 15:06:10.410 2013] 0.003 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Tue Aug  6 15:06:10.653 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 15:06:10.669 2013] 0.006 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Tue Aug  6 15:06:10.681 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 15:06:10.694 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Tue Aug  6 15:06:10.767 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 15:06:10.790 2013] 0.014 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Tue Aug  6 15:06:10.797 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 15:06:10.807 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Tue Aug  6 15:06:10.983 2013] 0.010 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug  6 15:06:10.999 2013] 0.008 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug  6 15:06:11.005 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug  6 15:06:11.022 2013] 0.007 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug  6 15:06:13.353 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Tue Aug  6 15:06:13.371 2013] 0.006 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Tue Aug  6 15:06:13.382 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Tue Aug  6 15:06:13.389 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Tue Aug  6 15:15:09.117 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug  6 15:15:09.136 2013] 0.010 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug  6 15:15:09.143 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug  6 15:15:09.152 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug  6 15:15:10.168 2013] 0.005 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Tue Aug  6 15:15:10.185 2013] 0.006 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Tue Aug  6 15:15:10.200 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Tue Aug  6 15:15:10.212 2013] 0.005 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Tue Aug  6 15:15:10.374 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 15:15:10.385 2013] 0.006 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Tue Aug  6 15:15:10.393 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Tue Aug  6 15:15:10.402 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Tue Aug  6 15:15:10.757 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 15:15:10.772 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Tue Aug  6 15:15:10.783 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Tue Aug  6 15:15:10.790 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Tue Aug  6 15:15:10.877 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Tue Aug  6 15:15:10.893 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Tue Aug  6 15:15:10.903 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Tue Aug  6 15:15:10.912 2013] 0.004 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Wed Aug  7 09:41:01.248 2013] 0.305 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Wed Aug  7 09:41:01.676 2013] 0.401 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Wed Aug  7 09:41:01.718 2013] 0.025 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Wed Aug  7 09:41:02.010 2013] 0.258 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Wed Aug  7 09:41:02.253 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Wed Aug  7 09:41:02.272 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Wed Aug  7 09:41:02.282 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Wed Aug  7 09:41:02.298 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Wed Aug  7 09:41:03.211 2013] 0.048 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Wed Aug  7 09:41:03.307 2013] 0.090 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Wed Aug  7 09:41:03.353 2013] 0.036 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Wed Aug  7 09:41:03.405 2013] 0.046 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Wed Aug  7 09:41:03.552 2013] 0.052 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 09:41:03.641 2013] 0.079 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Wed Aug  7 09:41:03.674 2013] 0.024 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 09:41:03.707 2013] 0.030 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Wed Aug  7 09:41:03.766 2013] 0.014 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 09:41:03.792 2013] 0.021 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Wed Aug  7 09:41:03.799 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 09:41:03.815 2013] 0.012 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Wed Aug  7 09:41:05.095 2013] 0.030 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Wed Aug  7 09:41:05.126 2013] 0.025 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Wed Aug  7 09:41:05.135 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Wed Aug  7 09:41:05.162 2013] 0.019 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Wed Aug  7 11:59:52.042 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Wed Aug  7 11:59:52.063 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Wed Aug  7 11:59:52.097 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Wed Aug  7 11:59:52.119 2013] 0.005 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Wed Aug  7 11:59:52.579 2013] 0.008 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Wed Aug  7 11:59:52.597 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Wed Aug  7 11:59:52.607 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Wed Aug  7 11:59:52.622 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Wed Aug  7 11:59:52.771 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 11:59:52.780 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Wed Aug  7 11:59:52.787 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 11:59:52.795 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Wed Aug  7 11:59:53.411 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 11:59:53.434 2013] 0.014 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Wed Aug  7 11:59:53.446 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 11:59:53.599 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Wed Aug  7 11:59:53.661 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Wed Aug  7 11:59:53.671 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Wed Aug  7 11:59:53.677 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Wed Aug  7 11:59:53.685 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Wed Aug  7 12:00:26.297 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Wed Aug  7 12:00:26.320 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Wed Aug  7 12:00:26.330 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Wed Aug  7 12:00:26.347 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Wed Aug  7 12:00:26.505 2013] 0.014 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Wed Aug  7 12:00:26.525 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Wed Aug  7 12:00:26.536 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Wed Aug  7 12:00:26.552 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Wed Aug  7 12:00:27.338 2013] 0.008 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Wed Aug  7 12:00:27.358 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Wed Aug  7 12:00:27.369 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Wed Aug  7 12:00:27.382 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Wed Aug  7 12:00:27.555 2013] 0.008 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 12:00:27.574 2013] 0.011 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Wed Aug  7 12:00:27.583 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Wed Aug  7 12:00:27.597 2013] 0.006 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Wed Aug  7 12:00:27.975 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 12:00:27.995 2013] 0.013 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Wed Aug  7 12:00:28.006 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Wed Aug  7 12:00:28.018 2013] 0.006 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Wed Aug  7 12:00:28.186 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Wed Aug  7 12:00:28.205 2013] 0.010 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Wed Aug  7 12:00:28.214 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Wed Aug  7 12:00:28.228 2013] 0.006 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Wed Aug  7 16:17:55.699 2013] 0.030 sec [ext/2/ext 263 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kon*
+[Wed Aug  7 16:17:55.851 2013] 0.025 sec [ext/2/rel 770 (0,4)] [landmark_destination_core,landmark_destination_delta] *kon*
+[Wed Aug  7 16:17:55.945 2013] 0.004 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kon*
+[Wed Aug  7 16:17:56.041 2013] 0.042 sec [ext/2/rel 405 (0,4)] [active_property_list_core,active_property_list_delta] *kon*
+[Wed Aug  7 16:17:56.171 2013] 0.011 sec [ext/2/ext 185 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kong*
+[Wed Aug  7 16:17:56.247 2013] 0.005 sec [ext/2/rel 592 (0,4)] [landmark_destination_core,landmark_destination_delta] *kong*
+[Wed Aug  7 16:17:56.344 2013] 0.001 sec [ext/2/rel 3 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kong*
+[Wed Aug  7 16:17:56.368 2013] 0.012 sec [ext/2/rel 219 (0,4)] [active_property_list_core,active_property_list_delta] *kong*
+[Wed Aug  7 16:17:57.061 2013] 0.009 sec [ext/2/ext 4 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*
+[Wed Aug  7 16:17:57.109 2013] 0.001 sec [ext/2/rel 4 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*
+[Wed Aug  7 16:17:57.188 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*
+[Wed Aug  7 16:17:57.277 2013] 0.080 sec [ext/2/rel 2 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*
+[Wed Aug  7 16:18:00.914 2013] 0.001 sec [ext/2/ext 4 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-
+[Wed Aug  7 16:18:00.925 2013] 0.002 sec [ext/2/rel 4 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-
+[Wed Aug  7 16:18:00.935 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-
+[Wed Aug  7 16:18:00.942 2013] 0.001 sec [ext/2/rel 2 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-
+[Wed Aug  7 16:18:01.668 2013] 0.029 sec [ext/2/ext 4 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*k*
+[Wed Aug  7 16:18:01.685 2013] 0.011 sec [ext/2/rel 4 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*k*
+[Wed Aug  7 16:18:01.698 2013] 0.002 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*k*
+[Wed Aug  7 16:18:01.710 2013] 0.008 sec [ext/2/rel 2 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*k*
+[Wed Aug  7 16:18:01.886 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*ki*
+[Wed Aug  7 16:18:01.892 2013] 0.001 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*ki*
+[Wed Aug  7 16:18:01.896 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*ki*
+[Wed Aug  7 16:18:01.899 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*ki*
+[Wed Aug  7 16:18:04.725 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kin*
+[Wed Aug  7 16:18:04.733 2013] 0.002 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kin*
+[Wed Aug  7 16:18:04.740 2013] 0.001 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kin*
+[Wed Aug  7 16:18:04.745 2013] 0.002 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kin*
+[Wed Aug  7 16:18:07.505 2013] 0.018 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kins*
+[Wed Aug  7 16:18:07.516 2013] 0.007 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kins*
+[Wed Aug  7 16:18:07.528 2013] 0.007 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kins*
+[Wed Aug  7 16:18:07.536 2013] 0.005 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kins*
+[Wed Aug  7 16:18:08.525 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kinsh*
+[Wed Aug  7 16:18:08.530 2013] 0.001 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kinsh*
+[Wed Aug  7 16:18:08.538 2013] 0.002 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kinsh*
+[Wed Aug  7 16:18:08.545 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kinsh*
+[Wed Aug  7 16:18:09.151 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kinsha*
+[Wed Aug  7 16:18:09.165 2013] 0.002 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kinsha*
+[Wed Aug  7 16:18:09.171 2013] 0.002 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kinsha*
+[Wed Aug  7 16:18:09.176 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kinsha*
+[Wed Aug  7 16:18:10.163 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kinshas*
+[Wed Aug  7 16:18:10.178 2013] 0.011 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kinshas*
+[Wed Aug  7 16:18:10.182 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kinshas*
+[Wed Aug  7 16:18:10.191 2013] 0.006 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kinshas*
+[Wed Aug  7 16:18:10.319 2013] 0.008 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kinshasa*
+[Wed Aug  7 16:18:10.324 2013] 0.001 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kinshasa*
+[Wed Aug  7 16:18:10.328 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kinshasa*
+[Wed Aug  7 16:18:10.333 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kinshasa*
+[Wed Aug  7 16:20:15.795 2013] 0.026 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *kongo*\-*kinshasa* \(*brazzaville*, *congo*\)
+[Wed Aug  7 16:20:15.814 2013] 0.014 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *kongo*\-*kinshasa* \(*brazzaville*, *congo*\)
+[Wed Aug  7 16:20:15.826 2013] 0.006 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *kongo*\-*kinshasa* \(*brazzaville*, *congo*\)
+[Wed Aug  7 16:20:15.842 2013] 0.012 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *kongo*\-*kinshasa* \(*brazzaville*, *congo*\)
+[Thu Aug  8 10:53:43.739 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 10:53:43.839 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 10:53:43.850 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 10:53:43.868 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 10:53:43.998 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 10:53:44.017 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 10:53:44.027 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 10:53:44.047 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 10:53:44.765 2013] 0.008 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Thu Aug  8 10:53:44.788 2013] 0.014 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Thu Aug  8 10:53:44.797 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Thu Aug  8 10:53:44.811 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Thu Aug  8 10:53:44.962 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 10:53:44.971 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Thu Aug  8 10:53:44.977 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 10:53:44.984 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Thu Aug  8 10:53:45.215 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 10:53:45.225 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Thu Aug  8 10:53:45.232 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 10:53:45.239 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Thu Aug  8 10:53:45.647 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Thu Aug  8 10:53:45.667 2013] 0.013 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Thu Aug  8 10:53:45.678 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Thu Aug  8 10:53:45.691 2013] 0.006 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Thu Aug  8 14:33:51.181 2013] 0.018 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:33:51.360 2013] 0.024 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:33:51.551 2013] 0.013 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:33:51.641 2013] 0.028 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:33:51.776 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:33:51.883 2013] 0.006 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:33:51.892 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:33:51.913 2013] 0.015 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:33:51.985 2013] 0.004 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:33:52.003 2013] 0.010 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:33:52.014 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:33:52.025 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:33:53.213 2013] 0.002 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:33:53.318 2013] 0.003 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:33:53.385 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:33:53.395 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:33:53.491 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:33:53.501 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:33:53.510 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:33:53.518 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:33:53.860 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfil*
+[Thu Aug  8 14:33:53.972 2013] 0.106 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfil*
+[Thu Aug  8 14:33:53.974 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfil*
+[Thu Aug  8 14:33:54.017 2013] 0.040 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *springfil*
+[Thu Aug  8 14:33:56.120 2013] 0.022 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:33:56.137 2013] 0.009 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:33:56.146 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:33:56.167 2013] 0.012 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:33:56.619 2013] 0.002 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:33:56.630 2013] 0.003 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:33:56.642 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:33:56.652 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:33:56.774 2013] 0.002 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:33:56.784 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:33:56.792 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:33:56.796 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:34:03.347 2013] 0.032 sec [ext/2/ext 2 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*, *new* *zealand*
+[Thu Aug  8 14:34:03.363 2013] 0.011 sec [ext/2/rel 1 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*, *new* *zealand*
+[Thu Aug  8 14:34:03.398 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*, *new* *zealand*
+[Thu Aug  8 14:34:03.409 2013] 0.009 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*, *new* *zealand*
+[Thu Aug  8 14:34:40.632 2013] 0.026 sec [ext/2/ext 90 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spi*
+[Thu Aug  8 14:34:40.727 2013] 0.008 sec [ext/2/rel 216 (0,4)] [landmark_destination_core,landmark_destination_delta] *spi*
+[Thu Aug  8 14:34:40.804 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spi*
+[Thu Aug  8 14:34:40.856 2013] 0.021 sec [ext/2/rel 136 (0,4)] [active_property_list_core,active_property_list_delta] *spi*
+[Thu Aug  8 14:34:40.977 2013] 0.006 sec [ext/2/ext 19 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spin*
+[Thu Aug  8 14:34:41.084 2013] 0.005 sec [ext/2/rel 26 (0,4)] [landmark_destination_core,landmark_destination_delta] *spin*
+[Thu Aug  8 14:34:41.137 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spin*
+[Thu Aug  8 14:34:41.152 2013] 0.011 sec [ext/2/rel 35 (0,4)] [active_property_list_core,active_property_list_delta] *spin*
+[Thu Aug  8 14:34:41.418 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sping*
+[Thu Aug  8 14:34:41.434 2013] 0.010 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *sping*
+[Thu Aug  8 14:34:41.437 2013] 0.001 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sping*
+[Thu Aug  8 14:34:41.455 2013] 0.015 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *sping*
+[Thu Aug  8 14:34:43.103 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spingf*
+[Thu Aug  8 14:34:43.125 2013] 0.019 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *spingf*
+[Thu Aug  8 14:34:43.128 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spingf*
+[Thu Aug  8 14:34:43.142 2013] 0.012 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spingf*
+[Thu Aug  8 14:34:44.556 2013] 0.008 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spingfi*
+[Thu Aug  8 14:34:44.561 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *spingfi*
+[Thu Aug  8 14:34:44.566 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spingfi*
+[Thu Aug  8 14:34:44.575 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spingfi*
+[Thu Aug  8 14:34:45.107 2013] 0.023 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spingfie*
+[Thu Aug  8 14:34:45.113 2013] 0.001 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *spingfie*
+[Thu Aug  8 14:34:45.119 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spingfie*
+[Thu Aug  8 14:34:45.130 2013] 0.005 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spingfie*
+[Thu Aug  8 14:34:45.351 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spingfiel*
+[Thu Aug  8 14:34:45.357 2013] 0.002 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *spingfiel*
+[Thu Aug  8 14:34:45.363 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spingfiel*
+[Thu Aug  8 14:34:45.369 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spingfiel*
+[Thu Aug  8 14:34:46.290 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spingfield*
+[Thu Aug  8 14:34:46.294 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *spingfield*
+[Thu Aug  8 14:34:46.302 2013] 0.001 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spingfield*
+[Thu Aug  8 14:34:46.308 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spingfield*
+[Thu Aug  8 14:34:52.245 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:34:52.258 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:34:52.269 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:34:52.279 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:34:57.821 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:34:57.829 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:34:57.840 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:34:57.847 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:34:58.145 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:34:58.157 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:34:58.166 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:34:58.176 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:34:58.264 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:34:58.270 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:34:58.276 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:34:58.280 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:34:58.657 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:34:58.671 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:34:58.681 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:34:58.692 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:35:21.515 2013] 0.004 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:35:21.529 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:35:21.539 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:35:21.554 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:35:21.898 2013] 0.028 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:35:21.918 2013] 0.012 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:35:21.927 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:35:21.955 2013] 0.019 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:35:22.138 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:35:22.147 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:35:22.153 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:35:22.161 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:35:22.205 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:35:22.212 2013] 0.002 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:35:22.218 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:35:22.225 2013] 0.003 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:35:23.652 2013] 0.004 sec [ext/2/ext 30 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring* *f*
+[Thu Aug  8 14:35:23.778 2013] 0.009 sec [ext/2/rel 279 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring* *f*
+[Thu Aug  8 14:35:23.868 2013] 0.001 sec [ext/2/rel 3 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring* *f*
+[Thu Aug  8 14:35:23.895 2013] 0.007 sec [ext/2/rel 178 (0,4)] [active_property_list_core,active_property_list_delta] *spring* *f*
+[Thu Aug  8 14:35:24.049 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring* *fi*
+[Thu Aug  8 14:35:24.057 2013] 0.002 sec [ext/2/rel 12 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring* *fi*
+[Thu Aug  8 14:35:24.163 2013] 0.001 sec [ext/2/rel 2 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring* *fi*
+[Thu Aug  8 14:35:24.184 2013] 0.001 sec [ext/2/rel 4 (0,4)] [active_property_list_core,active_property_list_delta] *spring* *fi*
+[Thu Aug  8 14:35:24.406 2013] 0.041 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring* *fie*
+[Thu Aug  8 14:35:24.411 2013] 0.001 sec [ext/2/rel 5 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring* *fie*
+[Thu Aug  8 14:35:24.497 2013] 0.001 sec [ext/2/rel 2 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring* *fie*
+[Thu Aug  8 14:35:24.508 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spring* *fie*
+[Thu Aug  8 14:35:24.608 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring* *fiel*
+[Thu Aug  8 14:35:24.614 2013] 0.001 sec [ext/2/rel 5 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring* *fiel*
+[Thu Aug  8 14:35:24.630 2013] 0.001 sec [ext/2/rel 2 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring* *fiel*
+[Thu Aug  8 14:35:24.636 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spring* *fiel*
+[Thu Aug  8 14:35:26.906 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring* *field*
+[Thu Aug  8 14:35:26.911 2013] 0.001 sec [ext/2/rel 5 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring* *field*
+[Thu Aug  8 14:35:26.925 2013] 0.001 sec [ext/2/rel 2 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring* *field*
+[Thu Aug  8 14:35:26.932 2013] 0.001 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *spring* *field*
+[Thu Aug  8 14:35:31.538 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:35:31.550 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:35:31.561 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:35:31.569 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:35:56.218 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:35:56.232 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:35:56.243 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:35:56.256 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:35:56.515 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:35:56.523 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:35:56.531 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:35:56.538 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:35:56.650 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:35:56.658 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:35:56.663 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:35:56.671 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:35:56.826 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:35:56.834 2013] 0.003 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:35:56.841 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:35:56.849 2013] 0.002 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:35:57.932 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:35:57.943 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:35:57.952 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:35:57.959 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:35:58.143 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:35:58.148 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:35:58.157 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:35:58.163 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:35:58.572 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:35:58.584 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:35:58.595 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:35:58.603 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:35:58.857 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:35:59.003 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:35:59.012 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:35:59.020 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:35:59.085 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:35:59.090 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:35:59.096 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:35:59.101 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:36:04.392 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*\\
+[Thu Aug  8 14:36:04.403 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*\\
+[Thu Aug  8 14:36:04.415 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*\\
+[Thu Aug  8 14:36:04.426 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*\\
+[Thu Aug  8 14:36:08.868 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*\\
+[Thu Aug  8 14:36:08.879 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*\\
+[Thu Aug  8 14:36:08.890 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*\\
+[Thu Aug  8 14:36:08.900 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*\\
+[Thu Aug  8 14:37:38.265 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:37:38.279 2013] 0.007 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:37:38.291 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:37:38.310 2013] 0.011 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:37:38.552 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:37:38.561 2013] 0.003 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:37:38.567 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:37:38.573 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:37:38.633 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:37:38.640 2013] 0.003 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:37:38.648 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:37:38.656 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:37:38.814 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:37:38.822 2013] 0.003 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:37:38.829 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:37:38.836 2013] 0.002 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:37:40.781 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:37:40.792 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:37:40.802 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:37:40.811 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:37:41.024 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:37:41.029 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:37:41.035 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:37:41.039 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:37:41.570 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:37:41.581 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:37:41.593 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:37:41.601 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:37:41.878 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:37:41.889 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:37:41.899 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:37:41.907 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:37:42.136 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:37:42.143 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:37:42.151 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:37:42.155 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:38:18.452 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:38:18.465 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:38:18.477 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:38:18.490 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:38:18.755 2013] 0.005 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:38:18.772 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:38:18.783 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:38:18.797 2013] 0.006 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:38:18.871 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:38:18.880 2013] 0.003 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:38:18.886 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:38:18.894 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:38:19.092 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:38:19.099 2013] 0.003 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:38:19.106 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:38:19.112 2013] 0.002 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:38:20.420 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:38:20.426 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:38:20.432 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:38:20.437 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:38:20.641 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:38:20.649 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:38:20.656 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:38:20.662 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:38:20.998 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:38:21.004 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:38:21.011 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:38:21.020 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:38:21.201 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:38:21.208 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:38:21.214 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:38:21.219 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:38:21.489 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:38:21.498 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:38:21.506 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:38:21.514 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:44:07.529 2013] 0.002 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:44:07.612 2013] 0.003 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:44:07.757 2013] 0.000 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:44:07.779 2013] 0.002 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:44:07.934 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:44:07.943 2013] 0.003 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:44:07.949 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:44:07.955 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:44:07.999 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:44:08.007 2013] 0.003 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:44:08.013 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:44:08.021 2013] 0.002 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:44:08.511 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:44:08.520 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:44:08.530 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:44:08.540 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:44:08.745 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:44:08.754 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:44:08.760 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:44:08.765 2013] 0.000 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:44:09.358 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:44:09.368 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:44:09.377 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:44:09.388 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:44:09.565 2013] 0.000 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:44:09.571 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:44:09.579 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:44:09.585 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:44:09.769 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:44:09.777 2013] 0.001 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:44:09.785 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:44:09.794 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:46:53.520 2013] 0.001 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:46:53.581 2013] 0.002 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:46:53.705 2013] 0.000 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:46:53.723 2013] 0.002 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:46:53.849 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:46:53.855 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:46:53.861 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:46:53.868 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:46:53.905 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:46:53.911 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:46:53.917 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:46:53.923 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:46:53.960 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:46:53.966 2013] 0.002 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:46:53.972 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:46:53.978 2013] 0.002 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:46:54.395 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:46:54.403 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:46:54.412 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:46:54.419 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:46:54.610 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:46:54.618 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:46:54.627 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:46:54.634 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:46:55.020 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:46:55.028 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:46:55.037 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:46:55.044 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:46:55.179 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:46:55.187 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:46:55.196 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:46:55.203 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:46:55.512 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:46:55.521 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:46:55.530 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:46:55.538 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:48:27.336 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:48:27.348 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:48:27.357 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:48:27.368 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:48:27.631 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:48:27.642 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:48:27.650 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:48:27.663 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:48:27.831 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:48:27.842 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:48:27.851 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:48:27.862 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:48:27.932 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:48:27.943 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:48:27.952 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:48:27.963 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:48:29.027 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:48:29.035 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:48:29.044 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:48:29.051 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:48:29.300 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:48:29.308 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:48:29.317 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:48:29.325 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:48:29.700 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:48:29.796 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:48:29.806 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:48:29.813 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:48:29.883 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:48:29.891 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:48:29.900 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:48:29.907 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:48:30.114 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:48:30.122 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:48:30.131 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:48:30.138 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:50:13.281 2013] 0.000 sec [ext/2/ext 75 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spe*
+[Thu Aug  8 14:50:13.369 2013] 0.002 sec [ext/2/rel 1029 (0,4)] [landmark_destination_core,landmark_destination_delta] *spe*
+[Thu Aug  8 14:50:13.420 2013] 0.000 sec [ext/2/rel 3 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spe*
+[Thu Aug  8 14:50:13.440 2013] 0.002 sec [ext/2/rel 513 (0,4)] [active_property_list_core,active_property_list_delta] *spe*
+[Thu Aug  8 14:50:14.036 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:50:14.047 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:50:14.056 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:50:14.067 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:50:15.549 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:50:15.561 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:50:15.569 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:50:15.580 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:50:15.716 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:50:15.727 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:50:15.736 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:50:15.746 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:50:15.816 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:50:15.827 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:50:15.836 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:50:15.847 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:50:16.717 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:50:16.725 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:50:16.734 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:50:16.741 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:50:16.969 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:50:16.978 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:50:16.986 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:50:16.993 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:50:17.232 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:50:17.240 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:50:17.249 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:50:17.257 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:50:17.430 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:50:17.441 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:50:17.449 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:50:17.456 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:50:18.481 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:50:18.490 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:50:18.498 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:50:18.506 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:51:16.096 2013] 0.001 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:51:16.116 2013] 0.002 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:51:16.293 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:51:16.324 2013] 0.004 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:51:16.518 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:51:16.527 2013] 0.004 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:51:16.535 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:51:16.543 2013] 0.004 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:51:16.598 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:51:16.607 2013] 0.004 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:51:16.614 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:51:16.623 2013] 0.004 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:51:16.700 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:51:16.711 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:51:16.719 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:51:16.730 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:51:16.854 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:51:16.862 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:51:16.871 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:51:16.879 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:51:17.135 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:51:17.143 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:51:17.153 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:51:17.160 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:51:17.355 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:51:17.363 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:51:17.372 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:51:17.379 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:51:17.605 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:51:17.613 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:51:17.621 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:51:17.629 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:51:17.834 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:51:17.842 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:51:17.851 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:51:17.858 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 14:59:16.368 2013] 0.001 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 14:59:16.429 2013] 0.002 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 14:59:16.564 2013] 0.000 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 14:59:16.587 2013] 0.003 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 14:59:16.744 2013] 0.001 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 14:59:16.751 2013] 0.002 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 14:59:16.757 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 14:59:16.763 2013] 0.002 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 14:59:16.803 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:59:16.811 2013] 0.003 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 14:59:16.818 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 14:59:16.825 2013] 0.003 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 14:59:16.871 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 14:59:16.878 2013] 0.003 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 14:59:16.885 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 14:59:16.892 2013] 0.003 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 14:59:17.516 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 14:59:17.524 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 14:59:17.533 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 14:59:17.540 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 14:59:17.746 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:59:17.754 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 14:59:17.763 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 14:59:17.772 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 14:59:18.018 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:59:18.027 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 14:59:18.035 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 14:59:18.042 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 14:59:18.385 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:59:18.394 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 14:59:18.402 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 14:59:18.410 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 14:59:18.664 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:59:18.672 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 14:59:18.682 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 14:59:18.689 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:01:26.148 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:01:26.163 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:01:26.179 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:01:26.196 2013] 0.006 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:01:26.627 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:01:26.639 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:01:26.650 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:01:26.664 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:01:26.753 2013] 0.002 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:01:26.760 2013] 0.002 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:01:26.766 2013] 0.000 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:01:26.774 2013] 0.003 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:01:28.009 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:01:28.018 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:01:28.028 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:01:28.036 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:01:28.315 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:01:28.324 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:01:28.333 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:01:28.341 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:01:28.596 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:01:28.606 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:01:28.619 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:01:28.628 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:01:29.006 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:01:29.014 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:01:29.024 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:01:29.031 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:01:29.255 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:01:29.263 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:01:29.273 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:01:29.281 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:04:40.608 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:04:40.620 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:04:40.633 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:04:40.645 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:04:40.864 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 15:04:40.877 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 15:04:40.887 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 15:04:40.898 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 15:04:41.063 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:04:41.075 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:04:41.084 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:04:41.095 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:04:41.255 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:04:41.271 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:04:41.280 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:04:41.291 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:04:41.678 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:04:41.692 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:04:41.703 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:04:41.711 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:04:41.892 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:04:41.904 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:04:41.913 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:04:41.921 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:04:42.191 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:04:42.199 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:04:42.208 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:04:42.218 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:04:42.461 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:04:42.469 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:04:42.478 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:04:42.485 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:04:42.715 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:04:42.723 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:04:42.732 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:04:42.740 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:05:14.975 2013] 0.004 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:05:14.987 2013] 0.006 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:05:14.997 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:05:15.008 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:05:15.220 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 15:05:15.233 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 15:05:15.241 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 15:05:15.252 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 15:05:15.414 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:05:15.426 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:05:15.435 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:05:15.446 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:05:15.595 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:05:15.607 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:05:15.616 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:05:15.627 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:05:17.230 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:05:17.239 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:05:17.248 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:05:17.255 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:05:17.414 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:05:17.422 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:05:17.432 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:05:17.439 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:05:17.943 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:05:17.952 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:05:17.963 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:05:17.971 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:05:18.291 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:05:18.300 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:05:18.308 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:05:18.315 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:05:19.156 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:05:19.165 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:05:19.173 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:05:19.182 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:06:07.856 2013] 0.004 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:06:07.870 2013] 0.006 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:06:07.881 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:06:07.893 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:06:08.085 2013] 0.004 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 15:06:08.098 2013] 0.006 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 15:06:08.110 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 15:06:08.122 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 15:06:08.292 2013] 0.004 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:06:08.310 2013] 0.008 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:06:08.325 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:06:08.339 2013] 0.007 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:06:08.512 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:06:08.525 2013] 0.006 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:06:08.534 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:06:08.548 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:06:09.221 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:06:09.316 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:06:09.330 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:06:09.339 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:06:09.502 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:06:09.511 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:06:09.521 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:06:09.529 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:06:09.728 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:06:09.737 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:06:09.747 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:06:09.758 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:06:09.913 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:06:09.922 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:06:09.931 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:06:09.939 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:06:10.115 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:06:10.127 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:06:10.136 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:06:10.145 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:06:56.714 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:06:56.726 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:06:56.736 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:06:56.748 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:06:57.013 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 15:06:57.026 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 15:06:57.036 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 15:06:57.047 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 15:06:57.552 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:06:57.563 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:06:57.572 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:06:57.583 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:06:57.733 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:06:57.745 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:06:57.755 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:06:57.767 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:06:58.396 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:06:58.406 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:06:58.414 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:06:58.422 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:06:58.667 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:06:58.675 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:06:58.684 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:06:58.691 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:06:58.933 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:06:58.943 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:06:58.952 2013] 0.001 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:06:58.964 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:06:59.132 2013] 0.002 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:06:59.142 2013] 0.003 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:06:59.152 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:06:59.162 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:06:59.346 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:06:59.355 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:06:59.365 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:06:59.375 2013] 0.002 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:07:26.940 2013] 0.003 sec [ext/2/ext 476 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spr*
+[Thu Aug  8 15:07:26.952 2013] 0.005 sec [ext/2/rel 1351 (0,4)] [landmark_destination_core,landmark_destination_delta] *spr*
+[Thu Aug  8 15:07:26.961 2013] 0.001 sec [ext/2/rel 22 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spr*
+[Thu Aug  8 15:07:26.973 2013] 0.005 sec [ext/2/rel 1429 (0,4)] [active_property_list_core,active_property_list_delta] *spr*
+[Thu Aug  8 15:07:27.171 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spri*
+[Thu Aug  8 15:07:27.182 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *spri*
+[Thu Aug  8 15:07:27.194 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spri*
+[Thu Aug  8 15:07:27.207 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *spri*
+[Thu Aug  8 15:07:27.378 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:07:27.389 2013] 0.005 sec [ext/2/rel 1311 (0,4)] [landmark_destination_core,landmark_destination_delta] *sprin*
+[Thu Aug  8 15:07:27.404 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *sprin*
+[Thu Aug  8 15:07:27.416 2013] 0.005 sec [ext/2/rel 1376 (0,4)] [active_property_list_core,active_property_list_delta] *sprin*
+[Thu Aug  8 15:07:27.565 2013] 0.003 sec [ext/2/ext 442 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *spring*
+[Thu Aug  8 15:07:27.577 2013] 0.005 sec [ext/2/rel 1309 (0,4)] [landmark_destination_core,landmark_destination_delta] *spring*
+[Thu Aug  8 15:07:27.586 2013] 0.001 sec [ext/2/rel 21 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *spring*
+[Thu Aug  8 15:07:27.599 2013] 0.005 sec [ext/2/rel 1375 (0,4)] [active_property_list_core,active_property_list_delta] *spring*
+[Thu Aug  8 15:07:28.204 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springf*
+[Thu Aug  8 15:07:28.215 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springf*
+[Thu Aug  8 15:07:28.224 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springf*
+[Thu Aug  8 15:07:28.231 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springf*
+[Thu Aug  8 15:07:28.412 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:07:28.420 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfi*
+[Thu Aug  8 15:07:28.429 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfi*
+[Thu Aug  8 15:07:28.436 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfi*
+[Thu Aug  8 15:07:29.211 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:07:29.220 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfie*
+[Thu Aug  8 15:07:29.228 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfie*
+[Thu Aug  8 15:07:29.236 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfie*
+[Thu Aug  8 15:07:29.345 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:07:29.353 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfiel*
+[Thu Aug  8 15:07:29.362 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfiel*
+[Thu Aug  8 15:07:29.369 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfiel*
+[Thu Aug  8 15:07:29.529 2013] 0.001 sec [ext/2/ext 49 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:07:29.537 2013] 0.002 sec [ext/2/rel 215 (0,4)] [landmark_destination_core,landmark_destination_delta] *springfield*
+[Thu Aug  8 15:07:29.547 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *springfield*
+[Thu Aug  8 15:07:29.556 2013] 0.001 sec [ext/2/rel 159 (0,4)] [active_property_list_core,active_property_list_delta] *springfield*
+[Thu Aug  8 15:12:26.983 2013] 0.012 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 15:12:27.002 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 15:12:27.012 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 15:12:27.028 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 15:12:33.617 2013] 0.008 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Thu Aug  8 15:12:33.634 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Thu Aug  8 15:12:33.644 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Thu Aug  8 15:12:33.656 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Thu Aug  8 15:12:34.113 2013] 0.007 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 15:12:34.131 2013] 0.010 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Thu Aug  8 15:12:34.140 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 15:12:34.152 2013] 0.005 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Thu Aug  8 15:12:34.380 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 15:12:34.397 2013] 0.010 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Thu Aug  8 15:12:34.406 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 15:12:34.418 2013] 0.006 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Thu Aug  8 15:12:34.695 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Thu Aug  8 15:12:34.713 2013] 0.011 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Thu Aug  8 15:12:34.723 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Thu Aug  8 15:12:34.737 2013] 0.006 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Thu Aug  8 15:12:46.432 2013] 0.027 sec [ext/2/ext 194 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dal*
+[Thu Aug  8 15:12:46.534 2013] 0.007 sec [ext/2/rel 834 (0,4)] [landmark_destination_core,landmark_destination_delta] *dal*
+[Thu Aug  8 15:12:46.618 2013] 0.001 sec [ext/2/rel 12 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dal*
+[Thu Aug  8 15:12:46.663 2013] 0.013 sec [ext/2/rel 648 (0,4)] [active_property_list_core,active_property_list_delta] *dal*
+[Thu Aug  8 15:12:46.790 2013] 0.013 sec [ext/2/ext 18 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dala*
+[Thu Aug  8 15:12:46.892 2013] 0.008 sec [ext/2/rel 110 (0,4)] [landmark_destination_core,landmark_destination_delta] *dala*
+[Thu Aug  8 15:12:46.923 2013] 0.001 sec [ext/2/rel 2 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dala*
+[Thu Aug  8 15:12:46.959 2013] 0.003 sec [ext/2/rel 25 (0,4)] [active_property_list_core,active_property_list_delta] *dala*
+[Thu Aug  8 15:12:47.071 2013] 0.013 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dalas*
+[Thu Aug  8 15:12:47.083 2013] 0.008 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *dalas*
+[Thu Aug  8 15:12:47.087 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dalas*
+[Thu Aug  8 15:12:47.103 2013] 0.013 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *dalas*
+[Thu Aug  8 15:12:49.985 2013] 0.001 sec [ext/2/ext 57 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dall*
+[Thu Aug  8 15:12:50.044 2013] 0.003 sec [ext/2/rel 358 (0,4)] [landmark_destination_core,landmark_destination_delta] *dall*
+[Thu Aug  8 15:12:50.097 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dall*
+[Thu Aug  8 15:12:50.113 2013] 0.010 sec [ext/2/rel 325 (0,4)] [active_property_list_core,active_property_list_delta] *dall*
+[Thu Aug  8 15:12:51.576 2013] 0.001 sec [ext/2/ext 48 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dalla*
+[Thu Aug  8 15:12:51.594 2013] 0.011 sec [ext/2/rel 348 (0,4)] [landmark_destination_core,landmark_destination_delta] *dalla*
+[Thu Aug  8 15:12:51.603 2013] 0.001 sec [ext/2/rel 5 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dalla*
+[Thu Aug  8 15:12:51.615 2013] 0.002 sec [ext/2/rel 315 (0,4)] [active_property_list_core,active_property_list_delta] *dalla*
+[Thu Aug  8 15:12:51.762 2013] 0.011 sec [ext/2/ext 48 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dallas*
+[Thu Aug  8 15:12:51.779 2013] 0.011 sec [ext/2/rel 348 (0,4)] [landmark_destination_core,landmark_destination_delta] *dallas*
+[Thu Aug  8 15:12:51.798 2013] 0.001 sec [ext/2/rel 5 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dallas*
+[Thu Aug  8 15:12:51.815 2013] 0.008 sec [ext/2/rel 311 (0,4)] [active_property_list_core,active_property_list_delta] *dallas*
+[Thu Aug  8 15:14:02.989 2013] 0.015 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dalass*
+[Thu Aug  8 15:14:03.005 2013] 0.011 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *dalass*
+[Thu Aug  8 15:14:03.009 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dalass*
+[Thu Aug  8 15:14:03.014 2013] 0.002 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *dalass*
+[Thu Aug  8 15:14:05.324 2013] 0.001 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dallass*
+[Thu Aug  8 15:14:05.328 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *dallass*
+[Thu Aug  8 15:14:05.334 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dallass*
+[Thu Aug  8 15:14:05.340 2013] 0.001 sec [ext/2/rel 1 (0,4)] [active_property_list_core,active_property_list_delta] *dallass*
+[Thu Aug  8 16:16:00.578 2013] 0.001 sec [ext/2/ext 194 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dal*
+[Thu Aug  8 16:16:00.592 2013] 0.002 sec [ext/2/rel 834 (0,4)] [landmark_destination_core,landmark_destination_delta] *dal*
+[Thu Aug  8 16:16:00.727 2013] 0.000 sec [ext/2/rel 12 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dal*
+[Thu Aug  8 16:16:00.745 2013] 0.001 sec [ext/2/rel 648 (0,4)] [active_property_list_core,active_property_list_delta] *dal*
+[Thu Aug  8 16:16:02.138 2013] 0.002 sec [ext/2/ext 57 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dall*
+[Thu Aug  8 16:16:02.153 2013] 0.004 sec [ext/2/rel 358 (0,4)] [landmark_destination_core,landmark_destination_delta] *dall*
+[Thu Aug  8 16:16:02.164 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dall*
+[Thu Aug  8 16:16:02.175 2013] 0.002 sec [ext/2/rel 325 (0,4)] [active_property_list_core,active_property_list_delta] *dall*
+[Thu Aug  8 16:16:02.731 2013] 0.001 sec [ext/2/ext 48 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dallas*
+[Thu Aug  8 16:16:02.740 2013] 0.003 sec [ext/2/rel 348 (0,4)] [landmark_destination_core,landmark_destination_delta] *dallas*
+[Thu Aug  8 16:16:02.749 2013] 0.000 sec [ext/2/rel 5 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dallas*
+[Thu Aug  8 16:16:02.763 2013] 0.006 sec [ext/2/rel 311 (0,4)] [active_property_list_core,active_property_list_delta] *dallas*
+[Thu Aug  8 16:16:30.619 2013] 0.000 sec [ext/2/ext 48 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *dalla*
+[Thu Aug  8 16:16:30.625 2013] 0.001 sec [ext/2/rel 348 (0,4)] [landmark_destination_core,landmark_destination_delta] *dalla*
+[Thu Aug  8 16:16:30.633 2013] 0.000 sec [ext/2/rel 5 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *dalla*
+[Thu Aug  8 16:16:30.638 2013] 0.001 sec [ext/2/rel 315 (0,4)] [active_property_list_core,active_property_list_delta] *dalla*
+[Thu Aug  8 16:16:32.323 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *texz*
+[Thu Aug  8 16:16:32.327 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *texz*
+[Thu Aug  8 16:16:32.334 2013] 0.002 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *texz*
+[Thu Aug  8 16:16:32.338 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *texz*
+[Thu Aug  8 16:16:33.078 2013] 0.006 sec [ext/2/ext 1219 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *tex*
+[Thu Aug  8 16:16:33.178 2013] 0.006 sec [ext/2/rel 2267 (0,4)] [landmark_destination_core,landmark_destination_delta] *tex*
+[Thu Aug  8 16:16:33.237 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *tex*
+[Thu Aug  8 16:16:33.271 2013] 0.005 sec [ext/2/rel 3454 (0,4)] [active_property_list_core,active_property_list_delta] *tex*
+[Thu Aug  8 16:16:34.337 2013] 0.006 sec [ext/2/ext 1216 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *texa*
+[Thu Aug  8 16:16:34.387 2013] 0.028 sec [ext/2/rel 2245 (0,4)] [landmark_destination_core,landmark_destination_delta] *texa*
+[Thu Aug  8 16:16:34.417 2013] 0.001 sec [ext/2/rel 5 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *texa*
+[Thu Aug  8 16:16:34.429 2013] 0.005 sec [ext/2/rel 3445 (0,4)] [active_property_list_core,active_property_list_delta] *texa*
+[Thu Aug  8 16:16:37.181 2013] 0.003 sec [ext/2/ext 1213 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *texas*
+[Thu Aug  8 16:16:37.262 2013] 0.015 sec [ext/2/rel 2238 (0,4)] [landmark_destination_core,landmark_destination_delta] *texas*
+[Thu Aug  8 16:16:37.285 2013] 0.000 sec [ext/2/rel 4 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *texas*
+[Thu Aug  8 16:16:37.303 2013] 0.014 sec [ext/2/rel 3435 (0,4)] [active_property_list_core,active_property_list_delta] *texas*
+[Thu Aug  8 16:40:24.233 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 16:40:24.253 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 16:40:24.262 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 16:40:24.364 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 16:40:24.488 2013] 0.012 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 16:40:24.509 2013] 0.014 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 16:40:24.521 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 16:40:24.536 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 16:40:24.959 2013] 0.004 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Thu Aug  8 16:40:24.968 2013] 0.005 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Thu Aug  8 16:40:24.974 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Thu Aug  8 16:40:24.981 2013] 0.003 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Thu Aug  8 16:40:25.053 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 16:40:25.063 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Thu Aug  8 16:40:25.068 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 16:40:25.075 2013] 0.002 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Thu Aug  8 16:40:25.358 2013] 0.005 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 16:40:25.371 2013] 0.008 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Thu Aug  8 16:40:25.378 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 16:40:25.389 2013] 0.004 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Thu Aug  8 16:40:25.594 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Thu Aug  8 16:40:25.604 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Thu Aug  8 16:40:25.609 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Thu Aug  8 16:40:25.616 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Thu Aug  8 17:26:37.847 2013] 0.014 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 17:26:37.870 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 17:26:37.883 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 17:26:37.901 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 17:26:38.048 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Thu Aug  8 17:26:38.068 2013] 0.012 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Thu Aug  8 17:26:38.075 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Thu Aug  8 17:26:38.084 2013] 0.005 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Thu Aug  8 17:26:39.083 2013] 0.004 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Thu Aug  8 17:26:39.095 2013] 0.005 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Thu Aug  8 17:26:39.101 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Thu Aug  8 17:26:39.110 2013] 0.003 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Thu Aug  8 17:26:39.277 2013] 0.005 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 17:26:39.291 2013] 0.007 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Thu Aug  8 17:26:39.300 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Thu Aug  8 17:26:39.309 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Thu Aug  8 17:26:39.855 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 17:26:39.866 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Thu Aug  8 17:26:39.873 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Thu Aug  8 17:26:39.881 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Thu Aug  8 17:26:40.029 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Thu Aug  8 17:26:40.039 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Thu Aug  8 17:26:40.046 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Thu Aug  8 17:26:40.054 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Fri Aug  9 09:18:25.417 2013] 0.041 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 09:18:25.482 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 09:18:25.655 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 09:18:25.675 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 09:18:37.126 2013] 0.012 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 09:18:37.147 2013] 0.015 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 09:18:37.160 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 09:18:37.176 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 09:20:45.904 2013] 0.008 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Fri Aug  9 09:20:45.922 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Fri Aug  9 09:20:45.934 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Fri Aug  9 09:20:45.947 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Fri Aug  9 09:20:46.345 2013] 0.008 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 09:20:46.362 2013] 0.011 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Fri Aug  9 09:20:46.371 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 09:20:46.383 2013] 0.006 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Fri Aug  9 09:20:46.658 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 09:20:46.674 2013] 0.010 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Fri Aug  9 09:20:46.683 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 09:20:46.695 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Fri Aug  9 09:20:46.886 2013] 0.008 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Fri Aug  9 09:20:46.903 2013] 0.011 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Fri Aug  9 09:20:46.912 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Fri Aug  9 09:20:46.924 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Fri Aug  9 11:56:48.511 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 11:56:48.529 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 11:56:48.558 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 11:56:48.579 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 11:56:48.709 2013] 0.010 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 11:56:48.724 2013] 0.010 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 11:56:48.731 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 11:56:48.743 2013] 0.007 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 11:56:49.161 2013] 0.007 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Fri Aug  9 11:56:49.180 2013] 0.011 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Fri Aug  9 11:56:49.189 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Fri Aug  9 11:56:49.200 2013] 0.006 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Fri Aug  9 11:56:49.386 2013] 0.007 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 11:56:49.403 2013] 0.010 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Fri Aug  9 11:56:49.413 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 11:56:49.424 2013] 0.005 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Fri Aug  9 11:56:49.883 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 11:56:49.899 2013] 0.010 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Fri Aug  9 11:56:49.908 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 11:56:49.920 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Fri Aug  9 11:56:50.459 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yorh*
+[Fri Aug  9 11:56:50.462 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yorh*
+[Fri Aug  9 11:56:50.465 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yorh*
+[Fri Aug  9 11:56:50.468 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yorh*
+[Fri Aug  9 11:56:52.036 2013] 0.009 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Fri Aug  9 11:56:52.054 2013] 0.010 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Fri Aug  9 11:56:52.064 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Fri Aug  9 11:56:52.075 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Fri Aug  9 14:45:09.135 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 14:45:09.154 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 14:45:09.261 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 14:45:09.290 2013] 0.006 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 14:45:09.479 2013] 0.005 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Fri Aug  9 14:45:09.492 2013] 0.007 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Fri Aug  9 14:45:09.499 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Fri Aug  9 14:45:09.507 2013] 0.004 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Fri Aug  9 14:45:09.604 2013] 0.008 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 14:45:09.618 2013] 0.008 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 14:45:09.626 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 14:45:09.638 2013] 0.006 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 14:45:10.010 2013] 0.004 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 14:45:10.021 2013] 0.006 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Fri Aug  9 14:45:10.028 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 14:45:10.038 2013] 0.005 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Fri Aug  9 14:45:10.314 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 14:45:10.324 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Fri Aug  9 14:45:10.329 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 14:45:10.337 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Fri Aug  9 14:45:10.550 2013] 0.004 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Fri Aug  9 14:45:10.561 2013] 0.006 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Fri Aug  9 14:45:10.568 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Fri Aug  9 14:45:10.576 2013] 0.003 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Fri Aug  9 16:12:54.231 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 16:12:54.250 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 16:12:54.344 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 16:12:54.409 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 16:12:54.510 2013] 0.006 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Fri Aug  9 16:12:54.523 2013] 0.006 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Fri Aug  9 16:12:54.529 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Fri Aug  9 16:12:54.537 2013] 0.004 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Fri Aug  9 16:12:54.709 2013] 0.004 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Fri Aug  9 16:12:54.720 2013] 0.005 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Fri Aug  9 16:12:54.725 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Fri Aug  9 16:12:54.732 2013] 0.003 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Fri Aug  9 16:12:54.906 2013] 0.003 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 16:12:54.915 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Fri Aug  9 16:12:54.921 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Fri Aug  9 16:12:54.928 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Fri Aug  9 16:12:55.203 2013] 0.006 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 16:12:55.219 2013] 0.008 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Fri Aug  9 16:12:55.227 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Fri Aug  9 16:12:55.237 2013] 0.004 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Fri Aug  9 16:12:55.484 2013] 0.006 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Fri Aug  9 16:12:55.498 2013] 0.008 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Fri Aug  9 16:12:55.507 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Fri Aug  9 16:12:55.518 2013] 0.004 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Mon Aug 12 14:03:30.268 2013] 0.079 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Mon Aug 12 14:03:30.399 2013] 0.034 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Mon Aug 12 14:03:30.636 2013] 0.024 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Mon Aug 12 14:03:30.697 2013] 0.030 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Mon Aug 12 14:03:31.075 2013] 0.014 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Mon Aug 12 14:03:31.143 2013] 0.034 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Mon Aug 12 14:03:31.171 2013] 0.001 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Mon Aug 12 14:03:31.224 2013] 0.030 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Mon Aug 12 14:03:31.363 2013] 0.051 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Mon Aug 12 14:03:31.419 2013] 0.050 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Mon Aug 12 14:03:31.452 2013] 0.024 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Mon Aug 12 14:03:31.488 2013] 0.030 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Mon Aug 12 14:03:31.591 2013] 0.013 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Mon Aug 12 14:03:31.649 2013] 0.025 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Mon Aug 12 14:03:31.658 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Mon Aug 12 14:03:31.679 2013] 0.016 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Mon Aug 12 14:03:31.856 2013] 0.013 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Mon Aug 12 14:03:31.887 2013] 0.024 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Mon Aug 12 14:03:31.897 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Mon Aug 12 14:03:31.923 2013] 0.020 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*
+[Mon Aug 12 14:03:32.040 2013] 0.023 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Mon Aug 12 14:03:32.061 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Mon Aug 12 14:03:32.072 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Mon Aug 12 14:03:32.089 2013] 0.009 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug 13 10:20:30.280 2013] 0.036 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjh*
+[Tue Aug 13 10:20:30.283 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjh*
+[Tue Aug 13 10:20:30.285 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjh*
+[Tue Aug 13 10:20:30.287 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjh*
+[Tue Aug 13 10:20:30.401 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjhf*
+[Tue Aug 13 10:20:30.406 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjhf*
+[Tue Aug 13 10:20:30.409 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjhf*
+[Tue Aug 13 10:20:30.412 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjhf*
+[Tue Aug 13 10:20:30.429 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjhfh*
+[Tue Aug 13 10:20:30.432 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjhfh*
+[Tue Aug 13 10:20:30.435 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjhfh*
+[Tue Aug 13 10:20:30.438 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjhfh*
+[Tue Aug 13 10:20:30.456 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjhfhj*
+[Tue Aug 13 10:20:30.459 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjhfhj*
+[Tue Aug 13 10:20:30.463 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjhfhj*
+[Tue Aug 13 10:20:30.466 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjhfhj*
+[Tue Aug 13 10:20:30.484 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjhfhjhj*
+[Tue Aug 13 10:20:30.487 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjhfhjhj*
+[Tue Aug 13 10:20:30.491 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjhfhjhj*
+[Tue Aug 13 10:20:30.494 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjhfhjhj*
+[Tue Aug 13 10:20:30.870 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgjhfhjh*
+[Tue Aug 13 10:20:30.876 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgjhfhjh*
+[Tue Aug 13 10:20:30.882 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgjhfhjh*
+[Tue Aug 13 10:20:30.888 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgjhfhjh*
+[Tue Aug 13 10:20:31.552 2013] 0.000 sec [ext/2/ext 0 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *fgj*
+[Tue Aug 13 10:20:31.559 2013] 0.000 sec [ext/2/rel 0 (0,4)] [landmark_destination_core,landmark_destination_delta] *fgj*
+[Tue Aug 13 10:20:31.563 2013] 0.000 sec [ext/2/rel 0 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *fgj*
+[Tue Aug 13 10:20:31.568 2013] 0.000 sec [ext/2/rel 0 (0,4)] [active_property_list_core,active_property_list_delta] *fgj*
+[Tue Aug 13 10:22:00.285 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug 13 10:22:00.408 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug 13 10:22:00.551 2013] 0.000 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug 13 10:22:00.574 2013] 0.005 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug 13 10:57:31.093 2013] 0.013 sec [ext/2/ext 5659 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new*
+[Tue Aug 13 10:57:31.117 2013] 0.013 sec [ext/2/rel 9045 (0,4)] [landmark_destination_core,landmark_destination_delta] *new*
+[Tue Aug 13 10:57:31.128 2013] 0.001 sec [ext/2/rel 251 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new*
+[Tue Aug 13 10:57:31.144 2013] 0.010 sec [ext/2/rel 6500 (0,4)] [active_property_list_core,active_property_list_delta] *new*
+[Tue Aug 13 10:57:31.707 2013] 0.004 sec [ext/2/ext 1387 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *y*
+[Tue Aug 13 10:57:31.719 2013] 0.005 sec [ext/2/rel 3191 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *y*
+[Tue Aug 13 10:57:31.725 2013] 0.000 sec [ext/2/rel 7 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *y*
+[Tue Aug 13 10:57:31.732 2013] 0.003 sec [ext/2/rel 1590 (0,4)] [active_property_list_core,active_property_list_delta] *new* *y*
+[Tue Aug 13 10:57:31.916 2013] 0.003 sec [ext/2/ext 1368 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yo*
+[Tue Aug 13 10:57:31.927 2013] 0.005 sec [ext/2/rel 3088 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yo*
+[Tue Aug 13 10:57:31.933 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yo*
+[Tue Aug 13 10:57:31.947 2013] 0.003 sec [ext/2/rel 1539 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yo*
+[Tue Aug 13 10:57:32.297 2013] 0.007 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *yor*
+[Tue Aug 13 10:57:32.314 2013] 0.011 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *yor*
+[Tue Aug 13 10:57:32.326 2013] 0.001 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *yor*
+[Tue Aug 13 10:57:32.340 2013] 0.005 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *yor*
+[Tue Aug 13 10:57:32.519 2013] 0.003 sec [ext/2/ext 1364 (0,4)] [city_coordinates_list_core,city_coordinates_list_delta] *new* *york*
+[Tue Aug 13 10:57:32.531 2013] 0.005 sec [ext/2/rel 3081 (0,4)] [landmark_destination_core,landmark_destination_delta] *new* *york*
+[Tue Aug 13 10:57:32.537 2013] 0.000 sec [ext/2/rel 6 (0,4)] [airport_coordinates_list_core,airport_coordinates_list_delta] *new* *york*
+[Tue Aug 13 10:57:32.547 2013] 0.002 sec [ext/2/rel 1536 (0,4)] [active_property_list_core,active_property_list_delta] *new* *york*

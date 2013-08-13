@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Destination: MyText
+  DestinationID: 1
+  CenterLongitude: 1.5
+  CenterLatitude: 1.5
+  StateProvince: MyString
+  CountryList: MyString
+
+two:
+  Destination: MyText
+  DestinationID: 1
+  CenterLongitude: 1.5
+  CenterLatitude: 1.5
+  StateProvince: MyString
+  CountryList: MyString

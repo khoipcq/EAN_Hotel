@@ -1,0 +1,30 @@
+##=============================================================
+## KEY FOR APPS OF SOCIAL NETWORKS
+## Dev Account facebook:
+#login: facebook_dev@wayfarer.co
+#password: Hienchuoino1
+## Dev Account twitter:
+#login:
+#password: Hienchuoino1
+##=============================================================
+
+development:
+  facebook:
+#    "localhost:3000":
+    app: 'Hotelbooking-dev'
+    consumer_key: '149468791874118'
+    consumer_secret: '17ee26fda720e2b8d29543a1d636a11d'
+  twitter:
+    app: 'Hotelbooking-dev'
+    consumer_key: 'LOmp6eJKIipdyGtp4MCy6w'
+    consumer_secret: 'yDYwCmUCmwUtrneGFijTfsdjZfZN0Phxd0uFK4dzmw'
+production:
+  facebook:
+#   hoteldev-env-vinycwvkbm.elasticbeanstalk.com:
+    app: 'Hotelbooking-demo'
+    consumer_key: '457987064249637'
+    consumer_secret: '99d1d1b634c1f6eb0d03eebe162804d2'
+  twitter:
+    app: 'Hotelbooking-demo'
+    consumer_key: '9AxCS5MXZZUXwT1g0upwPQ'
+    consumer_secret: '86uMMfAwiakoXJq1HuHcxwGHYJYZ6TLxR5Zs79Ipo'

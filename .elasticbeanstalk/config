@@ -1,0 +1,13 @@
+[global]
+ApplicationName=hoteldevelopment
+AwsCredentialFile=/home/administrator/.elasticbeanstalk/aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
+EnvironmentName=hoteldev-env
+OptionSettingFile=/home/administrator/KhoiPCQ/Branch/EAN_0_1/.elasticbeanstalk/optionsettings.hoteldev-env
+RdsDeletionPolicy=Snapshot
+RdsEnabled=No
+RdsSourceSnapshotName=
+Region=us-east-1
+ServiceEndpoint=https://elasticbeanstalk.us-east-1.amazonaws.com
+SolutionStack=32bit Amazon Linux running Ruby 1.9.3
+

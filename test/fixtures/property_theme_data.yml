@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  PropertyID: 1
+  PropertyName: MyString
+  City: MyString
+  CountryCode: MyString
+  ThemeID: 1
+  ThemeName: MyString
+  Supplier: MyString
+  PropertyStatus: MyString
+
+two:
+  PropertyID: 1
+  PropertyName: MyString
+  City: MyString
+  CountryCode: MyString
+  ThemeID: 1
+  ThemeName: MyString
+  Supplier: MyString
+  PropertyStatus: MyString

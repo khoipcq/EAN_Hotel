@@ -1,0 +1,103 @@
+<div><%=t(".paging", size: @hotels.size)%></div>
+<div>From: <%= params["arrival_date"] %> To <%= params["departure_date"] %></div>
+
+<h1><%=t(".list_hotels")%></h1>
+
+<% if @hotels.size > 0 && params[:use_local] == 'false' %>
+    <table class='information-tbl'>
+      <tr>
+        <th><%=t(".no")%></th>
+        <th><%=t(".name")%></th>
+        <th><%=t(".address")%></th>
+        <th><%=t(".city")%></th>
+        <th><%=t(".link")%></th>
+        <th><%=t(".state_province_code")%></th>
+        <th><%=t(".country")%></th>
+        <th><%=t(".airport")%></th>
+        <th><%=t(".hotel_rating")%></th>
+        <th><%=t(".trip_advisor_rating")%></th>
+        <th><%=t(".location")%></th>
+        <th><%=t(".description")%></th>
+        <th><%=t(".high_rate")%></th>
+        <th><%=t(".low_rate")%></th>
+        <th><%=t(".currency")%></th>
+        <th><%=t(".distance_to_POI")%></th>
+        <th><%=t(".distance_unit")%></th>
+      </tr>
+    <% hotel_count = 1 %>
+    <% @hotels.each do |hotel| %>
+      <tr class="<%= (hotel_count % 2 == 0) ? 'even-row' : 'odd-row'%>">
+        <td class="right-text"><%= hotel_count %></td>
+        <td class="left-text">
+            <%= link_to raw(display_html(hotel["name"])), :controller => :hotels, :action => :show, :id => hotel["hotelId"], :hotel_link => hotel['deepLink'].html_safe %>
+        </td>
+        <td class="left-text"><%=h hotel["address1"] %></td>
+        <td class="left-text"><%=h hotel["city"] %></td>
+        <td class="left-text"><a href="<%= hotel['deepLink'].html_safe %>"><%=t(".go_to_hotel")%></a></td>
+        <td><%=h get_state_name(hotel["countryCode"], hotel["stateProvinceCode"]) %></td>
+        <td class="right-text"><%=h get_country_name(hotel["countryCode"]) %></td>
+        <td class="right-text"><%=h get_airport_description(hotel["airportCode"]) %></td>
+        <td class="right-text"><%=h hotel["hotelRating"] %></td>
+        <td class="right-text"><%=h hotel["tripAdvisorRating"] %></td>
+        <td><%=raw display_html(hotel["locationDescription"]) %></td>
+        <td><%=raw display_html(hotel["shortDescription"]) %></td>
+        <td class="right-text"><%=h hotel["highRate"] %></td>
+        <td class="right-text"><%=h hotel["lowRate"] %></td>
+        <td class="right-text"><%=h hotel["rateCurrencyCode"] %></td>
+        <td class="right-text"><%=h hotel["proximityDistance"] %></td>
+        <td class="right-text"><%=h hotel["proximityUnit"] %></td>
+      </tr>
+      <% hotel_count = hotel_count + 1 %>
+    <% end %>
+  </table>
+
+<% elsif @hotels.size > 0 && params[:use_local] == 'true' %>
+    <table class='information-tbl'>
+      <tr>
+        <th><%=t(".no")%></th>
+        <th><%=t(".name")%></th>
+        <th><%=t(".address")%></th>
+        <th><%=t(".city")%></th>
+        <th><%=t(".link")%></th>
+        <th><%=t(".state_province_code")%></th>
+        <th><%=t(".country")%></th>
+        <th><%=t(".airport")%></th>
+        <th><%=t(".hotel_rating")%></th>
+        <th><%=t(".trip_advisor_rating")%></th>
+        <th><%=t(".location")%></th>
+        <th><%=t(".description")%></th>
+        <th><%=t(".high_rate")%></th>
+        <th><%=t(".low_rate")%></th>
+        <th><%=t(".currency")%></th>
+      </tr>
+    <% hotel_count = 1 %>
+    <% @hotels.each do |hotel| %>
+      <tr class="<%= (hotel_count % 2 == 0) ? 'even-row' : 'odd-row'%>">
+        <td class="right-text"><%= hotel_count %></td>
+        <td class="left-text">
+            <%= link_to raw(display_html(hotel.name)), :controller => :hotels, :action => :show, :id => hotel.hotelID, :hotel_link => hotel['deepLink'] %>
+        </td>
+        <td class="left-text"><%=h hotel.address1 %></td>
+        <td class="left-text"><%=h hotel.city %></td>
+        <td class="left-text"><a href="<%= hotel['deepLink'] %>"><%=t(".go_to_hotel")%></a></td>
+        <td><%=h hotel.get_state.StateName %></td>
+        <td class="right-text"><%=h hotel.get_country.Name %></td>
+        <td class="right-text"><%=h get_airport_description(hotel.airportCode) %></td>
+        <td class="right-text"><%= %></td>
+        <td class="right-text"><%= %></td>
+        <td><%= %></td>
+        <td><%= %></td>
+        <td class="right-text"><%=h hotel.highRate %></td>
+        <td class="right-text"><%=h hotel.lowRate %></td>
+        <td class="right-text"><%=h hotel.nativeCurrency %></td>
+
+      </tr>
+      <% hotel_count = hotel_count + 1 %>
+    <% end %>
+    </table>
+
+<% else %>
+    <h2> <%=t(".no_hotel", link: link_to("here", :controller => :home, :action => :index))%><h2>
+<% end %>
+
+<br />

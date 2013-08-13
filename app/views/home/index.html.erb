@@ -1,0 +1,176 @@
+<%= javascript_include_tag "home/index" %>
+<div class="hero-unit">
+	<h1><%=t(".title_question")%></h1>
+
+	<p>
+		<%= form_for(:hotels, :url => {:controller => :hotels, :action => :index}, :method => :get) do |f| %>
+		<div class="row-fluid">
+
+
+			<div class="span4">
+				<%=t(".destination")%>
+				<br />
+
+				<input type="text" class='span11 search-field-text' value="<%= I18n.t('label.home_page.destination_string') %>" name="destination_string" id='search-destination' />
+				<input type="hidden" id="item-id" name="item_id" value="" />
+				<input type="hidden" id="item-category" name="item_category" value="" />
+				<br />
+
+			</div>
+			<div class="span3">
+				<%=t(".check_in")%>
+				<br />
+				<input type="text" class='search-field-text' value="" name="arrival_date" id='search-checkin' style="background:white;cursor:text;" />
+				<br />
+
+			</div>
+			<div class="span3">
+				<%=t(".check_out")%>
+				<br />
+				<input type="text" class='search-field-text' value="" name="departure_date" id='search-checkout' style="background:white;cursor:text;" />
+
+
+			</div>
+			<div class="span2">
+				<%=t(".nights")%>
+				<br />
+				<input type="text" class='night' value="" name="nights" id='nights' style="background:white;cursor:text;"  disabled/>
+
+			</div>
+			
+		</div>
+
+		<div id="no_result" style="color:red; font-size:12pt; display: none;">
+			<%= I18n.t('message.search_no_result') %>
+		</div>
+		<div id="blank_destination" style="color:red; font-size:12pt; display: none;">
+			<%= I18n.t('message.search_blank_destination') %>
+		</div>
+		<br />
+
+		<div class="row-fluid">
+			<div class="span2">
+				<span class="span6">
+					<%=t(".rooms")%>
+				</span>
+				<select class="span6" id="search-room" name="search_room">
+					<% (1..8).each do |room_id| %>
+						<option value="<%= room_id %>"><%= room_id %></option>
+					<% end %>
+				</select>
+			</div>
+			<div class="span8" id="room-group-container">
+
+				<div id="room-group-0" class="room-group">
+					<div class="span0" style="display:none;">
+					</div>
+					<div class="span2 room-field" id="room-field-first">
+						<%=t(".room1")%>
+					</div>
+					<div class="span4 adult-field">
+						<div id="adult-block-0">
+							<span class="span8">Adults</span>
+							<select class="span3" id="adult-1">
+								<% (1..4).each do |a_id| %>
+									<option value="<%= a_id %>"><%= a_id %></option>
+								<% end %>
+							</select>
+						</div>
+					</div>
+					<div class="span4 child-field">
+						<div id="children-block-0" class="children-block">
+							<span class="span8">Children</span>
+							<select class="span3 child-box" id="children-1">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+							<br />
+							<% (0..3).each do |id| %>
+							<div id="age-block-<%= id %>" style="display:none" class="age-block">
+								<span class="span3">Age</span>
+								<select class="span3 age-field" id="age-<%= id %>">
+									<option value="0"><1</option>
+									<% (1..17).each do |id| %>
+									<option value="<%= id %>"><%= id %></option>
+									<% end %>
+								</select>
+							</div>
+							<% end %>
+						</div>
+
+					</div>
+					<br style="clear:both" />
+				</div>
+			</div>
+			<div class="span2" style="float:right">
+				<div class="row">
+					<input type="button" class="btn btn-large btn-primary span10" value="Search"  id="search-all-btn" />
+				</div>
+			</div>
+		</div>
+		<% end %>
+	</p>
+
+
+	<div class="template">
+		<div id="room-group-template">
+			<div class="span0" style="display:none;">
+			</div>
+			<div class="span2 room-field">
+				<%=t(".room1")%>
+			</div>
+			<div class="span4 adult-field">
+				<div id="adult-block-0">
+					<span class="span8">Adults</span>
+					<select class="span3" id="adult-1">
+							<% (1..4).each do |a_id| %>
+								<option value="<%= a_id %>"><%= a_id %></option>
+							<% end %>
+					</select>
+				</div>
+			</div>
+			<div class="span4 child-field">
+				<div id="children-block-0" class="children-block">
+					<span class="span8">Children</span>
+					<select class="span3 child-box" id="children-1">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<% (0..3).each do |id| %>
+					<div id="age-block-<%= id %>" style="display:none" class="age-block">
+						<span class="span3">Age</span>
+						<select class="span3 age-field" id="age-<%= id %>">
+							<option value="0"><1</option>
+							<% (1..17).each do |id| %>
+							<option value="<%= id %>"><%= id %></option>
+							<% end %>
+						</select>
+					</div>
+					<% end %>
+				</div>
+
+			</div>
+			<br style="clear:both" />
+		</div>
+	</div>
+</div>
+
+<div style="display: none;">
+	<div id="box_text" style="width:700px;height:500px;overflow:hidden;">
+		 <h4><%=t(".err_multi_location")%></h4>
+		 <p><%=t(".choose_correct_location")%></p>
+		<div id="light_box_content" style = "border-width: 1px; border-style: solid; border-color:  #DCDCDC;width:500px;height:270px;overflow:auto;padding: 5px">
+		</div>
+		<br/>
+		<div style="width:50px;"><input id="light_box_search_all_btn" class="btn btn-medium btn-primary" type="button" value="<%=t(".search")%>"></div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var g_urlshow = "<%= hotel_path(2)%>";
+var g_room = [];
+</script>

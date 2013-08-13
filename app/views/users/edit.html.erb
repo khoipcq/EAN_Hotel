@@ -1,0 +1,35 @@
+<h1><%=t(".title")%></h1>
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <p>
+    <%= f.label :first_name %>(*)<br/>
+    <%= f.text_field :first_name, :autofocus => true %>
+  </p>
+  <p>
+    <%= f.label :last_name %>(*)<br/>
+    <%= f.text_field :last_name %>
+  </p>
+  <p>
+    <%= f.label :email %> <i>(*)<%=t(".verify_email")%></i><br />
+    <%= f.email_field :email %>
+  </p>
+  <p>
+    <%= f.label :gender %><br/>
+    <%= f.select :gender, genders_select %>
+  </p>
+  <p>
+    <%= f.submit t(".update"), :class => "btn" %>
+  </p>
+<% end %>
+
+<%= link_to t(".show"), :action => :show, :id => @user.id %> |
+<%= link_to t(".back"), users_path %>
+
+<%= javascript_include_tag "devise/user.edit" %>

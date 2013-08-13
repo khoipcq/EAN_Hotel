@@ -1,0 +1,19 @@
+
+<a href=""><%=t(".name")%></a>
+<br />
+	<p>Hi <b><%= "#{@resource.first_name} #{@resource.last_name}" %></b>,</p>
+
+<p><%= t(".confirm_account_link")%></p>
+
+<p><%= link_to t(".confirm_account"), confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
+<br />
+<p>
+	<%=t(".rework")%>
+</p>
+<p>
+	<%= confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %>
+	</p>
+
+	<p>
+		<%=raw t(".thank_you")%>
+	</p>

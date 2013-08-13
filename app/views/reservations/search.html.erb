@@ -1,0 +1,65 @@
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t(".title")%></h4></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+	<%= form_tag search_reservations_path, method: :post, id: 'search_form' do %>
+	<table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td colspan="2"><%=raw t('.search_tip', sign_in: (link_to t('.sign_in'), new_user_session_path))%></td>
+    </tr>
+    	
+    
+	    <tr>
+	    	<td width="17%"><b><%= t('.itinerary_number')%> </b></td>
+	    	<td width="70%"><%= text_field_tag 'itinerary_number', nil, placeholder: t('.itinerary_number_place_holder'), style: "width: 250px", class: 'required'%></td>
+	    </tr>
+	    
+	    <tr>
+	    	<td width="17%"><b><%= t('.email')%> </b></td>
+	    	<td width="70%"><%= text_field_tag 'email', nil, placeholder: t('.email_place_holder'), style: "width: 250px", class: 'required' %></td>
+	    </tr>
+	    
+	    <tr>
+	    	<td width="17%"></td>
+	    	<td width="70%"><%= submit_tag t('.search')  %></td>
+	    </tr>
+    	
+    
+  </table>
+  <%end%>
+</div>	
+
+<script>
+	$(document).ready(function() {
+		$("#search_form").validate({
+	    rules:{        
+	      itinerary_number: {
+	        required: true,
+	        number: true
+	      },
+	      email: {
+	        required: true,
+	        email: true
+	      }	
+	    },
+	    messages: {
+	    	itinerary_number: {
+	    		required: "<%= t('.itinerary_number_required')%>"
+	    	},
+	    	email: {
+	    		required: "<%= t('.email_required')%>"
+	    	},
+	    },
+	    errorPlacement: function(error, element){
+	      error.appendTo(element.parent());
+	    }
+		});
+   }); 
+</script>

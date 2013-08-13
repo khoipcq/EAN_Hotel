@@ -1,0 +1,120 @@
+<h1><%=t(".title")%></h1>
+
+<% form_for(@hotel) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :address1 %><br />
+    <%= f.text_area :address1 %>
+  </p>
+  <p>
+    <%= f.label :address2 %><br />
+    <%= f.text_area :address2 %>
+  </p>
+  <p>
+    <%= f.label :address3 %><br />
+    <%= f.text_area :address3 %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :state %><br />
+    <%= f.text_field :state %>
+  </p>
+  <p>
+    <%= f.label :state_province_code %><br />
+    <%= f.text_field :state_province_code %>
+  </p>
+  <p>
+    <%= f.label :postal_code %><br />
+    <%= f.text_field :postal_code %>
+  </p>
+  <p>
+    <%= f.label :country_code %><br />
+    <%= f.text_field :country_code %>
+  </p>
+  <p>
+    <%= f.label :airport %><br />
+    <%= f.text_field :airport %>
+  </p>
+  <p>
+    <%= f.label :property_category %><br />
+    <%= f.text_field :property_category %>
+  </p>
+  <p>
+    <%= f.label :hotel_rating %><br />
+    <%= f.text_field :hotel_rating %>
+  </p>
+  <p>
+    <%= f.label :confidence_rating %><br />
+    <%= f.text_field :confidence_rating %>
+  </p>
+  <p>
+    <%= f.label :amenity_mask %><br />
+    <%= f.text_field :amenity_mask %>
+  </p>
+  <p>
+    <%= f.label :trip_advisor_rating %><br />
+    <%= f.text_field :trip_advisor_rating %>
+  </p>
+  <p>
+    <%= f.label :location_description %><br />
+    <%= f.text_area :location_description %>
+  </p>
+  <p>
+    <%= f.label :short_description %><br />
+    <%= f.text_area :short_description %>
+  </p>
+  <p>
+    <%= f.label :high_rate %><br />
+    <%= f.text_field :high_rate %>
+  </p>
+  <p>
+    <%= f.label :low_rate %><br />
+    <%= f.text_field :low_rate %>
+  </p>
+  <p>
+    <%= f.label :rate_currency_code %><br />
+    <%= f.text_field :rate_currency_code %>
+  </p>
+  <p>
+    <%= f.label :latitude %><br />
+    <%= f.text_field :latitude %>
+  </p>
+  <p>
+    <%= f.label :longitude %><br />
+    <%= f.text_field :longitude %>
+  </p>
+  <p>
+    <%= f.label :proximity_distance %><br />
+    <%= f.text_field :proximity_distance %>
+  </p>
+  <p>
+    <%= f.label :proximity_unit %><br />
+    <%= f.text_field :proximity_unit %>
+  </p>
+  <p>
+    <%= f.label :hotel_in_destination %><br />
+    <%= f.check_box :hotel_in_destination %>
+  </p>
+  <p>
+    <%= f.label :thumb_nail_url %><br />
+    <%= f.text_field :thumb_nail_url %>
+  </p>
+  <p>
+    <%= f.label :deeplink %><br />
+    <%= f.text_area :deeplink %>
+  </p>
+  <p>
+    <%= f.submit t(".update") %>
+  </p>
+<% end %>
+
+<%= link_to t(".show"), @hotel %> |
+<%= link_to t(".back"), hotels_path %>

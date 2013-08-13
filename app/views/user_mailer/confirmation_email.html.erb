@@ -1,0 +1,249 @@
+<%money_unit = MONEY_SIGN[@reservation.currency_code] ? MONEY_SIGN[@reservation.currency_code] : MONEY_SIGN['USD']
+  rooms = @reservation.reservation_rooms.order(&:id)
+  is_detailed = rooms.exists?(:status => Reservation::STATUS[:cancelled])
+  rooms_size = rooms.size.to_s
+  room_type = rooms_size + ' ' + @reservation.reservation_rooms.first.room_type
+  rooms_rate = @reservation.total_rate - @reservation.taxes_fees
+	
+%>
+<div class="row-fluid" style= "float:none;border:0px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%;padding: 10px">
+    <tr>
+      <td colspan=4><%=raw t("user_mailer.confirmation_email.greeting",name: @reservation.user_name)%></td>
+    </tr>    
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.itinerary_number")%></b></td>
+      <td colspan=3><%= @reservation.itinerary_number %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.confirm_number")%></b></td>
+      <td colspan=3><%=@reservation.confirm_number%></td>
+
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.your_name")%></b></td>
+      <td colspan=3><%= @reservation.user_name %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.your_email")%></b></td>
+      <td colspan=3><%=@reservation.user_email%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t("reservations.show.hotel_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+    	<td colspan=4>
+    		<table>
+    			<tr>
+    				<td><img width="80" height="80" src="<%= @extra_data[:hotelImage]%>"></td>
+    				<td>
+    					<p><b><%=raw @reservation.hotel_name%></b><br/>
+					  		<% stars = @extra_data[:starRating].to_f %>
+					      <% (1..stars).each do |star| %>
+					        <%= image_tag("#{root_url}#{image_path("hotels/star_rating_enabled.png")}", :size => "20x20") %>
+					      <% end %>
+					
+					      <% if stars > stars.to_i %>
+					        <% disabled_stars = 5 - stars.to_i - 1 %>
+					        <%= image_tag("#{root_url}#{image_path("hotels/half_star_rating.png")}", :size => "20x20") %>
+					      <% else %>
+					        <% disabled_stars = 5 - stars.to_i %>
+					      <% end %>
+					      <% if disabled_stars > 0 %>
+					      	<%  (1..disabled_stars).each do |star| %>
+					          <%= image_tag("#{root_url}#{image_path("hotels/star_rating_disabled.png")}", :size => "20x20") %>
+					        <% end %>
+					      <% end %>
+    					</p>
+    				</td>
+    			</tr>
+    		</table>	
+    	</td>	      
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.address")%></b></td>
+      <td colspan=3><%=h @reservation.hotel_address %></td>
+    </tr>
+     <tr>
+      <td width="20%"><b><%=t("reservations.show.phone")%></b></td>
+      <td colspan=3><%=t("reservations.show.na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.faxs")%></b></td>
+      <td colspan=3><%=t("reservations.show.na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.email")%></b></td>
+      <td colspan=3><%=t("reservations.show.na")%></td>
+    </tr>    
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.check_in")%></b></td>
+      <td width="30%"><%=@reservation.get_check_in_text%></td>
+      <td colspan=2></td>
+    </tr>
+      <tr>
+      <td width="20%"><b><%=t("reservations.show.check_out")%></b></td>
+      <td width="30%"><%=@reservation.get_check_out_text%></td>
+      <td width="20%"></td>
+      <td width="30%"></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.for")%></b></td>
+      <td width="30%"><%=   rooms_size.to_s + " room(s), " + @reservation.adults.to_s + " adult(s), " + @reservation.children.to_s + " children" %></td>
+      <td width="20%"></td>
+      <td width="30%"></td>
+    </tr>
+    <tr>
+      <td colspan=2></td>
+      <td width="20%"></td>
+      <td width="30%"></td>
+      
+    </tr>
+    
+    <tr>
+      <td colspan=4><h4><%=t("reservations.show.room_details")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4><b><%=t("reservations.show.room_details")%>:</b> <%=raw @reservation.room_details%></td>
+    </tr>
+    <tr>
+      <td colspan=4><%=raw @reservation.noti_fee%></td>
+    </tr>
+    <tr>
+      <td colspan=4><b><%=t("reservations.show.cancellation_policy")%>:</b> <%=raw @reservation.cancellation_policy %></td>
+    </tr>
+    <% i = 1
+    rooms.each do |room|%>
+                     
+    <tr>
+      <td colspan=4><h5>Room <%=i%> (<%= room.status%>)</h5>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.guest_name")%></b></td>
+      <td colspan=3><%=room.guest_name %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.bed_type")%></b></td>
+      <td colspan=3><%=room.bed_type_description %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.smoking_preferences")%></b></td>
+      <td colspan=3><%=room.smoking %></td>
+    </tr>
+    <%i = i+1
+    end%>
+		<tr>
+      <td colspan=4><h4><%=t("user_mailer.confirmation_email.room_charges")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <% i = 1
+    rooms.each do |room|%>
+    <tr>
+      <td colspan=4><b>Room <%=i%></b></td>      
+    </tr>
+    <% @extra_data[:room_rate_per_night].each_with_index do |night,night_index| %>
+    <tr>
+    	<td width="20%"><b><%=t("user_mailer.confirmation_email.nightly_chagrges")%></b></td>
+      <td width="30%"><%= (@reservation.check_in + night_index.day).strftime("%d/%m/%Y") %></td>
+      <td width="20%"><%=number_to_currency night["@rate"], :unit => money_unit, :precision => 2 %></b></td>
+      <td width="30%"></td>
+    </tr>	
+    <%end%>
+    <%i = i+1
+    end%>
+    <tr>
+    	<td width="20%"></td>
+      <td width="30%"><b><%=t("reservations.show.taxes_fees")%></b></td>
+      <td width="20%"><%=number_to_currency @reservation.taxes_fees, :unit => money_unit, :precision => 2%></td>
+      <td width="30%"></td>
+    </tr>	
+    
+    <tr>
+    	<td width="20%"></td>      
+      <td colspan="2">-------------------------------------------</td>     
+      <td width="30%"></td> 
+    </tr>	
+    
+    <tr>
+    	<td width="20%"></td>
+      <td width="30%"><b>Total</b></td>
+      <td width="20%"><%=number_to_currency @reservation.total_rate, :unit => money_unit, :precision => 2%></td>
+      <td width="30%"></td>
+    </tr>	
+    
+    <tr>
+      <td colspan=4><h4><%=t("reservations.show.payment_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.credit_card_type")%></b></td>
+      <td colspan=3><%=get_credit_card(@reservation.card_type)%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.first_name")%></b></td>
+      <td colspan=3><%=@reservation.get_card_holder_name_parts[0]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.last_name")%></b></td>
+      <td colspan=3><%=@reservation.get_card_holder_name_parts[1]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.card_number")%></b></td>
+      <td colspan=3><%=show_card_number(@reservation.card_number)%></td>
+    </tr>
+
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.amount_charged")%></b></td>
+      <td colspan=3><%=number_to_currency @reservation.amount_charged, :unit => money_unit, :precision => 2%></td>
+    </tr>
+
+    <tr>
+      <td colspan=4><h4><%=t("reservations.show.billing_address")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.billing_name")%></b></td>
+      <td colspan=3><%= @reservation.billing_name%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.address")%></b></td>
+      <td colspan=3><%=@reservation.billing_address%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.phone")%></b></td>
+      <td colspan=3><%=@reservation.user_phone%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t("reservations.show.email_address")%></b></td>
+      <td colspan=3><%= @reservation.user_email%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4>-----------------------------------------------</h4>
+      </td>
+    </tr>    
+    <tr>
+    	<td colspan=4><%= link_to t('user_mailer.confirmation_email.online_reservation'), reservation_url(@reservation.id)%></td>
+    </tr>
+    <tr>
+    	<td colspan=4><h4><%=t("reservations.show.hotel_map")%></h4></td>
+    </tr>
+    <tr>
+      <td colspan=4>
+      	<image src="<%= @extra_data[:hotelMap] %>"/> 
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4>
+      	<br/>
+      	<%=raw t("reservations.show.contact")%> 
+      </td>
+    </tr>    
+  </table>
+</div>
+
+
+<br/>
+

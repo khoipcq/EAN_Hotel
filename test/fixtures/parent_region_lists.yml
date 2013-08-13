@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  RegionID: 1
+  RegionType: MyString
+  RelativeSignificance: MyString
+  SubClass: MyString
+  RegionName: MyString
+  RegionNameLong: MyString
+  ParentRegionID: 1
+  ParentRegionType: MyString
+  ParentRegionName: MyString
+  ParentRegionNameLong: MyString
+
+two:
+  RegionID: 1
+  RegionType: MyString
+  RelativeSignificance: MyString
+  SubClass: MyString
+  RegionName: MyString
+  RegionNameLong: MyString
+  ParentRegionID: 1
+  ParentRegionType: MyString
+  ParentRegionName: MyString
+  ParentRegionNameLong: MyString

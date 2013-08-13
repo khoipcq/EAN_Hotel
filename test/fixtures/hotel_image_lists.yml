@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  EANHotelID: 1
+  Caption: MyString
+  URL: MyText
+  Width: 1
+  Height: 1
+  ByteSize: 1
+  ThumbnailURL: MyText
+  DefaultImage: 1
+
+two:
+  EANHotelID: 1
+  Caption: MyString
+  URL: MyText
+  Width: 1
+  Height: 1
+  ByteSize: 1
+  ThumbnailURL: MyText
+  DefaultImage: 1

@@ -1,0 +1,259 @@
+<h2 style="text-align:center;margin-top:15px;">Here are</h2>
+<br />
+<h1 style="text-align:center;margin-top:0px;color:blue;"><span style="font-size:2.5em"><%=t(".your_booking_status")%></span></h1>
+<br /><br />
+
+<% if !@booking_info.nil? && @hotels_confirmation.size > 0 %>
+
+  <p>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".booking_info")%>
+      </div>
+    </div><br />
+    <b class="detail-info"><%=t(".itinerary_id")%></b>
+    <%=h @booking_info["itineraryId"] %><br />
+  </p>
+
+  <p>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".hotel_info")%>
+      </div>
+    </div><br />
+    <table class='information-tbl'>
+        <tr>
+          <td width="15%" class="left-col"><b class="detail-info"><%=t(".hotel_id")%></b></td>
+          <td width="15%" class="right-col"><%=h @hotel_info["hotelId"] %></td>
+          <td width="15%" class="left-col"><b class="detail-info"><%=t(".hotel_city")%></b></td>
+          <td width="15%" class="right-col"><%=h @hotel_info["city"] %></td>
+          <td width="15%" class="left-col"><b class="detail-info"><%=t(".hotel_rating")%></b></td>
+          <td width="15%" class="right-col"><%=h @hotel_info["hotelRating"] || 'None' %></td>
+        </tr>
+          <td class="left-col"><b class="detail-info"><%=t(".hotel_name")%></b></td>
+          <td class="right-col"><%=h @hotel_info["name"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".hotel_state_province")%></b></td>
+          <td class="right-col"><%=h @hotel_info["stateProvinceCode"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".trip_advisor_rating")%></b></td>
+          <td class="right-col"><%=h @hotel_info["tripAdvisorRating"] || 'None' %></td>
+        <tr>
+          <td class="left-col"><b class="detail-info"><%=t(".hotel_address")%></b></td>
+          <td class="right-col"><%=h @hotel_info["address1"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".hotel_country")%></b></td>
+          <td class="right-col"><%=h @hotel_info["countryCode"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".high_rate")%></b></td>
+          <td class="right-col"><%=h @hotel_info["highRate"] %></td>
+        </tr>
+        <tr>
+          <td class="left-col"><b class="detail-info"><%=t(".phone")%></b></td>
+          <td class="right-col"><%=h @hotel_info["phone"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".hotel_postal_code")%></b></td>
+          <td class="right-col"><%=h @hotel_info["postalCode"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".low_rate")%></b></td>
+          <td class="right-col"><%=h @hotel_info["lowRate"] %></td>
+        </tr>
+        <tr>
+          <td class="left-col"><b class="detail-info"><%=t(".fax")%></b></td>
+          <td class="right-col"><%=h @hotel_info["fax"] %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".theme")%></b></td>
+          <td class="right-col"><%=h @hotel_info["theme"] || 'None' %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".confidence")%></b></td>
+          <td class="right-col"><%=h @hotel_info["confidence"] %></td>
+        </tr>
+        <tr>
+          <td class="left-col"></td>
+          <td class="right-col"></td>
+          <td class="left-col"><b class="detail-info"></b></td>
+          <td class="right-col"><%=h @hotel_info["region"] || 'None' %></td>
+          <td class="left-col"><b class="detail-info"><%=t(".market")%></b></td>
+          <td class="right-col"><%=h @hotel_info["market"] || 'None' %></td>
+        </tr>
+    </table>
+  </p>
+
+  <p>
+    <% customer = @booking_info["Customer"] %>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".customer_info")%>
+      </div>
+    </div><br />
+    <table class='information-tbl'>
+        <tr>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".email")%></b></td>
+            <td width="15%" class="right-col"><%=h customer["email"] %></td>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".home_phone")%></b></td>
+            <td width="15%" class="right-col"><%=h customer["homePhone"] %></td>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".city")%></b></td>
+            <td width="15%" class="right-col"> <%=h customer["CustomerAddresses"]["city"] %></td>
+        </tr>
+        <tr>
+            <td class="left-col"><b class="detail-info"><%=t(".first_name")%></b></td>
+            <td class="right-col"><%=h customer["firstName"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".work_phone")%></b></td>
+            <td class="right-col"><%=h customer["workPhone"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".state_province_code")%></b></td>
+            <td class="right-col"><%=h customer["CustomerAddresses"]["stateProvinceCode"] %></td>
+        </tr>
+        <tr>
+            <td class="left-col"><b class="detail-info"><%=t(".last_name")%></b></td>
+            <td class="right-col"><%=h customer["lastName"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".address")%></b></td>
+            <td class="right-col"><%=h customer["CustomerAddresses"]["address1"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".country_code")%></b></td>
+            <td class="right-col"><%=h customer["CustomerAddresses"]["countryCode"] %></td>
+        </tr>
+        <tr>
+            <td class="left-col"></td>
+            <td class="right-col"></td>
+            <td class="left-col"></td>
+            <td class="right-col"></td>
+            <td class="left-col"><b class="detail-info"><%=t(".postal_code")%></b></td>
+            <td class="right-col"><%=h customer["CustomerAddresses"]["postalCode"] %></td>
+        </tr>
+    </table>
+  </p>
+
+  <% @hotels_confirmation.each_with_index do |hc, index| %>
+    <div class="header-info">
+      <div style="padding-top:15px;">
+        <%=t(".room_info", room: (index + 1))%>
+        
+      </div>
+    </div><br />
+    <div style="margin-left: 25px;">
+      <p>
+        <b class="header-info"><%=t(".booking_information")%></b><br />
+
+        <b class="detail-info"><%=t(".status")%></b>
+        <span id="status-booking"><%=h get_status(hc["status"])[:name] %><br /><span>
+        <% unless get_status(hc["status"])[:description].blank? %>
+          <span style="margin-left: 15px" id="status-booking-more"><%=h get_status(hc["status"])[:description] %></span>
+        <% end %>
+        <div id="room-info-<%= hc["confirmationNumber"] %>">
+            <%= form_for(:hotels,
+                    :url => {:action => :cancel},
+                    :remote => true,
+                    :html => {"data-type" => :json, "id" => 'room-' + hc['confirmationNumber'].to_s}
+                ) do |f| %>
+                <input type='hidden' name='itinerary_id' value='<%= @booking_info["itineraryId"] %>'>
+                <input type='hidden' name='email' value='<%= @booking_info["Customer"]["email"] %>'>
+                <input type='hidden' name='confirmation_number' value='<%= hc["confirmationNumber"] %>'>
+                <input type="button" id='cancel-status-btn' value="Cancel" />
+
+            <% end %>
+        </div>
+        <div id="room-cancel-<%= hc["confirmationNumber"] %>" style="display:none;">
+            <b class='header-info' style="color:red;"><%=t(".cancel_reservation")%></b>
+        </div>
+        <br />
+      </p>
+      <p>
+        <table class='information-tbl'>
+        <tr>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".supplier_id")%></b></td>
+            <td width="15%" class="right-col"><%=h hc["supplierId"] %></td>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".arrival_date")%></b></td>
+            <td width="15%" class="right-col"><%=h hc["arrivalDate"] %></td>
+            <td width="15%" class="left-col"><b class="detail-info"><%=t(".smoking_ref")%></b></td>
+            <td width="15%" class="right-col"><%=h hc["smokingPreference"] %></td>
+        </tr>
+        <tr>
+            <td class="left-col"><b class="detail-info"><%=t(".chain_code")%></b></td>
+            <td class="right-col"><%=h hc["chainCode"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".departure_date")%></b></td>
+            <td class="right-col"><%=h hc["departureDate"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".supplier_prop_id")%></b></td>
+            <td class="right-col"><%=h hc["supplierPropertyId"] %></td>
+        </tr>
+        <tr>
+            <td class="left-col"><b class="detail-info"><%=t(".confirm_number")%></b></td>
+            <td class="right-col"><%=h hc["confirmationNumber"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".no_adults")%></b></td>
+            <td class="right-col"><%=h hc["numberOfAdults"] %></td>
+            <td class="left-col"><b class="detail-info"><%=t(".non_refundable")%></b></td>
+            <td class="right-col"><%= display_require(hc["nonRefundable"]) %></td>
+        </tr>
+        <tr>
+            <td class="left-col"></td>
+            <td class="right-col"></td>
+            <td class="left-col"><b class="detail-info"><%=t(".no_children")%></b></td>
+            <td class="right-col"><%=h hc["numberOfChildren"] %></td>
+            <td class="left-col"></td>
+            <td class="right-col"></td>
+        </tr>
+    </table>
+    <br />
+        <b class="detail-info"><%=t(".room_desc")%></b>
+        <%= display_html(hc["roomDescription"]) %><br />
+        <b class="detail-info"><%=t(".cancellation_policy")%></b>
+        <%= display_html(hc["cancellationPolicy"]) %><br />
+      </p>
+
+      <p>
+        <% charge_info = hc["RateInfo"]["ChargeableRateInfo"] %>
+        <table class='information-tbl'>
+          <tr>
+            <td class="left-col"><%=t(".currency")%></th>
+            <td class="right-col"><%= charge_info["@currencyCode"] %></td>
+          </tr>
+          <tr>
+            <td class="left-col"><%=t(".total")%></th>
+            <td class="right-col"><%= number_with_precision(charge_info["@total"]) %></td>
+          </tr>
+          <tr>
+            <td class="left-col"><%=t(".surcharge_total")%></th>
+            <td class="right-col"><%= number_with_precision(charge_info["@surchargeTotal"]) %></td>
+          </tr>
+          <tr>
+            <td class="left-col"><%=t(".nightly_rate_total")%></th>
+            <td class="right-col"><%= number_with_precision(charge_info["@nightlyRateTotal"])%></td>
+          </tr>
+          <tr>
+            <td class="left-col"><%=t(".max_nightly_rate")%></th>
+            <td class="right-col"><%== number_with_precision(charge_info["@maxNightlyRate"]) %></td>
+          </tr>
+        </table>
+      </p>
+  </div>
+<% end %>
+
+<% else %>
+  <h2><%=t(".error")%><h2>
+<% end %>
+
+<script type="text/javascript">
+$(function() {
+    $("#cancel-status-btn").live('click', function(){
+        //get form tag
+        var form  = $(this).closest("form");
+        //submit it to server
+        var values = {};
+        $.each(form.serializeArray(), function(i, field){
+            values[field.name] = field.value;
+        })
+
+        $.ajax({
+          url: form.attr("action"),
+          data: values,
+          dataType: 'json',
+          type: 'POST',
+          success: function(response){
+            if (response.status == 'ok'){
+              //hide form
+              form.html("<b class='header-info' style='color:red;text-decoration:none;'>You have cancelled this reservation.</b>");
+              $("#status-booking").html("Cancelled");
+              $("#status-booking-more").hide();
+            }
+            else{
+              // handle error
+              form.html("<b class='header-info'>There is something error with your cancellation.</b>");
+            }
+          }
+        })
+
+
+    })
+});
+
+</script>

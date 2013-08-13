@@ -1,0 +1,50 @@
+<% if @info.nil?
+  @info = {}
+  end 
+%>
+
+<%= javascript_include_tag "devise/registration.new" %>
+<div class="span7 offset4">
+  <h2><%=t(".sign_up")%></h2>
+
+  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+
+  <div>
+    <%= f.label :first_name %> <span class='required-star'>(*)</span><br/>
+    <%= f.text_field :first_name, {:value => @info[:first_name], :class => "span6", :autofocus => true} %>
+  </div>
+
+  <div>
+    <%= f.label :last_name %> <span class='required-star'>(*)</span><br />
+    <%= f.text_field :last_name, {:value => @info[:last_name], :class => "span6"} %>
+  </div>
+
+  <div>
+    <%= f.label :gender %><br />
+    <%= f.select :gender, genders_select %>
+  </div>
+
+  <div>
+    <%= f.label :email %> <span class='required-star'>(*)</span><br/>
+    <%= f.email_field :email, {:value => @info[:email], :class => "span6", :autocomplete => "off"} %>
+  </div>
+
+  <div>
+    <%= f.label :password %> <span class='required-star'>(*)</span><br />
+    <%= f.password_field :password, {:class => "span6", :autocomplete => "off"} %>
+    <%= image_tag("information.png", :size => "20x20", :id => "image-tooltip",:title => t(".password_hint"), :style => "margin-bottom:0px") %>
+    <span id="strength_result"></span>
+  </div>
+
+  <div>
+    <%= f.label :password_confirmation %> <span class='required-star'>(*)</span><br/>
+    <%= f.password_field :password_confirmation, {:class => "span6", :autocomplete => "off"} %>
+  </div>
+
+  <div>
+    <%= f.submit t(".sign_up"), :class => "btn btn-success btn-large" %>
+  </div>
+<% end %>
+
+  <%= render "devise/shared/links" %>
+</div>

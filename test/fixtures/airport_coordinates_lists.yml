@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  AirportID: 1
+  AirportCode: MyString
+  AirportName: MyString
+  Latitude: 1.5
+  Longitude: 1.5
+  MainCityID: 1
+  CountryCode: MyString
+
+two:
+  AirportID: 1
+  AirportCode: MyString
+  AirportName: MyString
+  Latitude: 1.5
+  Longitude: 1.5
+  MainCityID: 1
+  CountryCode: MyString

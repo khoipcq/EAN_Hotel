@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  PropertyID: 1
+  RoomCode: MyString
+  RoomDescription: MyText
+
+two:
+  PropertyID: 1
+  RoomCode: MyString
+  RoomDescription: MyText

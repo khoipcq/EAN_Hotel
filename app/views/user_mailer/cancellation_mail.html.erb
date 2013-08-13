@@ -1,0 +1,92 @@
+<%money_unit = 
+  (MONEY_SIGN[@booking_information['currency_code']] ? 
+  MONEY_SIGN[@booking_information['currency_code']] : 
+  MONEY_SIGN['USD'])
+%>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t('reservations.cancel.title') %></h4></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%;padding: 10px">
+    <tr>
+      <td colspan=4><%=t('reservations.cancel.cancel_notice') %></td>
+    </tr>    
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.hotel') %></b></td>
+      <td colspan=3><%= @booking_information['hotel_name'] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.address') %></b></td>
+      <td colspan=3><%= @booking_information['address'] %></td>
+
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.checkin') %></b></td>
+      <td colspan=3><%= @booking_information['checkin'] %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.checkout') %></b></td>
+      <td colspan=3><%=@booking_information['checkout']%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.guest_name') %></b></td>
+      <td colspan=3><%=@booking_information['room_guest']%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.booking_amount') %></b></td>
+      <td colspan=3><%=number_to_currency @booking_information['booking_amount'], :unit => money_unit, :precision => 2 %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.cancellation_charged') %></b></td>
+      <td colspan=3><%=number_to_currency @booking_information['cancelation_charged'], :unit => money_unit, :precision => 2%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.refund_amount') %></b></td>
+      <td colspan=3><%=number_to_currency @booking_information['refund_amount'], :unit => money_unit, :precision => 2%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t('reservations.cancel.cancel_policy') %><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4><%=raw @booking_information["cancellation_policy"] %></td>
+    </tr> 
+    <tr>
+      <td colspan=4><h4><%=t('reservations.cancel.refund_method') %><br/>-----------------------------------------------</h4>
+      </td>
+    </tr> 
+    <tr>
+      <td colspan=4><b><%=t('reservations.cancel.refund_notice') %></b></td>
+    </tr>   
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.credit_card_type') %></b></td>
+      <td colspan=3><%= get_credit_card(@booking_information["card_type"]) %></td>
+    </tr>   
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.first_name') %></b></td>
+      <td colspan=3><%= @booking_information["card_holder_first_name"] %></td>
+    </tr> 
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.last_name') %></b></td>
+      <td colspan=3><%= @booking_information["card_holder_last_name"] %></td>
+    </tr> 
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.card_number') %></b></td>
+      <td colspan=3><%= show_card_number(@booking_information["card_number"]) %></td>
+    </tr> 
+    <tr>
+      <td width="20%"><b><%=t('reservations.cancel.billing_address') %></b></td>
+      <td colspan=3><%= @booking_information["billing_address"] %></td>
+    </tr> 
+    
+    
+  </table>
+</div>
+
+<br/>

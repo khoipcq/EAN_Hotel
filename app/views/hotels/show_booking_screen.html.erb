@@ -1,0 +1,520 @@
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h5><%=t(".submit_details")%></h5></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t(".booking_summary")%></h4></td>
+    </tr>
+  </table>
+</div>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td colspan=4 style="color:blue; padding-left:5px; font-weight:bold;"><b><%=@hotel_name%></b></td>
+      
+    </tr>
+    <tr>
+      <td colspan=4><span>
+  ‌
+         <% stars = @hotel_rating.to_f %>
+        <% (1..stars).each do |star| %>
+          <%= image_tag("hotels/star_rating_enabled.png", :size => "20x20") %>
+        <% end %>
+
+        <% if stars > stars.to_i %>
+          <% disabled_stars = 5 - stars.to_i - 1 %>
+          <%= image_tag("hotels/half_star_rating.png", :size => "20x20") %>
+        <% else %>
+          <% disabled_stars = 5 - stars.to_i %>
+        <% end %>
+        <% if disabled_stars > 0 %>
+        <%  (1..disabled_stars).each do |star| %>
+            <%= image_tag("hotels/star_rating_disabled.png", :size => "20x20") %>
+          <% end %>
+        <% end %>
+        </span>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="50%" colspan=2>
+        <span id="address" style= "padding-left:5px;">
+          <%=h @address%>
+        </span>
+      </td>
+      <td width="50%" colspan=2><span>
+          Rates
+        </span>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="15%" style= "padding-left:5px;"> <%=t(".check_in")%>
+      </td>
+      <td width="35%"> <%=@arrival_date%> <%=t(".check_in_time",time: @check_in_time)%>
+      </td>
+      <td width="25%"><%= @number_of_rooms.to_s + " " + @room_detail_short %></td>
+      <td width="15%" style="text-align:right;padding-right:100px"><%=raw @money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@nightlyRateTotal"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@nightlyRateTotal"].to_s, :precision => 2))) %></td>
+    </tr>
+
+    <tr>
+      <td style= "padding-left:5px;"> <%=t(".check_out")%>
+      </td>
+      <td> <%=@departure_date%> <%=t(".check_out_time", time: @check_out_time) %>
+      </td>
+      <td><%=t(".taxes_fees")%></td>
+      <td style="text-align:right;padding-right:100px"><%=raw @money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@surchargeTotal"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@surchargeTotal"].to_s, :precision => 2))) %></td>
+    </tr>
+
+    <tr>
+      <td style= "padding-left:5px;"> For:
+      </td>
+      <td> <%= @room_info %>
+      </td>
+      <td><%=t(".total")%></td>
+      <td style="text-align:right;padding-right:100px"><%=raw @money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@total"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@total"].to_s, :precision => 2))) %></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t(".room_details")%> <%=@room["roomTypeDescription"]%></h4> </td>
+    </tr>
+  </table>
+</div>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><b><%=t(".room_details")%></b> <%=raw @room_detail%></td>
+    </tr>
+    <tr>
+      <td><%=raw @noti_fee%></td>
+    </tr>
+    <tr>
+      <td><b><%=t(".cancellation_policy")%></b> <%=raw display_html(@cancellationPolicy) %></td>
+    </tr>
+
+  </table>
+</div>
+
+<br/>
+<form id='set_booking_form' accept-charset="UTF-8" action="/hotels/<%=@hotel_id%>/set_booking" method="post">
+  <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'/>
+  <input type='hidden' name='rooms' value='<%= params['rooms'] %>'/>
+  <input type='hidden' name='room' value='<%= @room.to_json %>'/>
+  <input type='hidden' name='address' value='<%= @address %>'/>
+  <input type='hidden' name='book_info' value='<%= params["book_info"]%>'/>
+  <input type='hidden' name='arrival_date' value='<%= @arrival_date %>'/>
+  <input type='hidden' name='departure_date' value='<%= @departure_date %>'/>
+  <input type='hidden' name='number_of_rooms' value='<%= @number_of_rooms %>'/>
+  <input type='hidden' name='check_in_time' value='<%= @check_in_time %>'/>
+  <input type='hidden' name='check_out_time' value='<%= @check_out_time %>'/>
+  <input type='hidden' name='room_info' value='<%= @room_info %>'/>
+  <input type='hidden' name='rate_room_description' value='<%=@room_detail_short %>'/>
+  <input type='hidden' name='rate_room_price' value='<%=@money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@nightlyRateTotal"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@nightlyRateTotal"].to_s, :precision => 2))) %>'/>
+  <input type='hidden' name='tax_fee' value='<%=@money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@surchargeTotal"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@surchargeTotal"].to_s, :precision => 2))) %>'/>
+  <input type='hidden' name='total' value='<%=@money_sign.to_s + ((@room["RateInfo"]["ConvertedRateInfo"].blank?) ? (number_with_precision(@room["RateInfo"]["ChargeableRateInfo"]["@total"].to_s, :precision => 2)) : (number_with_precision(@room["RateInfo"]["ConvertedRateInfo"]["@total"].to_s, :precision => 2))) %>'/>
+  <input type='hidden' name='room_detail' value='<%= @room_detail %>'/>
+  <input type='hidden' name='noti_fee' value='<%= @noti_fee %>'/>
+  <input type='hidden' name='cancellationPolicy' value='<%= @cancellationPolicy %>'/>
+  <input type='hidden' name='latitude' value='<%=params['latitude']%>'/>
+  <input type='hidden' name='longitude' value='<%=params['longitude']%>'/>
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td><h4><%=t(".your_details")%></h4> </td>
+      </tr>
+    </table>
+  </div>
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td width="15%"><b><%=t(".first_name")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="first_name" id='first_name' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".last_name")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="last_name" id='last_name' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".email_address")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="email" id='email' /> <!-- <%=t(".receive_email")%> --> </td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".phone")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="phone" id='phone' /></td>
+      </tr>     
+      <% (1..@number_of_rooms).each do |room_id| %>
+          <tr>
+            <td colspan=2><h4><%=t(".room", id: room_id)%> </h4></td>
+          </tr>
+          <tr>
+            <td width="15%"><b><%=t(".first_name")%> (*)</b></td>
+            <td><input type="text" class='span5' value="" name="r<%=room_id%>_first_name" id='r<%=room_id%>_first_name' /></td>
+          </tr>
+          <tr>
+            <td width="15%"></td>
+            <td ><label id="r<%=room_id%>_first_name_error" class='error' style="display: none;"><%=t(".first_name_require")%></label></td>
+          </tr>
+          <tr>
+            <td><b><%=t(".last_name")%> (*)</b></td>
+            <td><input type="text" class='span5' value="" name="r<%=room_id%>_last_name" id='r<%=room_id%>_last_name' /></td>
+          </tr>
+          <tr>
+            <td width="15%"></td>
+            <td ><label id="r<%=room_id%>_last_name_error" class='error' style="display: none;"><%=t(".last_name_require")%></label></td>
+          </tr>
+          <tr>
+            <td><b><%=t(".bed_type")%></b></td>
+            <td><select class="span5" id="r<%=room_id%>_bed_type" name="r<%=room_id%>_bed_type">
+                  <%@bed_types.each do |bt|%>
+                    <option value=<%=bt[0].strip%> ><%=bt[1].strip%></option>
+                  <%end%>
+                </select></td>
+          </tr>
+          <tr>
+            <td><b><%=t(".smoking_preferences")%></b></td>
+            <td><select class="span5" id="r<%=room_id%>_smoking_type" name="r<%=room_id%>_smoking_type">
+                  <%@smoking_preferences.each do |st|%>
+                    <option value=<%=st[0]%> ><%=st[1]%></option>
+                  <%end%>
+                </select></td>
+          </tr>
+          <tr>
+            <td width="15%"><b><%=t(".special_request")%></b></td>
+            <td><textarea rows="4" class="span5" class='span5' value="" name="r<%=room_id%>_special_request" id='r<%=room_id%>_special_request'> </textarea></td>
+          </tr>
+      <% end %>
+
+    </table>
+  </div>
+
+  <br/>
+
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td><h4><%=t(".payment_details")%></h4> </td>
+      </tr>
+    </table>
+  </div>
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td><b><%=t(".credit_card_type")%> (*)</b></td>
+        <td><select class="span5" id="credit_card_type" name="credit_card_type">
+              <%@credit_card_types.each do |cct|%>
+                <option value=<%=cct[0]%> ><%=cct[1]%></option>
+              <%end%>
+            </select></td>
+      </tr>
+      <tr>
+        <td width="15%"><b><%=t(".first_name")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="p_first_name" id='p_first_name' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".last_name")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="p_last_name" id='p_last_name' /></td>
+      </tr>      
+      <tr>
+        <td width="15%"><b><%=t(".card_number")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="p_card_num" id='p_card_num' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".csv_code")%> (*)</b></td>
+        <td><input type="password" class='span5' value="" name="p_csv_code" id='p_csv_code' maxlength="4" /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".expired_date")%> (*)</b></td>
+        <td>
+
+            <select class="span2 numericSelection" id="creditCardExpirationMonth" name="creditCardExpirationMonth" >
+              <option value="" selected="selected"><%=t(".expiry_month")%></option>
+              <%(1..12).each do |id|%>
+                <option value=<%= "%02d" % id.to_s%> ><%="%02d" % id.to_s%></option>
+              <%end%>
+            </select>
+            <select class="span2 numericSelection" id="creditCardExpirationYear" name="creditCardExpirationYear">
+              <option value="" selected="selected"><%=t(".expiry_year")%></option>
+              <%(2013..2033).each do |id|%>
+                <option value=<%= id%> ><%=id%></option>
+              <%end%>
+            </select>
+            <label id="expired_date_error" class="error" for="expired_date" generated="true" style="display: none;"><%=t(".expired_date_wrong")%></label>
+          </td>
+      </tr>      
+      
+    </table>
+  </div>
+
+  <br/>
+
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td><h4><%=t(".bill_address")%></h4> </td>
+      </tr>
+    </table>
+  </div>
+  <div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td width="15%"><b><%=t(".address")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="ba_address" id='ba_address' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".city")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="ba_city" id='ba_city' /></td>
+      </tr>      
+      <tr>
+        <td width="15%"><b><%=t(".state")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="ba_state" id='ba_state' /></td>
+      </tr>      
+      <tr>
+        <td><b><%=t(".country")%> (*)</b></td>
+        <td><%= country_select("hotel", "country_name", {:default => "United 
+States"}) %>
+      </tr>
+      <tr>
+        <td><b><%=t(".zip_code")%> (*)</b></td>
+        <td><input type="text" class='span5' value="" name="ba_zip_code" id='ba_zip_code' /></td>
+      </tr>      
+    </table>
+  </div>
+
+  <br/>
+
+  <div class="row-fluid">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td width="15%"></td>
+        <td ><input type="checkbox" id="agree" name="agree" value="agree" style="margin: 0;"><%=t(".agree")%></td>
+      </tr>      
+      <tr>
+        <td id="agree_error" width="15%"></td>
+      </tr> 
+    </table>
+  </div>
+
+  <br/>
+
+  <div class="row-fluid">
+    <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+      <tr>
+        <td align="center" width="15%"><input type='submit' value='Book now!' id='book-btn'> </td>
+      </tr>
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+  var number_of_rooms = <%= @number_of_rooms%>;
+  
+  jQuery.validator.addMethod("validateExpiryDate", function(value, element, params) {   
+    var toDay = Date.parse($.datepicker.formatDate('M 01, yy', new Date()));
+    console.log(toDay);
+    var ex_month = parseFloat($("#creditCardExpirationMonth").val());
+    
+    var ex_year = $("#creditCardExpirationYear").val();
+    
+  
+    var expired_date = Date.parse($.datepicker.formatDate('M 01, yy', new Date(ex_year, ex_month - 1)));
+    console.log(expired_date);
+    return (expired_date >= toDay);
+  }, jQuery.validator.format("<%= t(".expired_date_wrong")%>"));
+
+  jQuery.validator.addMethod("numericSelection", function(value, element, params) {		
+    
+    return (value != "");
+	}, jQuery.validator.format("<%= t(".expired_date_invalid")%>"));
+	
+	jQuery.validator.addMethod("normalCharOnly", function(value, element, params) {		
+		return /^[a-zA-Z\s\-\_]*$/.test(value);
+	}, jQuery.validator.format("<%= t(".char_only")%>"));
+	
+	jQuery.validator.addMethod("cardNumber", function(value, element, params) {		
+		return /^(([0-9]+[0-9\-]*[0-9])|([0-9]+))$/.test(value);
+	}, jQuery.validator.format("<%= t(".card_number_error")%>"));
+	
+  jQuery.validator.addMethod("roomFullname", function(value, element, params) {   
+    var fullname_array = [];
+    current_id = String(element.id.slice(1,2));
+    for(var i=1; i<=number_of_rooms;i++){
+      if(current_id != String(i)){
+        var fullname = $("#r" + String(i) + "_first_name").val() + $("#r" + String(i) + "_last_name").val();
+        console.log(fullname_array);
+        if(fullname.trim() != ""){
+          fullname_array.push(fullname.trim());
+        }
+      }
+    }
+    current_fullname = $("#r" + current_id + "_first_name").val() + $("#r" + current_id + "_last_name").val();
+    validate_flag = $.inArray(current_fullname.trim(), fullname_array)
+    console.log(value);
+    console.log(validate_flag);
+    console.log(fullname_array.length);
+    console.log(params);
+    if(fullname_array.length > 0 && validate_flag!=-1){
+      return false;
+    }else{
+      return true;
+    }
+  }, jQuery.validator.format("<%= t(".fullname_diff")%>"));
+
+  $("#hotel_country_name").val("US");
+	$('#set_booking_form').validate({
+      onkeyup: false,
+      onfocusout:false,
+      
+			rules: {
+				first_name: {
+					required: true,
+					normalCharOnly: true
+				},
+				last_name: {
+					required: true,
+					normalCharOnly: true
+				},
+				email: {
+					required: true,
+					email: true
+				}, 
+				phone: {
+					required: true,
+					number: true
+				},
+				<% (1..@number_of_rooms).each do |room_id| %>
+				r<%=room_id%>_first_name: {
+					required: true,
+					normalCharOnly: true,
+          roomFullname: true
+				},
+				r<%=room_id%>_last_name: {
+					required: true,
+					normalCharOnly: true,
+          roomFullname: true
+				},
+				<%end%>
+				p_first_name: {
+					required: true,
+					normalCharOnly: true
+				},
+				p_last_name: {
+					required: true,
+					normalCharOnly: true
+				},
+				p_card_num:{
+					required: true,
+					cardNumber: true	
+				},
+				p_csv_code: {				
+					maxlength: 4,	
+					required: true,
+					cardNumber: true
+				},
+				creditCardExpirationMonth: {
+					numericSelection: true,
+          validateExpiryDate:true
+				},
+				creditCardExpirationYear: {
+					numericSelection: true,
+          validateExpiryDate:true
+				},
+				ba_address: {
+					required: true
+				},
+				ba_city: {
+					required: true
+				},
+				ba_state: {
+					required: true
+				},
+				ba_zip_code: {
+					required: true,
+					number: true
+				},
+				agree: {
+					required: true       
+				}				
+			},
+			groups: {
+				expire_date: "creditCardExpirationMonth creditCardExpirationYear"
+			}, 
+			messages: {
+				first_name:{
+					required: "<%= t(".first_name_require")%>"
+				},
+				last_name:{
+					required: "<%= t(".last_name_require")%>"
+				}, 
+				email:{
+					required: "<%= t(".email_address_require")%>"					
+				},
+				phone: {
+					required: "<%= t(".phone_require")%>",
+          number: "<%= t(".phone_error")%>"
+				},
+				<% (1..@number_of_rooms).each do |room_id| %>
+				r<%=room_id%>_first_name: {
+					required: "<%= t(".first_name_require")%>"
+				},
+				r<%=room_id%>_last_name: {
+					required: "<%= t(".last_name_require")%>"
+				},
+				<%end%>
+				p_first_name:{
+					required: "<%= t(".first_name_require")%>"
+				},
+				p_last_name:{
+					required: "<%= t(".last_name_require")%>"
+				},
+				p_card_num: {
+					required: "<%= t(".card_number_invalid")%>"
+				},
+				p_csv_code: {
+					required: "<%= t(".csv_code_invalid")%>",
+					cardNumber: "<%= t(".csv_code_error")%>"
+				}, 
+				ba_address: {
+					required: "<%= t(".address_require")%>"
+				},
+				ba_city: {
+					required: "<%= t(".city_require")%>"
+				},
+				ba_state: {
+					required: "<%= t(".state_require")%>"
+				},
+				ba_zip_code: {
+					required: "<%= t(".zip_code_require")%>",
+					number: "<%= t(".zip_code_number")%>"
+				},
+				agree: {
+					required: "<%= t(".accept")%>"
+				}
+				 														
+			}, 
+			errorPlacement: function(error, element) {
+				if (element.attr("name") == "agree") {
+					error.insertAfter("#agree_error");
+			 	}else if (element.attr("name") == "creditCardExpirationMonth" || element.attr("name") == "creditCardExpirationYear") {
+			 		error.insertAfter('#creditCardExpirationYear');
+			 		//$('#expired_date_error').html(error);
+			 	}	
+			 	else {
+			 		error.insertAfter(element);
+			 	}
+			}
+	});
+</script>
+<%= javascript_include_tag "hotel/hotel_show_booking_screen" %>

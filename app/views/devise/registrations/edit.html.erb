@@ -1,0 +1,43 @@
+
+<%= devise_error_messages! %>
+<div class="span7 offset4">
+<h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+
+  <div>
+  	<%= f.label :first_name %> <span class='required-star'>(*)</span><br/>
+  	<%= f.text_field :first_name, :class => "span6", :autofocus => true %>
+  </div>
+  
+  <div>
+  	<%= f.label :last_name %> <span class='required-star'>(*)</span><br/>
+  	<%= f.text_field :last_name, :class => "span6" %>
+  </div>
+  
+  <div>
+  	<%= f.label :email %> <span class='required-star'>(*)</span><br/>
+  	<%= f.email_field :email, :class => "span6" %>
+  </div>
+  
+  <div>
+  	<%= f.label :gender %> <br />
+  	<%= f.select :gender, genders_select %>
+  </div>
+  
+  <div>
+  	<%= f.label :current_password %> <span class='required-star'>(*)</span><br />
+   <%= f.password_field :current_password, :autocomplete => "off" , :class => "span6"%></div>
+   <%= link_to t(".change_password"), "/passwords/edit", {:class => "btn"} %>
+  <br />
+  <br />
+  <div><%= f.submit t(".update"), :class => "btn btn-success" %></div>
+<% end %>
+
+<% if has_role?(:admin) == false %>
+<h3>Cancel my account</h3>
+<p>Unhappy? <%= link_to t(".cancel_account"), registration_path(resource_name), :data => { :confirm => t(".confirm_cancel_account") }, :method => :delete %>.</p>
+<% end %>
+<%= link_to t(".back"), root_path %>
+</div>
+<%= javascript_include_tag "devise/registration.edit" %>

@@ -1,0 +1,23 @@
+<p>
+  <b><%=t(".first_name")%></b>
+  <%=h @user.first_name %>
+</p>
+
+<p>
+  <b><%=t(".last_name")%></b>
+  <%=h @user.last_name %>
+</p>
+
+<p>
+  <b><%=t(".email")%></b>
+  <%=h @user.email %>
+</p>
+
+<p>
+  <b><%=t(".role")%></b>
+  <%=h @user.roles.to_a.join(",") %>
+</p>
+
+
+<%= link_to t('.edit'), :action => :edit, :id => @user.id %> |
+<%= link_to t('.back'), users_path %>

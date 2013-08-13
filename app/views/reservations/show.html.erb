@@ -1,0 +1,238 @@
+<%money_unit = MONEY_SIGN[@reservation.currency_code] ? MONEY_SIGN[@reservation.currency_code] : MONEY_SIGN['USD']
+  rooms = @reservation.reservation_rooms.order(&:id)
+  is_detailed = rooms.exists?(:status => Reservation::STATUS[:cancelled])
+  rooms_size = rooms.size.to_s
+  room_type = rooms_size + ' ' + @reservation.reservation_rooms.first.room_type
+  rooms_rate = @reservation.total_rate - @reservation.taxes_fees
+	
+%>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td><h4><%=t(".booking_confirmation")%></h4></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<div class="row-fluid" style= "float:none;border:1px solid;padding: 5px">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%;padding: 10px">
+    <tr>
+      <td colspan=4><b><%=t(".thank_you")%><b></td>
+    </tr>
+    <tr>
+      <td colspan=4>  <%=t(".confirmation_sent", email: @reservation.user_email)%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".itinerary_number")%></b></td>
+      <td colspan=3><%= @reservation.itinerary_number %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".confirm_number")%></b></td>
+      <td colspan=3><%=@reservation.confirm_number%></td>
+
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".your_name")%></b></td>
+      <td colspan=3><%= @reservation.user_name %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".your_email")%></b></td>
+      <td colspan=3><%=@reservation.user_email%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t(".hotel_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".hotel")%></b></td>
+      <td colspan=3><%= @reservation.hotel_name %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".address")%></b></td>
+      <td colspan=3><%=h @reservation.hotel_address %></td>
+    </tr>
+     <tr>
+      <td width="20%"><b><%=t(".phone")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".faxs")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".email")%></b></td>
+      <td colspan=3><%=t(".na")%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4><%=t(".reservation_details")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".check_in")%></b></td>
+      <td width="30%"><%=@reservation.get_check_in_text%></td>
+      <td colspan=2><b><%=t(".rates")%></b></td>
+    </tr>
+      <tr>
+      <td width="20%"><b><%=t(".check_out")%></b></td>
+      <td width="30%"><%=@reservation.get_check_out_text%></td>
+      <td width="20%"><b><%=room_type%></b></td>
+      <td width="30%"><%=number_to_currency rooms_rate, :unit => money_unit, :precision => 2 %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".for")%></b></td>
+      <td width="30%"><%=   rooms_size.to_s + " room(s), " + @reservation.adults.to_s + " adult(s), " + @reservation.children.to_s + " children" %></td>
+      <td width="20%">
+      	<% if is_detailed 
+      		 rooms.each_with_index do |room, index| %>
+      	<p <%=raw (room.tooltip ? "title='#{room.tooltip}'" : "" )%>><b>&nbsp;&nbsp;&nbsp;Room <%= (index + 1).to_s + " - " + room.status %></b></p>
+      	<% end %><% end %>      	
+      	<b><%=t(".taxes_fees")%></b>
+      		
+      </td>
+      <td width="30%">
+      	<% if is_detailed 
+      		 rooms.each_with_index do |room, index| %>
+      	<p <%=raw (room.tooltip ? "title='#{room.tooltip}'" : "" )%>><%=number_to_currency room.rate, :unit => money_unit, :precision => 2%><br></p>
+      	<% end %>	<% end %>	
+      	<%=number_to_currency @reservation.taxes_fees, :unit => money_unit, :precision => 2%>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2></td>
+      <td width="20%"><b>Total</b></td>
+      <td width="30%"><%=number_to_currency @reservation.total_rate, :unit => money_unit, :precision => 2%></td>
+      
+    </tr>
+    
+    <tr>
+      <td colspan=4><h4><%=t(".room_details")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4><b><%=t(".room_details")%>:</b> <%=raw @reservation.room_details%></td>
+    </tr>
+    <tr>
+      <td colspan=4><%=raw @reservation.noti_fee%></td>
+    </tr>
+    <tr>
+      <td colspan=4><b><%=t(".cancellation_policy")%>:</b> <%=raw @reservation.cancellation_policy %></td>
+    </tr>
+    <% i = 1
+    rooms.each do |room|%>
+                     
+    <tr>
+      <td colspan=4><h5>Room <%=i%> (<%= room.status%>)</h5>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".guest_name")%></b></td>
+      <td colspan=3><%=room.guest_name %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".bed_type")%></b></td>
+      <td colspan=3><%=room.bed_type_description %></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".smoking_preferences")%></b></td>
+      <td colspan=3><%=room.smoking %></td>
+    </tr>
+    <%i = i+1
+    end%>
+
+    <tr>
+      <td colspan=4><h4><%=t(".payment_info")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".credit_card_type")%></b></td>
+      <td colspan=3><%=get_credit_card(@reservation.card_type)%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".first_name")%></b></td>
+      <td colspan=3><%=@reservation.get_card_holder_name_parts[0]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".last_name")%></b></td>
+      <td colspan=3><%=@reservation.get_card_holder_name_parts[1]%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".card_number")%></b></td>
+      <td colspan=3><%=show_card_number(@reservation.card_number)%></td>
+    </tr>
+
+    <tr>
+      <td width="20%"><b><%=t(".amount_charged")%></b></td>
+      <td colspan=3><%=number_to_currency @reservation.amount_charged, :unit => money_unit, :precision => 2%></td>
+    </tr>
+
+    <tr>
+      <td colspan=4><h4><%=t(".billing_address")%><br/>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".billing_name")%></b></td>
+      <td colspan=3><%= @reservation.billing_name%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".address")%></b></td>
+      <td colspan=3><%=@reservation.billing_address%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".phone")%></b></td>
+      <td colspan=3><%=@reservation.user_phone%></td>
+    </tr>
+    <tr>
+      <td width="20%"><b><%=t(".email_address")%></b></td>
+      <td colspan=3><%= @reservation.user_email%></td>
+    </tr>
+    <tr>
+      <td colspan=4><h4>-----------------------------------------------</h4>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=4><%=raw t(".contact")%> 
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div class="row-fluid" style="display: <%= ( @reservation.status == Reservation::STATUS[:cancelled] or @reservation.check_out < Time.now ? "none" : "")%>">
+  <table border=0  cellpadding = 0 cellspacing = 0 style= "width:100%">
+    <tr>
+      <td align="center" width="15%">
+      	<input type='button' value='Confirm' id='confirm'> &nbsp;&nbsp; 
+      	<input type='button' value='Cancel Booking' id='cancel_booking' href="#choose-room">
+      </td>
+
+    </tr>
+  </table>
+</div>
+<div style='display:none'>
+	<div id='choose-room'>
+		<p><%= t('.cancel_confirmation') %></p>
+		<%rooms.each do |room|%>
+		<input type="radio" name="room" value="<%= room.id %>" <%= (room.status == Reservation::STATUS[:cancelled] ? "disabled='true'" : '')%>> <%= room.guest_name + "'s room" %> <br>
+		<%end%>
+		<br/>
+		<br/>
+		<div id='button-div'>
+			<input type="button" id="btn-cancel" value='<%= t('.cancel')%>'>
+			<input type="button" id="btn-close"  value='<%= t('.close')%>'>
+		</div>		
+	</div>	
+</div>
+
+<script>
+	var cancel_path = '<%= cancel_reservations_path %>';
+	var reservation_id = '<%= params[:id] %>';
+	jQuery(document).ready(function($) {
+		$(document).tooltip();
+	});
+</script>
+<%= javascript_include_tag "hotel/hotel_show_booking_screen" %>
+
+<%= javascript_include_tag "reservations" %>
+<%= stylesheet_link_tag "reservations"%>

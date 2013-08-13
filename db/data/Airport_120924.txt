@@ -1,0 +1,1927 @@
+LocationCode|City|StateProvince|Country|Description
+AAL|Aalborg|null|DK|Aalborg Airport
+AAN|Al Ain|null|AE|Al Ain Airport
+AAQ|Anapa|null|RU|Anapa Airport
+AAR|Aarhus|null|DK|Tirstrup Airport
+ABE|Allentown|PA|US|Lehigh Valley International Airport
+ABE|Easton|PA|US|Lehigh Valley International Airport
+ABE|Bethlehem|PA|US|Lehigh Valley International Airport
+ABI|Abilene|TX|US|Abilene Municipal Airport
+ABJ|Abidjan|null|CI|Felix Houphouet Boigny Airport
+ABQ|Albuquerque|NM|US|Albuquerque International Airport
+ABR|Aberdeen|SD|US|Aberdeen Municipal Airport
+ABX|Albury|NS|AU|Albury Airport
+ABY|Albany|GA|US|Dougherty County Airport
+ABZ|Aberdeen|null|GB|Dyce Airport
+ACA|Acapulco|null|MX|Alvarez International Airport
+ACE|Lanzarote|null|ES|Lanzarote Airport
+ACK|Nantucket|MA|US|Nantucket Memorial Airport
+ACT|Waco|TX|US|Waco Municipal Airport
+ACV|Arcata|CA|US|Arcata Airport
+ACY|Atlantic City|NJ|US|Atlantic City International Airport
+ADA|Adana|null|TR|Adana Airport
+ADB|Izmir|null|TR|Adnan Menderes Airport
+ADD|Addis Ababa|null|ET|Bole Airport
+ADE|Aden|null|YE|Aden International Airport
+ADL|Adelaide|SA|AU|Adelaide Airport
+ADQ|Kodiak|AK|US|Kodiak Airport
+ADZ|San Andres Island|null|CO|San Andres Island Airport
+AEP|Buenos Aires|null|AR|Jorge Newbery Airport
+AES|Aalesund|null|NO|Vigra Airport
+AEX|Alexandria|LA|US|Alexandria International Airport
+AGA|Agadir|null|MA|Agadir Almassira Airport
+AGB|Augsburg|null|DE|Augsburg - Muehlhausen Airport
+AGF|Agen|null|FR|La Garenne Airport
+AGH|Helsingborg|null|SE|Angelholm Airport
+AGP|Malaga|null|ES|Malaga Airport
+AGR|Agra|null|IN|Kheria Airport
+AGS|Augusta|GA|US|Bush Field
+AGU|Aguascalientes|null|MX|Aguascalients Airport
+AHN|Athens|GA|US|Athens Airport
+AHO|Alghero|null|IT|Fertilia Airport
+AIA|Alliance|NE|US|Alliance Airport
+AIT|Aitutaki|null|CK|Aitutaki Airport
+AIY|Atlantic City|NJ|US|Bader Field
+AJA|Ajaccio|null|FR|Campo Dell Oro Airport
+AJU|Aracaju|null|BR|Aracaju Airport
+AKJ|Asahikawa|null|JP|Asahikawa Airport
+AKL|Auckland|null|NZ|Auckland International Airport
+AKN|King Salmon|AK|US|King Salmon Airport
+ALA|Almaty|null|KZ|Almaty Airport
+ALB|Albany|NY|US|Albany Airport
+ALC|Alicante|null|ES|Alicante Airport
+ALG|Algiers|null|DZ|Houari Boumediene Airport
+ALH|Albany|WA|AU|Albany Airport
+ALM|Alamogordo|NM|US|Alamogordo Municipal Airport
+ALO|Waterloo|IA|US|Waterloo Airport
+ALS|Alamosa|CO|US|Alamosa Municipal Airport
+ALW|Walla Walla|WA|US|Walla Walla Airport
+ALY|Alexandria|null|EG|El Nohza Airport
+AMA|Amarillo|TX|US|Amarillo International Airport
+AMD|Ahmedabad|null|IN|Ahmedabad Airport
+AMI|Mataram|null|ID|Selaparang Airport
+AMM|Amman|null|JO|Queen Alia International Airport
+AMS|Amsterdam|null|NL|Amsterdam-Schiphol Airport
+ANC|Anchorage|AK|US|Anchorage International Airport
+ANE|Angers|null|FR|Arville Airport
+ANF|Antofagasta|null|CL|Cerro Moreno Airport
+ANG|Angouleme|null|FR|Brie-Champniers Airport
+ANI|Aniak|AK|US|Aniak Airport
+ANK|Ankara|null|TR|Etimesgut Airport
+ANR|Antwerp|null|BE|Deurne Airport
+ANU|Antigua|null|AG|V.C. Bird International Airport
+ANX|Andenes|null|NO|Andenes Airport
+AOI|Ancona|null|IT|Falconara Airport
+AOJ|Aomori|null|JP|Aomori Airport
+AOK|Karpathos|null|GR|Karpathos Airport
+AOO|Martinsburg|PA|US|Altoona Airport
+AOO|Altoona|PA|US|Altoona Airport
+AOR|Alor Setar|null|MY|Alor Setar Airport
+AOT|Aosta|null|IT|Corrado Gex Airport
+APA|Denver|CO|US|Arapahoe County Airport
+APF|Naples|FL|US|Naples Airport
+APN|Alpena|MI|US|Alpena County Regional Airport
+APW|Apia|null|WS|Faleolo Airport
+AQJ|Aqaba|null|JO|Aqaba Airport
+AQP|Arequipa|null|PE|Rodriguez Ballon Airport
+ARH|Arkhangelsk|null|RU|Arkhangelsk Airport
+ARI|Arica|null|CL|Chacalluta Airport
+ARM|Armidale|NS|AU|Armidale Airport
+ARN|Stockholm|null|SE|Arlanda Airport
+ART|Watertown|NY|US|Watertown Airport
+ARW|Arad|null|RO|Arad Airport
+ASD|Andros Town|null|BS|Andros Town Airport
+ASE|Aspen|CO|US|Aspen Airport
+ASM|Asmara|null|ER|Asmara International Airport
+ASP|Alice Springs|NT|AU|Alice Springs Airport
+ASU|Asuncion|null|PY|Silvio Pettirossi Airport
+ASW|Aswan|null|EG|Aswan Airport
+ATH|Athens|null|GR|Eleftherios Venizelos International Airport
+ATL|Atlanta|GA|US|William B. Hartsfield International Airport
+ATQ|Amritsar|null|IN|Raja Sansi Airport
+ATS|Artesia|NM|US|Artesia Airport
+ATW|Appleton|WI|US|Outagamie County Airport
+ATY|Watertown|SD|US|Watertown Airport
+AUA|Aruba|null|AW|Reina Beatrix Airport
+AUG|Augusta|ME|US|Augusta Airport
+AUH|Abu Dhabi|null|AE|Abu Dhabi International Airport
+AUQ|Atuona|null|PF|Atuona Airport
+AUR|Aurillac|null|FR|Aurillac Airport
+AUS|Austin|TX|US|Austin-Bergstrom International Airport
+AUW|Wausau|WI|US|Wausau Municipal Airport
+AVL|Hendersonville|NC|US|Asheville Municipal Airport
+AVL|Asheville|NC|US|Asheville Municipal Airport
+AVN|Avignon|null|FR|Avignon-Caum Airport
+AVP|Wilkes-Barre|PA|US|Wilkes-Barre International Airport
+AVP|Scranton|PA|US|Wilkes-Barre International Airport
+AXA|Anguilla|null|AI|Wallblake Airport
+AXB|Alexandria Bay|NY|US|Alexandria Bay Airport
+AXM|Armenia|null|CO|El Eden Airport
+AXX|Angel Fire|NM|US|Angel Fire Airport
+AYQ|Ayers Rock|NT|AU|Connellan Airport
+AYT|Antalya|null|TR|Antalya Airport
+AZO|Kalamazoo|MI|US|Battle Creek International Airport
+BAH|Bahrain|null|BH|Bahrain International Airport
+BAK|Baku|null|AZ|Baku Airport
+BAQ|Barranquilla|null|CO|E Cortissoz Airport
+BAV|Baotou|null|CN|Baotou Airport
+BBA|Balmaceda|null|CL|Teniente Vidal Airport
+BBI|Bhubaneswar|null|IN|Bhubaneswar Airport
+BBK|Kasane|null|BW|Kasane Airport
+BBU|Bucharest|null|RO|Baneasa Airport
+BCN|Barcelona|null|ES|Barcelona Airport
+BDA|Bermuda|null|BM|Bermuda International Airport
+BDA|Hamilton||BM|Bermuda International Airport
+BDB|Bundaberg|QL|AU|Bundaberg Airport
+BDL|Hartford|CT|US|Bradley International Airport
+BDL|Windsor Locks|CT|US|Bradley International Airport
+BDL|Springfield|MA|US|Bradley International Airport
+BDQ|Vadodara|null|IN|Vadodara Airport
+BDS|Brindisi|null|IT|Papola Casale Airport
+BDU|Bardufoss|null|NO|Bardufoss Airport
+BED|Bedford|MA|US|Hanscom Field
+BEG|Belgrade|null|YU|Beograd Airport
+BEL|Belem|null|BR|Val De Cans Airport
+BEO|Newcastle|NS|AU|Belmont Airport
+BER|Berlin|null|DE|Metropolitan Area
+BES|Brest|null|FR|Guipavas Airport
+BET|Bethel|AK|US|Bethel Airport
+BEY|Beirut|null|LB|Beirut International Airport
+BFD|Bradford|PA|US|Bradford Airport
+BFF|Scottsbluff|NE|US|Scotts Bluff County Airport
+BFI|Seattle|WA|US|Boeing Field International Airport
+BFL|Bakersfield|CA|US|Meadows Field
+BFN|Bloemfontein|null|ZA|Bloemfontein International Airport
+BFS|Belfast|null|GB|Belfast International Airport
+BGA|Bucaramanga|null|CO|Palo Negro Airport
+BGF|Bangui|null|CF|Bangui Airport
+BGI|Bridgetown|null|BB|Grantley Adams International Airport
+BGM|Johnson City|NY|US|Binghamton Airport
+BGM|Binghamton|NY|US|Binghamton Airport
+BGM|Endicott|NY|US|Binghamton Airport
+BGO|Bergen|null|NO|Flesland Airport
+BGR|Bangor|ME|US|Bangor International Airport
+BGY|Milan|null|IT|Orio Al Serio Airport
+BHB|Bar Harbour|ME|US|Bar Harbor Airport
+BHD|Belfast|null|GB|Belfast City Airport
+BHE|Blenheim|null|NZ|Blenheim Airport
+BHI|Bahia Blanca|null|AR|Comandante Airport
+BHM|Birmingham|AL|US|Birmingham Airport
+BHO|Bhopal|null|IN|Bhopal Airport
+BHX|Birmingham|null|GB|Birmingham International Airport
+BHY|Beihai|null|CN|Beihai Airport
+BHZ|Belo Horizonte|null|BR|Metropolitan Area
+BIA|Bastia|null|FR|Poretta Airport
+BIL|Billings|MT|US|Billings Airport
+BIO|Bilbao|null|ES|Bilbao Airport
+BIQ|Biarritz|null|FR|Biarritz Parme Airport
+BIS|Bismarck|ND|US|Bismarck Airport
+BJI|Bemidji|MN|US|Bemidji Airport
+BJL|Banjul|null|GM|Yundum International Airport
+BJM|Bujumbura|null|BI|Bujumbura International Airport
+BJV|Bodrum.|null|TR|Milas Airport
+BJX|Leon/Guanajuato|null|MX|Del Bajio Airport
+BJZ|Badajoz|null|ES|Talaveral La Real Airport
+BKI|Kota Kinabalu|null|MY|Kota Kinabalu Airport
+BKK|Bangkok|null|TH|Bangkok International Airport
+BKO|Bamako|null|ML|Bamako Airport
+BKW|Beckley|WV|US|Beckley Airport
+BKX|Brookings|SD|US|Brookings Airport
+BLA|Barcelona|null|VE|Gen J A Anzoategui Airport
+BLE|Borlange|null|SE|Dala Airport
+BLF|Bluefield|WV|US|Mercer County Airport
+BLF|Princeton|WV|US|Mercer County Airport
+BLI|Bellingham|WA|US|Bellingham Airport
+BLK|Blackpool|null|GB|Blackpool Airport
+BLL|Billund|null|DK|Billund Airport
+BLQ|Bologna|null|IT|Guglielmo Marconi Airport
+BLR|Bangalore|null|IN|Hindustan Airport
+BLZ|Blantyre|null|MW|Chileka Airport
+BMA|Stockholm|null|SE|Bromma Airport
+BME|Broome|WA|AU|Broome Airport
+BMI|Bloomington-Normal|IL|US|Bloomington-Normal Airport
+BNA|Nashville|TN|US|Nashville Metropolitan Airport
+BNE|Brisbane|QL|AU|Brisbane International Airport
+BNK|Ballina|NS|AU|Ballina Airport
+BNN|Bronnoysund|null|NO|Bronnoy Airport
+BOB|Bora Bora|null|PF|Motu-mute Airport
+BOD|Bordeaux|null|FR|Bordeaux Airport
+BOG|Bogota|null|CO|Eldorado Airport
+BOI|Boise|ID|US|Boise Air Terminal (Gowen Field)
+BOJ|Bourgas|null|BG|Bourgas Airport
+BOM|Mumbai|null|IN|Mumbai Airport
+BON|Bonaire|null|AN|Flamingo International Airport
+BOO|Bodo|null|NO|Bodo Airport
+BOS|Boston|MA|US|Logan International Airport
+BPN|Balikpapan|null|ID|Sepingan Airport
+BPS|Porto Seguro|null|BR|Porto Seguro Airport
+BPT|Beaumont|TX|US|Jefferson County Airport
+BQK|Brunswick|GA|US|Glynco Jetport
+BQN|Aguadilla|null|PR|Borinquen Airport
+BRC|San Carlos DeBariloche|null|AR|San Carlos de Bariloche International Airport
+BRD|Brainerd|MN|US|Crow Wing County Airport
+BRE|Bremen|null|DE|Bremen Airport
+BRI|Bari|null|IT|Palese Airport
+BRL|Burlington|IA|US|Burlington Airport
+BRM|Barquisimeto|null|VE|Barquisimeto Airport
+BRN|Berne|null|CH|Belp Airport
+BRO|Brownsville|TX|US|South Padre Island International Airport
+BRQ|Brno|null|CZ|Turany Airport
+BRS|Bristol|null|GB|Bristol Airport
+BRU|Brussels|null|BE|National Airport
+BRW|Barrow|AK|US|Wiley Post/Will Rogers Memorial Airport
+BSB|Brasilia|null|BR|Brasilia International Airport
+BSL|Mulhouse/Basel|null|FR|EuroAirport Swiss
+BSL|Basel/Mulhouse||CH|EuroAirport Swiss
+BTM|Butte|MT|US|Butte Airport
+BTR|Baton Rouge|LA|US|Ryan Airport
+BTS|Bratislava|null|SK|Ivanka Airport
+BTV|Burlington|VT|US|Burlington International Airport
+BUD|Budapest|null|HU|Ferihegy Airport
+BUE|Buenos Aires|null|AR|Metropolitan Area
+BUF|Buffalo|NY|US|Greater Buffalo International Airport
+BUH|Bucharest|null|RO|Metropolitan Area
+BUQ|Bulawayo|null|ZW|Bulawayo Airport
+BUR|Burbank|CA|US|Burbank Airport
+BVB|Boa Vista|null|BR|Boa Vista Airport
+BVE|Brive-La-Gaillarde|null|FR|Laroche Airport
+BVI|Birdsville|QL|AU|Birdsville Airport
+BWD|Brownwood|TX|US|Brownwood Airport
+BWI|Baltimore|MD|US|Balt./Wash. International Airport
+BWI|Washington|DC|US|Balt./Wash. International Airport
+BWN|Bandar Seri Begawan|null|BN|Brunei International Airport
+BWT|Burnie|TS|AU|Burnie Wynyard Airport
+BXS|Borrego Springs|CA|US|Borrego Springs Airport
+BYU|Bayreuth|null|DE|Bindlacher-Berg Airport
+BZE|Belize City|null|BZ|Philip S.W. Goldson International Airport
+BZN|Bozeman|MT|US|Gallatin Field
+BZO|Bolzano|null|IT|Bolzano Airport
+BZV|Brazzaville|null|CG|Maya Maya Airport
+CAC|Cascavel|null|BR|Cascavel Airport
+CAE|Columbia|SC|US|Columbia Metropolitan Airport
+CAG|Cagliari|null|IT|Elmas Airport
+CAI|Cairo|null|EG|Cairo International Airport
+CAK|Akron/Canton|OH|US|Akron/Canton Regional Airport
+CAN|Guangzhou|null|CN|Baiyun Airport
+CAS|Casablanca|null|MA|Anfa Airport
+CAY|Cayenne|null|GF|Rochambeau Airport
+CBB|Cochabamba|null|BO|J Wilsterman Airport
+CBE|Cumberland|MD|US|Wiley Ford Airport
+CBG|Cambridge|null|GB|Cambridge Airport
+CBR|Canberra|AC|AU|Canberra Airport
+CCJ|Kozhikode|null|IN|Calicut Airport
+CCP|Concepcion|null|CL|Carriel Sur Airport
+CCS|Caracas|null|VE|Simon Bolivar Airport
+CCU|Calcutta|null|IN|Netaji Subhas Chandra Airport
+CDC|Cedar City|UT|US|Cedar City Airport
+CDG|Paris|null|FR|Charles De Gaulle Airport
+CDR|Chadron|NE|US|Chadron Airport
+CDV|Cordova|AK|US|Mudhole Smith Airport
+CEB|Cebu|null|PH|Cebu Airport
+CEC|Crescent City|CA|US|Mc Namara Field
+CEI|Chiang Rai|null|TH|Chiang Rai Airport
+CEK|Chelyabinsk|null|RU|Chelyabinsk Airport
+CEN|Ciudad Obregon|null|MX|Ciudad Obregon Airport
+CEQ|Cannes|null|FR|Mandelieu Airport
+CER|Cherbourg|null|FR|Maupertus Airport
+CEZ|Cortez|CO|US|Montezuma County Airport
+CFE|Clermont-Ferrand|null|FR|Aulnat Airport
+CFN|Donegal|null|IE|Donegal Airport
+CFR|Caen|null|FR|Carpiquet Airport
+CFS|Coffs Harbour|NS|AU|Coffs Harbour Airport
+CFU|Kerkyra|null|GR|I. Kapodistrias Airport
+CFU|Corfu|null|GR|I. Kapodistrias Airport
+CGB|Cuiaba|null|BR|M. Rondon Airport
+CGD|Changde|null|CN|Changde Airport
+CGH|Sao Paulo|null|BR|Congonhas Airport
+CGI|Cape Girardeau|MO|US|Cape Girardeau Airport
+CGK|Jakarta|null|ID|Soekarno-Hatta International Airport
+CGN|Cologne|null|DE|Koeln/Bonn Airport
+CGO|Zhengzhou|null|CN|Zhengzhou Airport
+CGP|Chittagong|null|BD|Patenga Airport
+CGQ|Changchun|null|CN|Changchun Airport
+CGR|Campo Grande|null|BR|Campo Grande Internacional Airport
+CGY|Cagayan De Oro|null|PH|Lumbia Airport
+CHA|Chattanooga|TN|US|Lovell Field
+CHC|Christchurch|null|NZ|Christchurch International Airport
+CHI|Chicago|IL|US|Chicago FSS
+CHO|Charlottesville|VA|US|Albemarle Airport
+CHQ|Chania|null|GR|Souda Airport
+CHS|Charleston|SC|US|Charleston International Airport
+CIA|Rome|null|IT|Ciampino Airport
+CIC|Chico|CA|US|Chico Airport
+CID|Cedar Rapids|IA|US|Cedar Rapids Airport
+CIG|Craig|CO|US|Craig-Moffat Airport
+CIP|Chipata|null|ZM|Chipata Airport
+CIU|Sault Ste Marie|MI|US|Chippewa County Airport
+CIW|Canouan Island|null|VC|Canouan Island Airport
+CIX|Chiclayo|null|PE|Cornel Ruiz Airport
+CJB|Coimbatore|null|IN|Peelamedu Airport
+CJC|Calama|null|CL|El Loa Airport
+CJJ|Cheong Ju City|null|KR|Cheongju Airport
+CJS|Ciudad Juarez|null|MX|Abraham Gonzalez International Airport
+CJU|Cheju|null|KR|Jeju Airport
+CKB|Clarksburg|WV|US|Benedum Airport
+CKG|Chongqing|null|CN|Chongqing Airport
+CKS|Carajas|null|BR|Carajas Airport
+CKY|Conakry|null|GN|Conakry Airport
+CLD|Carlsbad|CA|US|Carlsbad Airport
+CLE|Cleveland|OH|US|Hopkins International Airport
+CLJ|Cluj|null|RO|Napoca Airport
+CLL|College Station|TX|US|Easterwood Field
+CLM|Port Angeles|WA|US|Fairchild International Airport
+CLO|Cali|null|CO|Alfonso B. Aragon Airport
+CLQ|Colima|null|MX|Colima Airport
+CLT|Charlotte|NC|US|Douglas Airport
+CLY|Calvi|null|FR|Sainte Catherine Airport
+CMB|Colombo|null|LK|Bandaranayake International Airport
+CME|Ciudad Del Carmen|null|MX|Ciudad Del Carmen Airport
+CMF|Chambery|null|FR|Chambery Airport
+CMH|Columbus|OH|US|Port Columbus International Airport
+CMI|Champaign|IL|US|Willard University Airport
+CMN|Casablanca|null|MA|Mohamed V Airport
+CMX|Hancock|MI|US|Houghton County Airport
+CND|Constanta|null|RO|Kogalniceanu Airport
+CNE|Canon City|CO|US|Canon City Airport
+CNF|Belo Horizonte|null|BR|Tancredo Neves International Airport
+CNM|Carlsbad|NM|US|Carlsbad Airport
+CNS|Cairns|QL|AU|Cairns Airport
+CNX|Chiang Mai|null|TH|Chiang Mai International Airport
+CNY|Moab|UT|US|Canyonlands Field
+COD|Cody/Yellowstone|WY|US|Yellowstone Regional Airport
+COK|Cochin|null|IN|Kochi Airport
+COO|Cotonou|null|BJ|Cotonou Airport
+COR|Cordoba|null|AR|Pajas Blancas Airport
+COS|Colorado Springs|CO|US|Peterson Field
+COU|Columbia|MO|US|Columbia Regional Airport
+CPE|Campeche|null|MX|Campeche International Airport
+CPH|Copenhagen|null|DK|Copenhagen Airport
+CPO|Copiapo|null|CL|Chamonate Airport
+CPQ|Campinas|null|BR|Campinas International Airport
+CPR|Casper|WY|US|Casper Airport
+CPT|Cape Town|null|ZA|Cape Town International Airport
+CRI|Crooked Island|null|BS|Crooked Island Airport
+CRP|Corpus Christi|TX|US|Corpus Christi International Airport
+CRV|Crotone|null|IT|Crotone Airport
+CRW|Charleston|WV|US|Yeager Airport
+CSG|Columbus|GA|US|Metropolitan Area
+CSN|Carson City|NV|US|Carson City Airport
+CTA|Catania|null|IT|Fontanarossa Airport
+CTG|Cartagena|null|CO|Rafael Nunez Airport
+CTL|Charleville|QL|AU|Charleville Airport
+CTM|Chetumal|null|MX|Chetumal Airport
+CTS|Sapporo|null|JP|Chitose Airport
+CTU|Chengdu|null|CN|Chengdu Airport
+CUC|Cucuta|null|CO|Camilo Dazo Airport
+CUE|Cuenca|null|EC|Cuenca Airport
+CUL|Culiacan|null|MX|Fedl De Bachigualato Airport
+CUM|Cumana|null|VE|Cumana Airport
+CUN|Cancun|null|MX|Cancun Airport
+CUR|Curacao|null|AN|Aeropuerto Hato
+CUU|Chihuahua|null|MX|Gen Fierro Villalobos Airport
+CUZ|Cuzco|null|PE|Velazco Astete Airport
+CVG|Cincinnati|OH|US|Cincinnati/Northern Kentucky Airport
+CVJ|Cuernavaca|null|MX|Cuernavaca Airport
+CVN|Clovis|NM|US|Clovis Municipal Airport
+CVO|Albany|OR|US|Albany Airport
+CVO|Corvallis|OR|US|Albany Airport
+CWA|Wausau|WI|US|Central Wisconsin Airport
+CWB|Curitiba|null|BR|Afonso Pena Airport
+CWL|Cardiff|null|GB|Cardiff-Wales Airport
+CXJ|Caxias Do Sul|null|BR|Campo Dos Bugres Airport
+CYB|Cayman Brac Is|null|KY|Gerrard-Smith Airport
+CYS|Cheyenne|WY|US|Cheyenne Airport
+CZM|Cozumel|null|MX|Cozumel Airport
+CZW|Czestochowa|null|PL|Czestochowa Airport
+DAB|Daytona Beach|FL|US|Daytona Beach Regional Airport
+DAC|Dhaka|null|BD|Zia International Airport
+DAD|Da Nang|null|VN|Da Nang Airport
+DAL|Dallas|TX|US|Love Field
+DAM|Damascus|null|SY|Damascus International Airport
+DAR|Dar Es Salaam|null|TZ|Dar Es Salaam International Airport
+DAY|Dayton|OH|US|James Cox Dayton International Airport
+DBO|Dubbo|NS|AU|Dubbo Airport
+DBQ|Dubuque|IA|US|Dubuque Municipal Airport
+DBV|Dubrovnik|null|HR|Dubrovnik Airport
+DCA|Washington|DC|US|Ronald Reagan National Airport
+DCF|Dominica|null|DM|Cane Field Airport
+DDC|Dodge City|KS|US|Dodge City Municipal Airport
+DEC|Decatur|IL|US|Decatur Airport
+DEL|Delhi|null|IN|Indira Gandhi International Airport
+DEN|Denver|CO|US|Denver International Airport
+DFW|Dallas|TX|US|Dallas International Airport
+DFW|Fort Worth|TX|US|Dallas International Airport
+DGO|Durango|null|MX|Guadalupe Victoria Airport
+DGT|Dumaguete|null|PH|Dumaguete Airport
+DHN|Dothan|AL|US|Dothan Airport
+DIB|Dibrugarh|null|IN|Chabua Airport
+DIJ|Dijon|null|FR|Dijon Airport
+DIK|Dickinson|ND|US|Dickinson Airport
+DIY|Diyarbakir|null|TR|Diyarbakir Airport
+DJE|Djerba|null|TN|Melita Airport
+DKR|Dakar|null|SN|Yoff Airport
+DLA|Douala|null|CM|Douala Airport
+DLC|Dalian|null|CN|Dalian Airport
+DLD|Geilo|null|NO|Dagali Airport
+DLG|Dillingham|AK|US|Dillingham Municipal Airport
+DLH|Duluth|MN|US|Duluth International Airport
+DLM|Dalaman|null|TR|Dalaman Airport
+DME|Moscow|null|RU|Domodedovo Airport
+DMM|Dammam|null|SA|King Fahad International Airport
+DND|Dundee|null|GB|Dundee Airport
+DNR|Dinard|null|FR|Pleurtuit Airport
+DOH|Doha|null|QA|Doha Airport
+DOL|Deauville|null|FR|Saint Gatien Airport
+DOM|Dominica|null|DM|Melville Hall Airport
+DPL|Dipolog|null|PH|Dipolog Airport
+DPO|Devonport|TS|AU|Devonport Airport
+DPS|Denpasar Bali|null|ID|Ngurah Rai Airport
+DRO|Durango|CO|US|La Plata Airport
+DRS|Dresden|null|DE|Dresden Airport
+DRT|Del Rio|TX|US|Del Rio International Airport
+DRW|Darwin|NT|AU|Darwin Airport
+DSM|Des Moines|IA|US|Des Moines Airport
+DTM|Dortmund|null|DE|Dortmund Airport
+DTT|Detroit|MI|US|Metropolitan Area
+DTW|Detroit|MI|US|Wayne County Airport
+DUB|Dublin|null|IE|Dublin Airport
+DUD|Dunedin|null|NZ|Dunedin Airport
+DUJ|Dubois|PA|US|Jefferson County Airport
+DUR|Durban|null|ZA|Louis Botha Airport
+DUS|Dusseldorf|null|DE|Dusseldorf Airport
+DUT|Dutch Harbor|AK|US|Emergency Field
+DVL|Devils Lake|ND|US|Devils Lake Airport
+DVO|Davao|null|PH|Mati Airport
+DXB|Dubai|null|AE|Dubai Airport
+DZA|Dzaoudzi|null|YT|Dzaoudzi Airport
+EAM|Nejran|null|SA|Nejran Airport
+EAR|Kearney|NE|US|Kearney Airport
+EAS|San Sebastian|null|ES|San Sebastian Airport
+EAT|Wenatchee|WA|US|Pangborn Field
+EAU|Eau Claire|WI|US|Eau Claire Airport
+EBA|Elba Island|null|IT|Marina Di Campo Airport
+EBB|Entebbe|null|UG|Entebbe Airport
+EBJ|Esbjerg|null|DK|Esbjerg Airport
+EBO|Ebon|null|MH|Ebon Airport
+EDI|Edinburgh|null|GB|Turnhouse Airport
+EFD|Houston|TX|US|Ellington Field
+EFL|Kefallinia|null|GR|Argostolion Airport
+EGC|Bergerac|null|FR|Roumanieres Airport
+EGE|Vail/Eagle|CO|US|Eagle County Airport
+EIN|Eindhoven|null|NL|Eindhoven Airport
+EIS|Beef Island|null|VG|Beef Island Airport
+EKO|Elko|NV|US|Elko Airport
+ELD|El Dorado|AR|US|Goodwin Field
+ELF|El Fasher|null|SD|El Fasher Airport
+ELH|North Eleuthera|null|BS|North Eleuthera International Airport
+ELM|Elmira|NY|US|Elmira Regional Airport
+ELM|Corning|NY|US|Elmira Regional Airport
+ELP|El Paso|TX|US|El Paso International Airport
+ELS|East London|null|ZA|East London Airport
+ELY|Ely|NV|US|Yelland Airport
+EMA|Nottingham|null|GB|East Midlands Airport
+EMD|Emerald|QL|AU|Emerald Airport
+ENA|Kenai|AK|US|Kenai Airport
+EOH|Medellin|null|CO|Enrique Olaya Herrera Airport
+EPL|Epinal|null|FR|Mirecourt Airport
+ERF|Erfurt|null|DE|Erfurt Airport
+ERI|Erie|PA|US|Erie International Airport
+ERS|Windhoek|null|NA|Eros Airport
+ESB|Ankara|null|TR|Esenboga Airport
+ESC|Escanaba|MI|US|Delta County Airport
+ESD|Eastsound|WA|US|Orcas Island Airport
+ESR|El Salvador|null|CL|El Salvador Airport
+ETH|Elat|null|IL|Elat Airport
+ETZ|Metz/Nancy|null|FR|Metz-Nancy-Lorraine Airport
+EUG|Eugene|OR|US|Eugene Airport
+EUN|Laayoune|null|MA|Hassan I Airport
+EUX|St Eustatius|null|AN|F D Roosevelt Airport
+EVE|Harstad-Narvik|null|NO|Evenes Airport
+EVN|Yerevan|null|AM|Yerevan Airport
+EVV|Evansville|IN|US|Dress Regional Airport
+EWB|Fall River|MA|US|New Bedford Airport
+EWB|New Bedford|MA|US|New Bedford Airport
+EWN|New Bern|NC|US|Simmons Nott Airport
+EWR|Newark|NJ|US|Newark International Airport
+EXT|Exeter|null|GB|Exeter Airport
+EYW|Key West|FL|US|Key West International Airport
+EZE|Buenos Aires|null|AR|Ministro Pistarini Airport
+FAI|Fairbanks|AK|US|Fairbanks International Airport
+FAO|Faro|null|PT|Faro Airport
+FAR|Fargo|ND|US|Hector Field
+FAT|Fresno|CA|US|Fresno Air Terminal
+FAY|Fayetteville|NC|US|Fayetteville Municipal Airport
+FCA|Kalispell|MT|US|Glacier National Park Airport
+FCO|Rome|null|IT|Fiumicino Airport
+FDE|Forde|null|NO|Bringeland Airport
+FDF|Fort De France|null|MQ|Lamentin Airport
+FDH|Friedrichshafen|null|DE|Friedrichshafen Airport
+FEZ|Fez|null|MA|Sais Airport
+FIH|Kinshasa|null|CD|N'Djili Airport
+FJR|Al-Fujairah|null|AE|Fujairah International Airport
+FKB|Karlsruhe/Baden Baden|null|DE|Soellingen Airport
+FKL|Franklin|PA|US|Chess-Lambertin Airport
+FLG|Flagstaff|AZ|US|Pulliam Field
+FLL|Fort Lauderdale|FL|US|Ft. Lauderdale International Airport
+FLN|Florianopolis|null|BR|Hercilio Luz Airport
+FLO|Florence|SC|US|Florence Airport
+FLR|Florence|null|IT|Peretola Airport
+FMA|Formosa|null|AR|El Pucu Airport
+FMN|Farmington|NM|US|Farmington Municipal Airport
+FMO|Muenster|null|DE|Muenster Airport
+FMY|Fort Myers|FL|US|Page Field
+FNA|Freetown|null|SL|Lungi International Airport
+FNC|Funchal|null|PT|Funchal Airport
+FNI|Nimes|null|FR|Garons Airport
+FNL|Fort Collins/Loveland|CO|US|Fort Collins/Loveland Municipal Airport
+FNT|Flint|MI|US|Bishop Airport
+FOC|Fuzhou|null|CN|Fuzhou Airport
+FOD|Fort Dodge|IA|US|Fort Dodge Airport
+FOR|Fortaleza|null|BR|Pinto Martins Airport
+FPO|Freeport|null|BS|Grand Bahama International Airport
+FRA|Frankfurt|null|DE|Frankfurt International Airport
+FRD|Friday Harbor|WA|US|Friday Harbor Airport
+FRL|Forli|null|IT|Luigi Ridolfi Airport
+FRO|Floro|null|NO|Flora Airport
+FRS|Flores|null|GT|Santa Elena Airport
+FRU|Bishkek|null|KG|Bishkek Airport
+FSD|Sioux Falls|SD|US|Sioux Falls Regional Airport (Jo Foss Field)
+FSM|Fort Smith|AR|US|Fort Smith Municipal Airport
+FUE|Puerto del Rosario|null|ES|Puerto del Rosario Airport
+FUE|Fuerteventura||ES|Puerto del Rosario Airport
+FUK|Fukuoka|null|JP|Fukuoka Airport
+FUN|Funafuti Atol|null|TV|Funafuti Atol International Airport
+FUT|Futuna Island|null|WF|Futuna Island Airport
+FWA|Fort Wayne|IN|US|Fort Wayne Municipal Airport/Baer Field
+FYV|Fayetteville|AR|US|Fayetteville Municipal Airport (Drake Field)
+GAJ|Yamagata|null|JP|Junmachi Airport
+GAL|Galena|AK|US|Galena Airport
+GAO|Guantanamo|null|CU|Los Canos Airport
+GAU|Gauhati|null|IN|Borjhar Airport
+GBD|Great Bend|KS|US|Great Bend Airport
+GBE|Gaborone|null|BW|Sir Seretse Khama International Airport
+GCC|Gillette|WY|US|Campbell County Airport
+GCI|Guernsey|null|GB|Guernsey Airport
+GCK|Garden City|KS|US|Garden City Municipal Airport
+GCM|Grand Cayman Island|null|KY|Owen Roberts International Airport
+GCN|Grand Canyon|AZ|US|National Park Airport
+GDL|Guadalajara|null|MX|Miguel Hidal Airport
+GDN|Gdansk|null|PL|Rebiechowo Airport
+GDT|Grand Turk Is|null|TC|Grand Turk Island Airport
+GDV|Glendive|MT|US|Dawson Community Airport
+GDX|Magadan|null|RU|Magadan Airport
+GEA|Noumea|null|NC|Magenta Airport
+GEG|Spokane|WA|US|Spokane International Airport
+GEO|Georgetown|null|GY|Cheddi Jagan International Airport
+GEV|Gallivare|null|SE|Gallivare Airport
+GFK|Grand Forks|ND|US|Grand Forks Airport
+GGG|Kilgore|TX|US|Gregg County Airport
+GGG|Longview|TX|US|Gregg County Airport
+GGG|Gladewater|TX|US|Gregg County Airport
+GGT|George Town|null|BS|Exuma International Airport
+GGW|Glasgow|MT|US|Glasgow International Airport
+GHB|Governors Harbour|null|BS|Governor's Harbour Airport
+GIB|Gibraltar|null|GI|North Front Airport
+GIG|Rio De Janeiro|null|BR|Internacional Airport
+GIS|Gisborne|null|NZ|Gisborne Airport
+GJT|Grand Junction|CO|US|Walker Field
+GKA|Goroka|null|PG|Goroka Airport
+GLA|Glasgow|null|GB|Glasgow International Airport
+GLH|Greenville|MS|US|Greenville Airport
+GLT|Gladstone|QL|AU|Gladstone Airport
+GLV|Golovin|AK|US|Golovin Airport
+GMN|Greymouth|null|NZ|Greymouth Airport
+GMP|Seoul|null|KR|Gimpo International Airport
+GNB|Grenoble|null|FR|Saint Geoirs Airport
+GND|Grenada|null|GD|Point Saline International Airport
+GNV|Gainesville|FL|US|J R Alison Municipal Airport
+GOA|Genoa|null|IT|Cristoforo Colombo Airport
+GOH|Nuuk|null|GL|Nuuk Airport
+GOI|Goa|null|IN|Dabolim Airport
+GOJ|Nizhniy Novgorod|null|RU|Nizhniy Novgorod Airport
+GON|New London|CT|US|Groton-New London Airport
+GON|Groton|CT|US|Groton-New London Airport
+GOT|Gothenburg|null|SE|Landvetter Airport
+GPS|Galapagos Is|null|EC|Baltra Airport
+GPT|Gulfport|MS|US|Biloxi Regional Airport
+GPZ|Grand Rapids|MN|US|Grand Rapids Airport
+GRB|Green Bay|WI|US|Austin-Straubel Field
+GRI|Grand Island|NE|US|Grand Island Airport
+GRJ|George|null|ZA|George Airport
+GRO|Gerona|null|ES|Costa Brava Airport
+GRQ|Groningen|null|NL|Eelde Airport
+GRR|Grand Rapids|MI|US|Kent County International Airport
+GRU|Sao Paulo|null|BR|Guarulhos International Airport
+GRX|Granada|null|ES|Granada Airport
+GRZ|Graz|null|AT|Thalerhof Airport
+GSO|High Point|NC|US|Piedmont Triad International Airport
+GSO|Greensboro/High Point|NC|US|Piedmont Triad International Airport
+GSP|Greer|SC|US|Greenville-Spartanburg Airport
+GSP|Greenville|SC|US|Greenville-Spartanburg Airport
+GST|Gustavus|AK|US|Gustavus Airport
+GTF|Great Falls|MT|US|Great Falls International Airport
+GTR|Columbus|MS|US|Golden Triangle Regional Airport
+GUA|Guatemala City|null|GT|La Aurora Airport
+GUB|Guerrero Negro|null|MX|Guerrero Negro Airport
+GUC|Gunnison|CO|US|Gunnison Airport
+GUM|Guam|null|GU|A.B. Won Pat International Airport
+GUP|Gallup|NM|US|Senator Clark Airport
+GVA|Geneva|null|CH|Geneve-Cointrin Airport
+GWD|Gwadar|null|PK|Gwadar Airport
+GWT|Westerland|null|DE|Westerland Airport
+GWY|Galway|null|IE|Carnmore Airport
+GYE|Guayaquil|null|EC|Simon Bolivar Airport
+GYM|Guaymas|null|MX|Gen Jose M Yanez Airport
+GYN|Goiania|null|BR|Santa Genoveva Airport
+GZT|Gaziantep|null|TR|Gaziantep Airport
+HAD|Halmstad|null|SE|Halmstad Airport
+HAH|Moroni|null|KM|Prince Said Ibrahim In Airport
+HAJ|Hanover|null|DE|Hanover Airport
+HAK|Haikou|null|CN|Haikou Airport
+HAM|Hamburg|null|DE|Fuhlsbuettel Airport
+HAN|Hanoi|null|VN|Noibai Airport
+HAR|Harrisburg|PA|US|Harrisburg Skyport
+HAU|Haugesund|null|NO|Haugesund Airport
+HBA|Hobart|TS|AU|Hobart Airport
+HDB|Heidelberg|null|DE|Heidelberg Airport
+HDN|Hayden|CO|US|Yampa Valley Airport
+HDS|Hoedspruit|null|ZA|Hoedspruit Airport
+HDY|Hat Yai|null|TH|Hat Yai Airport
+HEL|Helsinki|null|FI|Helsinki-Vantaa Airport
+HER|Heraklion|null|GR|N. Kazantzakis Airport
+HET|Hohhot|null|CN|Hohhot Airport
+HFD|Hartford|CT|US|Brainard Airport
+HFE|Hefei|null|CN|Hefei Airport
+HFT|Hammerfest|null|NO|Hammerfest Airport
+HGH|Hangzhou|null|CN|Hangzhou Airport
+HGN|Mae Hong Son|null|TH|Mae Hong Son Airport
+HGR|Hagerstown|MD|US|Wash. County Regional Airport
+HHH|Hilton Head|SC|US|Hilton Head Airport
+HIB|Hibbing|MN|US|Chisholm Airport
+HIB|Chisholm|MN|US|Chisholm Airport
+HII|Lake Havasu City|AZ|US|Lake Havasu City Municipal Airport
+HIJ|Hiroshima|null|JP|Hiroshima International Airport
+HIR|Honiara|null|SB|Henderson International Airport
+HIS|Hayman Island|QL|AU|Hayman Island Airport
+HJR|Khajuraho|null|IN|Khajuraho Airport
+HKD|Hakodate|null|JP|Hakodate Airport
+HKG|Hong Kong|null|HK|Hong Kong International Airport
+HKK|Hokitika|null|NZ|Hokitika Airport
+HKN|Hoskins|null|PG|Hoskins Airport
+HKT|Phuket|null|TH|Phuket International Airport
+HKY|Hickory|NC|US|Hickory Airport
+HLN|Helena|MT|US|Helena Airport
+HLZ|Hamilton|null|NZ|Hamilton Airport
+HMO|Hermosillo|null|MX|Gen Pesqueira Garcia Airport
+HNA|Morioka|null|JP|Hanamaki Airport
+HND|Tokyo|null|JP|Haneda Airport
+HNH|Hoonah|AK|US|Hoonah Airport
+HNL|Honolulu|HI|US|Honolulu International Airport
+HNM|Hana|HI|US|Hana Airport
+HNS|Haines|AK|US|Haines Municipal Airport
+HOB|Hobbs|NM|US|Lea County Airport
+HOD|Hodeidah|null|YE|Hodeidah Airport
+HOM|Homer|AK|US|Homer Airport
+HON|Huron|SD|US|Howes Airport
+HOQ|Hof|null|DE|Hof Airport
+HOR|Horta|null|PT|Horta Airport
+HOT|Hot Springs|AR|US|Memorial Field
+HOU|Houston|TX|US|Hobby Airport
+HPB|Hooper Bay|AK|US|Hooper Bay Airport
+HPH|Haiphong|null|VN|Catbi Airport
+HPN|Westchester County|NY|US|Westchester County Airport
+HRB|Harbin|null|CN|Harbin Airport
+HRE|Harare|null|ZW|Harare Airport
+HRG|Hurghada|null|EG|Hurghada Airport
+HRK|Kharkov|null|UA|Kharkov Airport
+HRL|Harlingen|TX|US|Valley International Airport
+HRO|Harrison|AR|US|Boone County Airport
+HSV|Huntsville|AL|US|Huntsville International Airport
+HTI|Hamilton Island|QL|AU|Hamilton Island Airport
+HTS|Huntington|WV|US|Tri-State/Milton Airport
+HTS|Ashland|KY|US|Tri-State/Milton Airport
+HUI|Hue|null|VN|Phu Bai Airport
+HUN|Hualien|null|TW|Hualien Airport
+HUX|Huatulco|null|MX|Huatulco Airport
+HUY|Humberside|null|GB|Humberside Airport
+HVB|Hervey Bay|QL|AU|Hervey Bay Airport
+HVG|Honningsvag|null|NO|Valan Airport
+HVN|New Haven|CT|US|New Haven Airport
+HVR|Havre|MT|US|Havre City County Airport
+HWN|Hwange Nat Park|null|ZW|Hwange National Park Airport
+HYA|Hyannis|MA|US|Barnstable Airport
+HYD|Hyderabad|null|IN|Begumpet Airport
+HYS|Hays|KS|US|Hays Municipal Airport
+IAD|Washington|DC|US|Dulles International Airport
+IAG|Niagara Falls|NY|US|Niagara Falls International Airport
+IAH|Houston|TX|US|George Bush Intercontinental Airport
+IAS|Iasi|null|RO|Iasi Airport
+IBZ|Ibiza|null|ES|Ibiza Airport
+ICN|Seoul|null|KR|Incheon International Airport
+ICT|Wichita|KS|US|Mid-Continent Airport
+IDA|Idaho Falls|ID|US|Fanning Field
+IDR|Indore|null|IN|Indore Airport
+IEG|Zielona Gora|null|PL|Babimost Airport
+IEV|Kiev|null|UA|Kiev-Zhulhany Airport
+IFP|Bullhead City|AZ|US|Laughlin Bullhead International Airport
+IGA|Inagua|null|BS|Inagua Airport
+IGM|Kingman|AZ|US|Kingman Airport
+IGR|Iguazu|null|AR|Cataratas Airport
+IGU|Iguassu Falls|null|BR|Cataratas Airport
+IKT|Irkutsk|null|RU|Irkutsk Airport
+ILE|Killeen|TX|US|Killeen Municipal Airport
+ILG|Wilmington|DE|US|Greater Wilmington Airport
+ILI|Iliamna|AK|US|Iliamna Airport
+ILM|Wilmington|NC|US|New Hanover County Airport
+ILO|Iloilo|null|PH|Mandurriao Airport
+ILP|Ile Des Pins|null|NC|Ile Des Pins Airport
+ILY|Islay|null|GB|Glenegedale Airport
+IMF|Imphal|null|IN|Imphal Municipal Airport
+IMP|Imperatriz|null|BR|Imperatriz Airport
+IMT|Iron Mountain|MI|US|Ford Airport
+IND|Indianapolis|IN|US|Indianapolis International Airport
+INL|International Falls|MN|US|Falls International Airport
+INN|Innsbruck|null|AT|Kranebitten Airport
+INT|Winston Salem|NC|US|Smith-Reynolds Airport
+INU|Nauru Island|null|NR|Nauru Island International Airport
+INV|Inverness|null|GB|Inverness Airport
+IOA|Ioannina|null|GR|Ioannina Airport
+IOM|Isle Of Man|null|GB|Ronaldsway Airport
+IOS|Ilheus|null|BR|Eduardo Gomes Airport
+IPC|Easter Island|null|CL|Mataveri International Airport
+IPH|Ipoh|null|MY|Ipoh Airport
+IPL|Imperial|CA|US|Imperial County Airport
+IPL|El Centro|CA|US|Imperial County Airport
+IPT|Williamsport|PA|US|Lycoming County Airport
+IQQ|Iquique|null|CL|Cavancha Airport
+IQT|Iquitos|null|PE|C.F. Secada Airport
+IRK|Kirksville|MO|US|Kirksville Municipal Airport
+ISB|Islamabad|null|PK|Islamabad International Airport
+ISN|Williston|ND|US|Sloulin Field International Airport
+ISP|Islip|NY|US|Long Island MacArthur Airport
+IST|Istanbul|null|TR|Ataturk Airport
+ITB|Itaituba|null|BR|Itaituba Airport
+ITH|Ithaca|NY|US|Tompkins County Airport
+ITM|Osaka|null|JP|Itami Airport
+ITO|Hilo|HI|US|Hilo International Airport
+IUE|Niue Island|null|NU|Hanan Airport
+IVC|Invercargill|null|NZ|Invercargill Airport
+IVL|Ivalo|null|FI|Ivalo Airport
+IWD|Ironwood|MI|US|Gogebic County Airport
+IXC|Chandigarh|null|IN|Chandigarh Airport
+IXE|Mangalore|null|IN|Bajpe Airport
+IXJ|Jammu|null|IN|Satwari Airport
+IXM|Madurai|null|IN|Madurai Airport
+IXR|Ranchi|null|IN|Ranchi Airport
+IXU|Aurangabad|null|IN|Chikkalthana Airport
+IXZ|Port Blair|null|IN|Port Blair Airport
+IYK|Inyokern|CA|US|Kern County Airport
+IZM|Izmir|null|TR|Metropolitan Area
+IZO|Izumo|null|JP|Izumo Airport
+JAC|Jackson|WY|US|Jackson Hole Airport
+JAI|Jaipur|null|IN|Sanganeer Airport
+JAN|Jackson|MS|US|Jackson International Airport
+JAV|Ilulissat|null|GL|Ilulissat Airport
+JAX|Jacksonville|FL|US|Jacksonville International Airport
+JBR|Jonesboro|AR|US|Jonesboro Airport
+JDH|Jodhpur|null|IN|Jodhpur Airport
+JED|Jeddah|null|SA|King Abdulaziz International Airport
+JEF|Jefferson City|MO|US|Jefferson City Memorial Airport
+JER|Jersey|null|GB|States Airport
+JFK|New York|NY|US|John F. Kennedy International Airport
+JGA|Jamnagar|null|IN|Govardhanpur Airport
+JHB|Johor Bahru|null|MY|Sultan Ismail International Airport
+JHM|Kapalua|HI|US|Kapalua Airport
+JHW|Jamestown|NY|US|Jamestown Airport
+JIB|Djibouti|null|DJ|Ambouli Airport
+JIK|Ikaria Island|null|GR|Ikaria Airport
+JKG|Jonkoping|null|SE|Axamo Airport
+JKH|Chios|null|GR|Chios Airport
+JKT|Jakarta|null|ID|Metropolitan Area
+JLN|Joplin|MO|US|Joplin Airport
+JMK|Mikonos|null|GR|Mikonos Airport
+JMS|Jamestown|ND|US|Jamestown Airport
+JNB|Johannesburg|null|ZA|Johannesburg International Airport
+JNU|Juneau|AK|US|Juneau International Airport
+JNX|Naxos|null|GR|Naxos Airport
+JOE|Joensuu|null|FI|Joensuu Airport
+JOG|Yogyakarta|null|ID|Adisutjipto Airport
+JOI|Joinville|null|BR|Cubatao Airport
+JON|Johnston Island|null|UM|Josephstaal Airport
+JPA|Joao Pessoa|null|BR|Castro Pinto Airport
+JRO|Kilimanjaro|null|TZ|Kilimanjaro Airport
+JSH|Sitia|null|GR|Sitia Airport
+JSI|Skiathos|null|GR|Skiathos Airport
+JST|Johnstown|PA|US|Cambria County Airport
+JSY|Syros Island|null|GR|Syros Island Airport
+JTR|Thira|null|GR|Thira Airport
+JUJ|Jujuy|null|AR|El Cadillal Airport
+JUL|Juliaca|null|PE|Juliaca Airport
+JYV|Jyvaskyla|null|FI|Jyvaskyla Airport
+KAB|Kariba|null|ZW|Kariba Airport
+KAJ|Kajaani|null|FI|Kajaani Airport
+KAN|Kano|null|NG|Aminu Kano International Airport
+KAO|Kuusamo|null|FI|Kuusamo Airport
+KBP|Kiev|null|UA|Kiev-Borispol Airport
+KBR|Kota Bharu|null|MY|Pengkalan Chepa Airport
+KBV|Krabi|null|TH|Krabi Airport
+KBZ|Kaikoura|null|NZ|Kaikoura Airport
+KCG|Chignik|AK|US|Fisheries Airport
+KCH|Kuching|null|MY|Kuching Airport
+KCL|Chignik|AK|US|Lagoon Airport
+KCZ|Kochi|null|JP|Kochi Airport
+KEF|Reykjavik|null|IS|Keflavik International Airport
+KEH|Kenmore Air Harbor|WA|US|Kenmore Air Harbor Airport
+KEL|Kiel|null|DE|Holtenau Airport
+KEM|Kemi/Tornio|null|FI|Kemi/Tornio Airport
+KER|Kerman|null|IR|Kerman Airport
+KGC|Kingscote|SA|AU|Kingscote Airport
+KGD|Kaliningrad|null|RU|Kaliningrad Airport
+KGI|Kalgoorlie|WA|AU|Kalgoorlie Airport
+KGL|Kigali|null|RW|Gregoire Kayibanda Airport
+KGS|Kos|null|GR|Kos Airport
+KHH|Kaohsiung|null|TW|Kaohsiung International Airport
+KHI|Karachi|null|PK|Quaid-E-Azam International Airport
+KHN|Nanchang|null|CN|Nanchang Airport
+KHV|Khabarovsk|null|RU|Novyy Airport
+KID|Kristianstad|null|SE|Kristianstad Airport
+KIJ|Niigata|null|JP|Niigata Airport
+KIM|Kimberley|null|ZA|Kimberley Airport
+KIN|Kingston|null|JM|Norman Manley Airport
+KIR|Kerry County|null|IE|Kerry County Airport
+KIT|Kithira|null|GR|Kithira Airport
+KIV|Chisinau|null|MD|Chisinau Airport
+KIX|Osaka|null|JP|Kansai International Airport
+KJA|Krasnojarsk|null|RU|Krasnojarsk Airport
+KKE|Kerikeri|null|NZ|Kerikeri Airport
+KKJ|Kita Kyushu|null|JP|Kokura Airport
+KKN|Kirkenes|null|NO|Hoeybuktmoen Airport
+KLO|Kalibo|null|PH|Kalibo Airport
+KLR|Kalmar|null|SE|Kalmar Airport
+KLU|Klagenfurt|null|AT|Klagenfurt Airport
+KLV|Karlovy Vary|null|CZ|Karlovy Vary Airport
+KMG|Kunming|null|CN|Kunming Airport
+KMI|Miyazaki|null|JP|Miyazaki Airport
+KMJ|Kumamoto|null|JP|Kumamoto Airport
+KNX|Kununurra|WA|AU|Kununurra Airport
+KOA|Kona|HI|US|Keahole Airport
+KOI|Kirkwall|null|GB|Kirkwall Airport
+KOI|Orkney Island||GB|Kirkwall Airport
+KOJ|Kagoshima|null|JP|Kagoshima Airport
+KOK|Kokkola/Pietarsaari|null|FI|Kruunupyy Airport
+KPO|Pohang|null|KR|Pohang Airport
+KRF|Kramfors|null|SE|Kramfors Airport
+KRK|Krakow|null|PL|J. Paul II Balice International Airport
+KRN|Kiruna|null|SE|Kiruna Airport
+KRP|Karup|null|DK|Karup Airport
+KRR|Krasnodar|null|RU|Krasnodar Airport
+KRS|Kristiansand|null|NO|Kjevik Airport
+KRT|Khartoum|null|SD|Civil Airport
+KSA|Kosrae|null|FM|Kosrae Airport
+KSC|Kosice|null|SK|Barca Airport
+KSD|Karlstad|null|SE|Karlstad Airport
+KSH|Kermanshah|null|IR|Kermanshah Airport
+KSJ|Kasos Island|null|GR|Kasos Island Airport
+KSU|Kristiansund|null|NO|Kvernberget Airport
+KTA|Karratha|WA|AU|Karratha Airport
+KTM|Kathmandu|null|NP|Tribhuvan Airport
+KTN|Ketchikan|AK|US|Ketchikan International Airport
+KTP|Kingston|null|JM|Tinson Airport
+KTT|Kittila|null|FI|Kittila Airport
+KTW|Katowice|null|PL|Pyrzowice Airport
+KUA|Kuantan|null|MY|Kuantan Airport
+KUF|Samara|null|RU|Samara Airport
+KUL|Kuala Lumpur|null|MY|Kuala Lumpur International Airport
+KUN|Kaunas|null|LT|Kaunas Airport
+KUO|Kuopio|null|FI|Kuopio Airport
+KUS|Kulusuk|null|GL|Kulusuk Airport
+KUV|Kunsan|null|KR|Gunsan Airport
+KVA|Kavala|null|GR|Megas Alexandros Airport
+KVB|Skovde|null|SE|Skovde Airport
+KWA|Kwajalein|null|MH|Kwajalein Airport
+KWI|Kuwait|null|KW|Kuwait International Airport
+KWL|Guilin|null|CN|Guilin Airport
+KZS|Kastelorizo|null|GR|Kastelorizo Airport
+LAD|Luanda|null|AO|4 de Fevereiro Airport
+LAE|Lae|null|PG|Nadzab Airport
+LAF|Lafayette|IN|US|Purdue University Airport
+LAI|Lannion|null|FR|Servel Airport
+LAN|Lansing|MI|US|Capital City Airport
+LAP|La Paz|null|MX|Leon Airport
+LAR|Laramie|WY|US|General Brees Field
+LAS|Las Vegas|NV|US|McCarran International Airport
+LAW|Lawton|OK|US|Lawton Municipal Airport
+LAX|Los Angeles|CA|US|Los Angeles International Airport
+LBA|Leeds|null|GB|Leeds/Bradford Airport
+LBB|Lubbock|TX|US|Lubbock International Airport
+LBC|Luebeck|null|DE|Blankensee Airport
+LBE|Latrobe|PA|US|Westmoreland County Airport
+LBF|North Platte|NE|US|Lee Bird Field
+LBL|Liberal|KS|US|Liberal Municipal Airport
+LBU|Labuan|null|MY|Labuan Airport
+LBV|Libreville|null|GA|Libreville Airport
+LCA|Larnaca|null|CY|Larnaca Airport
+LCE|La Ceiba|null|HN|Goloson International Airport
+LCG|La Coruna|null|ES|La Coruna Airport
+LCH|Lake Charles|LA|US|Lake Charles Municipal Airport
+LCJ|Lodz|null|PL|Lodz Lublinek Airport
+LCY|London|null|GB|London City Airport
+LDB|Londrina|null|BR|Londrina Airport
+LDE|Lourdes/Tarbes|null|FR|Tarbes Ossun Lourdes Airport
+LDH|Lord Howe Island|NS|AU|Lord Howe Island Airport
+LDU|Lahad Datu|null|MY|Lahad Datu Airport
+LDY|Londonderry|null|GB|Eglinton Airport
+LEB|Lebanon|NH|US|Lebanon Regional Airport
+LEB|White River|VT|US|Lebanon Regional Airport
+LEB|Hanover|NH|US|Lebanon Regional Airport
+LED|St Petersburg|null|RU|Pulkovo Airport
+LEH|Le Havre|null|FR|Octeville Airport
+LEI|Almeria|null|ES|Almeria Airport
+LEJ|Leipzig|null|DE|Leipzig Airport
+LEN|Leon|null|ES|Leon Airport
+LEX|Lexington|KY|US|Blue Grass Airport
+LFT|Lafayette|LA|US|Lafayette Regional Airport
+LFT|New Iberia|LA|US|Lafayette Regional Airport
+LFW|Lome|null|TG|Lome Airport
+LGA|New York|NY|US|La Guardia Airport
+LGB|Long Beach|CA|US|Long Beach Municipal Airport
+LGI|Long Island|null|BS|Deadmans Cay Airport
+LGI|Deadmans Cay||BS|Deadmans Cay Airport
+LGK|Langkawi|null|MY|Langkawi Airport
+LGP|Legaspi|null|PH|Legaspi Airport
+LGW|London|null|GB|Gatwick Airport
+LHE|Lahore|null|PK|Lahore Airport
+LHR|London|null|GB|Heathrow Airport
+LIG|Limoges|null|FR|Bellegarde Airport
+LIH|Kauai Island|HI|US|Kauai Island Airport
+LIL|Lille|null|FR|Lesquin Airport
+LIM|Lima|null|PE|J Chavez International Airport
+LIN|Milan|null|IT|Linate Airport
+LIR|Liberia|null|CR|Liberia Airport
+LIS|Lisbon|null|PT|Lisboa Airport
+LIT|Little Rock|AR|US|Little Rock Regional Airport
+LJU|Ljubljana|null|SI|Brnik Airport
+LKN|Leknes|null|NO|Leknes Airport
+LKO|Lucknow|null|IN|Amausi Airport
+LLA|Lulea|null|SE|Kallax Airport
+LLW|Lilongwe|null|MW|Lilongwe International Airport
+LLY|Mount Holly|NJ|US|Burlington County Airport
+LME|Le Mans|null|FR|Arnage Airport
+LMM|Los Mochis|null|MX|Federal Airport
+LMN|Limbang|null|MY|Limbang Airport
+LMP|Lampedusa|null|IT|Lampedusa Airport
+LMT|Klamath Falls|OR|US|Kingsley Field
+LNK|Lincoln|NE|US|Lincoln Municipal Airport
+LNS|Lancaster|PA|US|Lancaster Airport
+LNV|Lihir Island|null|PG|Lihir Island Airport
+LNY|Lanai City|HI|US|Lanai Airport
+LNZ|Linz|null|AT|Hoersching Airport
+LON|London|null|GB|Metropolitan Area
+LOV|Monclova|null|MX|Monclova Airport
+LPA|Las Palmas|null|ES|Airport De Gran Canaria
+LPB|La Paz|null|BO|El Alto Airport
+LPI|Linkoping|null|SE|Linkoping Airport
+LPL|Liverpool|null|GB|Liverpool International Airport
+LPQ|Luang Prabang|null|LA|Luang Prabang Airport
+LRD|Laredo|TX|US|Laredo International Airport
+LRH|La Rochelle|null|FR|Laleu Airport
+LRM|La Romana|null|DO|La Romana Airport
+LRS|Leros|null|GR|Leros Airport
+LRT|Lorient|null|FR|Lann Bihoue Airport
+LRU|Las Cruces|NM|US|Las Cruces Municipal Airport
+LSC|La Serena|null|CL|La Florida Airport
+LSE|La Crosse|WI|US|La Crosse Municipal Airport
+LST|Launceston|TS|AU|Launceston Airport
+LTN|London|null|GB|Luton Airport
+LTO|Loreto|null|MX|Loreto Airport
+LTT|Saint Tropez|null|FR|La Mole Airport
+LUA|Lukla|null|NP|Lukla Airport
+LUD|Luderitz|null|NA|Luderitz Airport
+LUG|Lugano|null|CH|Lugano Airport
+LUH|Ludhiana|null|IN|Ludhiana Airport
+LUN|Lusaka|null|ZM|Lusaka Airport
+LUQ|San Luis|null|AR|San Luis Airport
+LUX|Luxembourg|null|LU|Luxembourg Airport
+LVI|Livingstone|null|ZM|Livingstone Airport
+LWB|Lewisburg|WV|US|Greenbrier Valley Airport
+LWO|Lvov|null|UA|Snilow Airport
+LWS|Lewiston|ID|US|Nez Perce County Regional Airport
+LWT|Lewistown|MT|US|Lewistown Municipal Airport
+LWY|Lawas|null|MY|Lawas Airport
+LXR|Luxor|null|EG|Luxor Airport
+LXS|Lemnos|null|GR|Limnos Airport
+LYH|Lynchburg|VA|US|Preston-Glenn Field
+LYR|Longyearbyen|null|SJ|Svalbard Airport
+LYS|Lyon|null|FR|Lyon Satolas Airport
+LYU|Ely|MN|US|Ely Airport
+LZC|Lazaro Cardenas|null|MX|Lazaro Cardenas Airport
+MAA|Chennai|null|IN|Chennai Airport
+MAD|Madrid|null|ES|Barajas Airport
+MAF|Midland|TX|US|Odessa Regional Airport
+MAG|Madang|null|PG|Madang Airport
+MAH|Menorca|null|ES|Mahon Airport
+MAJ|Majuro|null|MH|Amata Kabua International Airport
+MAM|Matamoros|null|MX|Matamoros Airport
+MAN|Manchester|null|GB|Manchester International Airport
+MAO|Manaus|null|BR|Eduardo Gomes International Airport
+MAR|Maracaibo|null|VE|La Chinita Airport
+MAY|Mangrove Cay|null|BS|Mangrove Cay Airport
+MAZ|Mayaguez|null|PR|Eugenio M. De Hostos Airport
+MBA|Mombasa|null|KE|Moi International Airport
+MBJ|Montego Bay|null|JM|Sangster International Airport
+MBL|Manistee|MI|US|Blacker Airport
+MBS|Midland|MI|US|Tri City Airport
+MBS|Bay City|MI|US|Tri City Airport
+MBS|Saginaw|MI|US|Tri City Airport
+MBX|Maribor|null|SI|Maribor Airport
+MCE|Merced|CA|US|Merced Municipal Airport
+MCH|Machala|null|EC|Machala Airport
+MCI|Kansas City|MO|US|Kansas City International Airport
+MCK|Mccook|NE|US|Mc Cook Airport
+MCN|Macon|GA|US|Lewis B. Wilson Airport
+MCO|Orlando|FL|US|Orlando International Airport
+MCP|Macapa|null|BR|Macapa Internacional Airport
+MCT|Muscat|null|OM|Seeb Airport
+MCW|Mason City|IA|US|Mason City Airport
+MCY|Sunshine Coast|QL|AU|Maroochydore Airport
+MCZ|Maceio|null|BR|Palmares Airport
+MDC|Manado|null|ID|Samratulangi Airport
+MDE|Medellin|null|CO|Jose Marie Cordova Airport
+MDQ|Mar Del Plata|null|AR|Mar Del Plata Airport
+MDT|Harrisburg|PA|US|Harrisburg International Airport
+MDW|Chicago|IL|US|Midway Airport
+MDZ|Mendoza|null|AR|El Plumerillo Airport
+MED|Madinah|null|SA|Mohammad Bin Abdulaziz Airport
+MEI|Meridian|MS|US|Key Field
+MEL|Melbourne|VI|AU|Tullamarine Airport
+MEM|Memphis|TN|US|Memphis International Airport
+MES|Medan|null|ID|Polania Airport
+MEX|Mexico City|null|MX|Juarez International Airport
+MFE|Mcallen|TX|US|Miller International Airport
+MFE|Mission|TX|US|Miller International Airport
+MFM|Macau|null|MO|Macau Airport
+MFN|Milford Sound|null|NZ|Milford Sound Airport
+MFR|Medford|OR|US|Jackson County Airport
+MGA|Managua|null|NI|Augusto C Sandino Airport
+MGB|Mount Gambier|SA|AU|Mount Gambier Airport
+MGJ|Montgomery|NY|US|Orange County Airport
+MGL|Dusseldorf|null|DE|Moenchen-Gl. DUS Exp  Airport
+MGM|Montgomery|AL|US|Dannelly Field
+MGW|Morgantown|WV|US|Morgantown Airport
+MGY|Dayton|OH|US|Montgomery County Airport
+MHG|Mannheim|null|DE|Mannheim Airport
+MHH|Marsh Harbour|null|BS|Marsh Harbour International Airport
+MHK|Manhattan|KS|US|Manhattan Municipal Airport
+MHQ|Mariehamn|null|FI|Mariehamn Airport
+MHT|Manchester|NH|US|Manchester Municipal Airport
+MIA|Miami|FL|US|Miami International Airport
+MID|Merida|null|MX|Rejon Airport
+MIL|Milan|null|IT|Metropolitan Area
+MIM|Merimbula|NS|AU|Merimbula Airport
+MIQ|Omaha|NE|US|Millard Airport
+MIR|Monastir|null|TN|Habib Bourguiba International Airport
+MJF|Mosjoen|null|NO|Kjaerstad Airport
+MJN|Majunga|null|MG|Amborovy Airport
+MJT|Mytilene|null|GR|Mytilene Airport
+MJV|Murcia|null|ES|San Javier Airport
+MKC|Kansas City|MO|US|Kansas City Downtown Municipal Airport
+MKE|Milwaukee|WI|US|General Mitchell Airport
+MKG|Muskegon|MI|US|Muskegon Airport
+MKK|Hoolehua|HI|US|Molokai Airport
+MKL|Jackson|TN|US|Mckellar Airport
+MKM|Mukah|null|MY|Mukah Airport
+MKY|Mackay|QL|AU|Mackay Airport
+MLA|Malta|null|MT|Luqa Airport
+MLB|Melbourne|FL|US|Melbourne International Airport
+MLE|Male|null|MV|Male International Airport
+MLH|Mulhouse/Basel|null|FR|EuroAirport French
+MLH|Basel/Mulhouse||CH|EuroAirport French
+MLI|Moline|IL|US|Quad-City Airport
+MLM|Morelia|null|MX|Morelia Airport
+MLN|Melilla|null|ES|Melilla Airport
+MLO|Milos|null|GR|Milos Airport
+MLS|Miles City|MT|US|Miles City Municipal Airport
+MLU|Monroe|LA|US|Monroe Municipal Airport
+MMA|Malmo|null|SE|Metropolitan Area
+MMB|Memanbetsu|null|JP|Memanbetsu Airport
+MME|Teesside|null|GB|Teesside International Airport
+MMK|Murmansk|null|RU|Murmansk Airport
+MMX|Malmo|null|SE|Sturup Airport
+MNL|Manila|null|PH|Ninoy Aquino International Airport
+MOB|Mobile|AL|US|Mobile Municipal Airport
+MOD|Modesto|CA|US|Modesto Municipal Airport
+MOL|Molde|null|NO|Aro Airport
+MOT|Minot|ND|US|Minot International Airport
+MOW|Moscow|null|RU|Metropolitan Area
+MOZ|Moorea|null|PF|Temae Airport
+MPA|Mpacha|null|NA|Mpacha Airport
+MPL|Montpellier|null|FR|Frejorgues Airport
+MPM|Maputo|null|MZ|Maputo International Airport
+MQL|Mildura|VI|AU|Mildura Airport
+MQT|Marquette|MI|US|Sawyer International Airport
+MRS|Marseille|null|FR|Marseille Airport
+MRU|Mauritius|null|MU|S. Seewoosagur Ram. International Airport
+MRY|Monterey|CA|US|Monterey Peninsula Airport
+MRY|Carmel|CA|US|Monterey Peninsula Airport
+MSJ|Misawa|null|JP|Misawa Airport
+MSL|Muscle Shoals|AL|US|Muscle Shoals Airport
+MSL|Florence|AL|US|Muscle Shoals Airport
+MSL|Sheffield|AL|US|Muscle Shoals Airport
+MSN|Madison|WI|US|Dane County Regional Airport
+MSO|Missoula|MT|US|Johnson-Bell Field
+MSP|Minneapolis|MN|US|St Paul International Airport
+MSQ|Minsk|null|BY|Minsk International 2 Airport
+MSS|Massena|NY|US|Richards Field
+MST|Maastricht|null|NL|Maastricht/Aachen Airport
+MSU|Maseru|null|LS|Moshoeshoe International Airport
+MSY|New Orleans|LA|US|Louis Armstrong International Airport
+MTJ|Montrose|CO|US|Montrose County Airport
+MTO|Mattoon|IL|US|Coles County Memorial Airport
+MTR|Monteria|null|CO|S. Jeronimo Airport
+MTS|Manzini|null|SZ|Matsapha International Airport
+MTY|Monterrey|null|MX|Gen Mariano Escobedo Airport
+MUB|Maun|null|BW|Maun Airport
+MUC|Munich|null|DE|Franz Josef Strauss Airport
+MUE|Kamuela|HI|US|Kamuela Airport
+MUN|Maturin|null|VE|Quiriquire Airport
+MVD|Montevideo|null|UY|Carrasco Airport
+MVY|Martha's Vineyard|MA|US|Martha's Vineyard Airport
+MWA|Marion|IL|US|Williamson County Airport
+MWH|Moses Lake|WA|US|Grant County Airport
+MXL|Mexicali|null|MX|Mexicali Airport
+MXP|Milan|null|IT|Malpensa Airport
+MXX|Mora|null|SE|Mora Airport
+MYJ|Matsuyama|null|JP|Matsuyama Airport
+MYR|Myrtle Beach|SC|US|Myrtle Beach International Airport
+MYY|Miri|null|MY|Miri Airport
+MZL|Manizales|null|CO|Santaguida Airport
+MZT|Mazatlan|null|MX|Gen Rafael Buelna Airport
+MZV|Mulu|null|MY|Mulu Airport
+NAG|Nagpur|null|IN|Sonegaon Airport
+NAK|Nakhon Ratchasima|null|TH|Nakhon Ratchasima Airport
+NAN|Nadi|null|FJ|Nadi International Airport
+NAP|Naples|null|IT|Naples Airport
+NAS|Nassau|null|BS|Nassau International Airport
+NAT|Natal|null|BR|Augusto Severo Airport
+NBO|Nairobi|null|KE|Jomo Kenyatta International Airport
+NCA|North Caicos|null|TC|North Caicos Airport
+NCE|Nice|null|FR|Cote D'Azur Airport
+NCL|Newcastle|null|GB|Newcastle Airport
+NCY|Annecy|null|FR|Annecy-Meythet Airport
+NDI|Namudi|null|PG|Namudi Airport
+NDJ|Ndjamena|null|TD|Ndjamena Airport
+NEG|Negril|null|JM|Negril Airport
+NEV|Nevis|null|KN|Newcastle Airport
+NGB|Ningbo|null|CN|Ningbo Airport
+NGS|Nagasaki|null|JP|Nagasaki Airport
+NHA|Nha Trang|null|VN|Nha Trang Airport
+NJC|Nizhnevartovsk|null|RU|Nizhnevartovsk Airport
+NKC|Nouakchott|null|MR|Nouakchott Airport
+NKG|Nanking/Nanjing|null|CN|Nanking Airport
+NLA|Ndola|null|ZM|Ndola Airport
+NLD|Nuevo Laredo|null|MX|Quetzalcoatl International Airport
+NLK|Norfolk Island|null|NF|Norfolk Island Airport
+NLP|Nelspruit|null|ZA|Nelspruit Airport
+NNG|Nanning|null|CN|Nanning Airport
+NNT|Nan|null|TH|Nan Airport
+NOC|Knock|null|IE|Knock International Airport
+NOU|Noumea|null|NC|Tontouta Airport
+NPE|Napier-Hastings|null|NZ|Hawkes Bay Airport
+NPL|New Plymouth|null|NZ|New Plymouth Airport
+NQN|Neuquen|null|AR|Neuquen Airport
+NQY|Newquay|null|GB|St Mawgan Airport
+NRK|Norrkoping|null|SE|Kungsangen Airport
+NRT|Tokyo|null|JP|Narita Airport
+NSN|Nelson|null|NZ|Nelson Airport
+NTE|Nantes|null|FR|Nantes Atlantique Airport
+NTL|Newcastle|NS|AU|Williamtown Airport
+NTT|Niuatoputapu|null|TO|Kuini Lavenia Airport
+NTY|Sun City|null|ZA|Pilansberg Airport
+NUE|Nuremberg|null|DE|Metropolitan Area Airport
+NVK|Narvik|null|NO|Framnes Airport
+NVT|Navegantes|null|BR|Navegantes Airport
+NWI|Norwich|null|GB|Norwich Airport
+NYC|New York|NY|US|Metropolitan Area
+NYC|New York City|NY|US|Metropolitan Area
+NYO|Stockholm|null|SE|Skavsta Airport
+OAG|Orange|NS|AU|Springhill Airport
+OAJ|Jacksonville|NC|US|Albert J Ellis Airport
+OAK|Oakland|CA|US|Metropolitan Oakland International Airport
+OAM|Oamaru|null|NZ|Oamaru Airport
+OAX|Oaxaca|null|MX|Xoxocotlan Airport
+OBO|Obihiro|null|JP|Obihiro Airport
+OCJ|Ocho Rios|null|JM|Boscobel Airport
+ODS|Odessa|null|UA|Odessa-Central Airport
+ODW|Oak Harbor|WA|US|Oak Harbor Airport
+OER|Ornskoldsvik|null|SE|Ornskoldsvik Airport
+OFK|Norfolk|NE|US|Stefan Field
+OGG|Kahului Maui|HI|US|Kahului Airport
+OGS|Ogdensburg|NY|US|Ogdensburg Airport
+OHD|Ohrid|null|MK|Ohrid Airport
+OIT|Oita|null|JP|Oita Airport
+OKA|Okinawa|null|JP|Naha Airport
+OKC|Oklahoma City|OK|US|Will Rogers Airport
+OKJ|Okayama|null|JP|Okayama Airport
+OLB|Olbia|null|IT|Costa Smeralda Airport
+OMA|Omaha|NE|US|Eppley Airfield
+OME|Nome|AK|US|Nome Airport
+OMR|Oradea|null|RO|Oradea Airport
+ONG|Mornington|QL|AU|Mornington Airport
+ONP|Newport|OR|US|Newport Airport
+ONT|Ontario|CA|US|Ontario International Airport
+OOL|Gold Coast|QL|AU|Coolangatta Airport
+OOM|Cooma|NS|AU|Cooma Airport
+OPO|Porto|null|PT|Porto Airport
+ORB|Orebro|null|SE|Orebro-Bofors Airport
+ORD|Chicago|IL|US|O'Hare International Airport
+ORF|Norfolk|VA|US|Norfolk International Airport
+ORH|Worcester|MA|US|Worcester Airport
+ORK|Cork|null|IE|Cork Airport
+ORL|Orlando|FL|US|Herndon Airport
+ORN|Oran|null|DZ|Es Senia Airport
+ORY|Paris|null|FR|Orly Field
+OSA|Osaka|null|JP|Metropolitan Area
+OSD|Ostersund|null|SE|Froesoe Airport
+OSH|Oshkosh|WI|US|Wittman Field
+OSL|Oslo|null|NO|Oslo Airport
+OSR|Ostrava|null|CZ|Mosnov Airport
+OTH|North Bend|OR|US|North Bend Airport
+OTM|Ottumwa|IA|US|Industrial Airport
+OTP|Bucharest|null|RO|Otopeni International Airport
+OTZ|Kotzebue|AK|US|Kotzebue Airport
+OUA|Ouagadougou|null|BF|Ouagadougou Airport
+OUD|Oujda|null|MA|Les Angades Airport
+OUL|Oulu|null|FI|Oulu Airport
+OVB|Novosibirsk|null|RU|Tolmachevo Airport
+OVD|Asturias|null|ES|Asturias Airport
+OWB|Owensboro|KY|US|Daviess County Airport
+OXR|Oxnard|CA|US|Oxnard Airport
+OXR|Ventura|CA|US|Oxnard Airport
+OZZ|Ouarzazate|null|MA|Ouarzazate Airport
+PAC|Panama City|null|PA|Paitilla Airport
+PAD|Paderborn|null|DE|Paderborn Airport
+PAH|Paducah|KY|US|Barkley Regional Airport
+PAP|Port Au Prince|null|HT|Mais Gate Airport
+PAR|Paris|null|FR|Metropolitan Area
+PAS|Paros|null|GR|Paros Airport
+PAT|Patna|null|IN|Patna Airport
+PAZ|Poza Rica|null|MX|Tajin Airport
+PBC|Puebla|null|MX|Huejotsingo Airport
+PBI|West Palm Beach|FL|US|West Palm Beach International Airport
+PBM|Paramaribo|null|SR|Zanderij International Airport
+PBO|Paraburdoo|WA|AU|Paraburdoo Airport
+PBZ|Plettenberg Bay|null|ZA|Plettenberg Airport
+PCL|Pucallpa|null|PE|Capitan Rolden Airport
+PDG|Padang|null|ID|Tabing Airport
+PDL|Ponta Delgada|null|PT|Nordela Airport
+PDP|Punta Del Este|null|UY|Punta Del Este Airport
+PDS|Piedras Negras|null|MX|Piedras Negras Airport
+PDT|Pendleton|OR|US|Pendleton Airport
+PDX|Portland|OR|US|Portland International Airport
+PEE|Perm|null|RU|Perm Airport
+PEG|Perugia|null|IT|Sant Egidio Airport
+PEI|Pereira|null|CO|Matecana Airport
+PEK|Beijing|null|CN|Capital Airport
+PEN|Penang|null|MY|Penang International Airport
+PER|Perth|WA|AU|Perth Airport
+PEW|Peshawar|null|PK|Peshawar Airport
+PFN|Panama City|FL|US|Bay County Airport
+PFO|Paphos|null|CY|Paphos International Airport
+PGA|Page|AZ|US|Page Airport
+PGF|Perpignan|null|FR|Llabanere Airport
+PGV|Greenville|NC|US|Pitt-Greenville Airport
+PGX|Perigueux|null|FR|Perigueux Airport
+PHF|Newport News|VA|US|Newport News/Williamsburg Airport
+PHF|Williamsburg|VA|US|Newport News/Williamsburg Airport
+PHF|Hampton|VA|US|Newport News/Williamsburg Airport
+PHL|Philadelphia|PA|US|Philadelphia International Airport
+PHO|Point Hope|AK|US|Point Hope Airport
+PHS|Phitsanulok|null|TH|Phitsanulok Airport
+PHX|Phoenix|AZ|US|Sky Harbor International Airport
+PIA|Peoria|IL|US|Greater Peoria Airport
+PIB|Laurel|MS|US|Hattiesburg-Laurel Regional Airport
+PID|Nassau|null|BS|Paradise Island Airport
+PIE|St Petersburg|FL|US|St. Petersburg International Airport
+PIE|Clearwater|FL|US|St. Petersburg International Airport
+PIH|Pocatello|ID|US|Pocatello Airport
+PIK|Prestwick|null|GB|Prestwick Airport
+PIK|Glasgow|null|GB|Prestwick Airport
+PIP|Pilot Point|AK|US|Pilot Point Airport
+PIR|Pierre|SD|US|Pierre Airport
+PIS|Poitiers|null|FR|Biard Airport
+PIT|Pittsburgh|PA|US|Pittsburgh International Airport
+PJG|Panjgur|null|PK|Panjgur Airport
+PKB|Parkersburg|WV|US|Wood County Airport
+PKB|Marietta|OH|US|Wood County Airport
+PKC|Petropavlovsk-Kamchats|null|RU|Petropavlovsk-Kamchatsky Airport
+PKR|Pokhara|null|NP|Pokhara Airport
+PKU|Pekanbaru|null|ID|Simpang Tiga Airport
+PLB|Plattsburgh|NY|US|Clinton County Airport
+PLH|Plymouth|null|GB|Plymouth Airport
+PLM|Palembang|null|ID|Mahmud Badaruddin Ii Airport
+PLN|Pellston|MI|US|Emmet County Airport
+PLO|Port Lincoln|SA|AU|Port Lincoln Airport
+PLQ|Palanga|null|LT|Palanga Airport
+PLS|Providenciales|null|TC|Providenciales International Airport
+PLU|Belo Horizonte|null|BR|Pampulha Airport
+PLW|Palu|null|ID|Mutiara Airport
+PLZ|Port Elizabeth|null|ZA|Port Elizabeth Airport
+PMC|Puerto Montt|null|CL|Tepual Airport
+PMF|Parma|null|IT|Parma Airport
+PMI|Palma  Mallorca|null|ES|Palma Mallorca Airport
+PMO|Palermo|null|IT|Punta Raisi Airport
+PMR|Palmerston North|null|NZ|Palmerston North Airport
+PMV|Porlamar|null|VE|DelCaribe Gen S Marino Airport
+PNA|Pamplona|null|ES|Pamplona Airport
+PNC|Ponca City|OK|US|Ponca City Airport
+PND|Punta Gorda|null|BZ|Punta Gorda Airport
+PNH|Phnom Penh|null|KH|Pochentong Airport
+PNK|Pontianak|null|ID|Supadio Airport
+PNL|Pantelleria|null|IT|Pantelleria Airport
+PNQ|Poona|null|IN|Lohegaon Airport
+PNR|Pointe Noire|null|CG|Pointe Noire Airport
+PNS|Pensacola|FL|US|Pensacola Regional Airport
+POA|Porto Alegre|null|BR|Salgado Filho Airport
+POG|Port Gentil|null|GA|Port Gentil Airport
+POM|Port Moresby|null|PG|Jackson Field
+POP|Puerto Plata|null|DO|La Union Airport
+POR|Pori|null|FI|Pori Airport
+POS|Port Of Spain|null|TT|Piarco Airport
+POS|Trinidad||TT|Piarco Airport
+POT|Port Antonio|null|JM|Ken Jones Airport
+POU|Poughkeepsie|NY|US|Dutchess County Airport
+POZ|Poznan|null|PL|Lawica Airport
+PPE|Puerto Penasco|null|MX|Puerto Penasco Airport
+PPG|Pago Pago|null|AS|Pago Pago International Airport
+PPP|Proserpine|QL|AU|Whitsunday Coast Airport
+PPQ|Paraparaumu|null|NZ|Paraparaumu Airport
+PPS|Puerto Princesa|null|PH|Puerto Princesa Airport
+PPT|Papeete|null|PF|Faaa Airport
+PQI|Presque Isle|ME|US|Presque Isle Municipal Airport
+PQM|Palenque|null|MX|Palenque Airport
+PQQ|Port Macquarie|NS|AU|Port Macquarie Airport
+PRC|Prescott|AZ|US|Prescott Airport
+PRG|Prague|null|CZ|Prague-Ruzyne Airport
+PRI|Praslin Island|null|SC|Praslin Island Airport
+PRN|Pristina|null|YU|Pristina Airport
+PSA|Pisa|null|IT|Gal Galilei Airport
+PSC|Pasco|WA|US|Tri-Cities Airport
+PSE|Ponce|null|PR|Mercedita Airport
+PSF|Pittsfield|MA|US|Pittsfield Airport
+PSG|Petersburg|AK|US|Petersburg Municipal Airport
+PSO|Pasto|null|CO|Cano Airport
+PSP|Palm Springs|CA|US|Palm Springs Municipal Airport
+PSR|Pescara|null|IT|Liberi Airport
+PTF|Malololailai|null|FJ|Malololailai Airport
+PTG|Pietersburg|null|ZA|Pietersburg Airport
+PTJ|Portland|VI|AU|Portland Airport
+PTP|Pointe-a-Pitre|null|GP|Le Raizet Airport
+PTY|Panama City|null|PA|Tocumen International Airport
+PUB|Pueblo|CO|US|Pueblo Memorial Airport
+PUF|Pau|null|FR|Uzein Airport
+PUG|Port Augusta|SA|AU|Port Augusta Airport
+PUJ|Punta Cana|null|DO|Punta Cana Airport
+PUQ|Punta Arenas|null|CL|Pres Ibanez Airport
+PUS|Pusan|null|KR|Gimbae Airport
+PUW|Pullman|WA|US|Moscow Regional Airport
+PUY|Pula|null|HR|Pula Airport
+PVC|Provincetown|MA|US|Provincetown Airport
+PVD|Providence|RI|US|Theodore Francis Airport
+PVG|Shanghai|null|CN|Pu Dong Airport
+PVH|Porto Velho|null|BR|Belmonte Airport
+PVR|Puerto Vallarta|null|MX|Ordaz
+PWA|Oklahoma City|OK|US|Wiley Post Airport
+PWM|Portland|ME|US|Portland International Jetport
+PXM|Puerto Escondido|null|MX|Puerto Escondido Airport
+PXO|Porto Santo|null|PT|Porto Santo Airport
+PZO|Puerto Ordaz|null|VE|Puerto Ordaz Airport
+QRO|Queretaro|null|MX|Queretaro Airport
+RAB|Rabaul|null|PG|Tokua Airport
+RAI|Praia|null|CV|Francisco Mendes Airport
+RAJ|Rajkot|null|IN|Civil Airport
+RAK|Marrakech|null|MA|Menara Airport
+RAO|Ribeirao Preto|null|BR|Leite Lopes Airport
+RAP|Rapid City|SD|US|Rapid City Regional Airport
+RAR|Rarotonga|null|CK|Rarotonga Airport
+RBA|Rabat|null|MA|Sale Airport
+RCB|Richards Bay|null|ZA|Richards Bay Airport
+RCH|Riohacha|null|CO|Riohacha Airport
+RDD|Redding|CA|US|Redding Airport
+RDG|Reading|PA|US|Reading Municipal Airport/Spaatz Field
+RDM|Redmond|OR|US|Roberts Field
+RDM|Bend|OR|US|Roberts Field
+RDU|Durham|NC|US|Raleigh/Durham Airport
+RDU|Raleigh/Durham|NC|US|Raleigh/Durham Airport
+RDZ|Rodez|null|FR|Marcillac Airport
+REC|Recife|null|BR|Guararapes International Airport
+REG|Reggio Calabria|null|IT|Tito Menniti Airport
+REK|Reykjavik|null|IS|Metropolitan Area
+REL|Trelew|null|AR|Trelew Airport
+REP|Siem Reap|null|KH|Siem Reap Airport
+RES|Resistencia|null|AR|Resistencia Airport
+REU|Reus|null|ES|Reus Airport
+REX|Reynosa|null|MX|Gen Lucio Blanco Airport
+RFD|Rockford|IL|US|Greater Rockford Airport
+RFP|Raiatea|null|PF|Raiatea Airport
+RGA|Rio Grande|null|AR|Rio Grande Airport
+RGL|Rio Gallegos|null|AR|Rio Gallegos Internacional Airport
+RGN|Yangon|null|MM|Mingaladon Airport
+RHI|Rhinelander|WI|US|Oneida County Airport
+RHO|Rhodes|null|GR|Diagoras Airport
+RIC|Richmond|VA|US|Richmond International Airport (Byrd Field)
+RIO|Rio De Janeiro|null|BR|Metropolitan Area
+RIW|Riverton|WY|US|Riverton Airport
+RIX|Riga|null|LV|Riga Airport
+RKD|Rockland|ME|US|Knox County Regional Airport
+RKS|Rock Springs|WY|US|Sweetwater County Airport
+RKT|Ras Al Khaimah|null|AE|Ra'sal-Khaymah Airport
+RKV|Reykjavik|null|IS|Reykjavik Domestic Airport
+RMA|Roma|QL|AU|Roma Airport
+RMI|Rimini|null|IT|Miramare Airport
+RNB|Ronneby|null|SE|Kallinge Airport
+RNE|Roanne|null|FR|Renaison Airport
+RNO|Reno|NV|US|Reno/Tahoe International Airport
+RNS|Rennes|null|FR|St Jacques Airport
+ROA|Roanoke|VA|US|Roanoke Municipal Airport
+ROC|Rochester|NY|US|Monroe County Airport
+ROK|Rockhampton|QL|AU|Rockhampton Airport
+ROM|Rome|null|IT|Metropolitan Area
+ROP|Rota|null|MP|Rota Airport
+ROR|Koror|null|PW|Airai Airport
+ROS|Rosario|null|AR|Fisherton Airport
+ROT|Rotorua|null|NZ|Rotorua Airport
+ROV|Rostov|null|RU|Rostov Airport
+ROW|Roswell|NM|US|Industrial Airport
+RPR|Raipur|null|IN|Raipur Airport
+RRG|Rodrigues Is|null|MU|Rodrigues Island Airport
+RRS|Roros|null|NO|Roros Airport
+RSD|Rock Sound|null|BS|South Eleuthera Airport
+RST|Rochester|MN|US|Rochester Municipal Airport
+RSW|Fort Myers|FL|US|Southwest Florida Regional Airport
+RTB|Roatan|null|HN|Roatan Airport
+RTM|Rotterdam|null|NL|Rotterdam Airport
+RUH|Riyadh|null|SA|King Khaled International Airport
+RUI|Ruidoso|NM|US|Ruidoso Municipal Airport
+RUN|St Denis de la Reunion|null|RE|Gillot Airport
+RUT|Rutland|VT|US|Rutland Airport
+RVH|St Petersburg|null|RU|Rzhevka Airport
+RVN|Rovaniemi|null|FI|Rovaniemi Airport
+RWI|Rocky Mount|NC|US|Rocky Mount-Wilson Airport
+SAB|Saba Island|null|AN|J. Yrausquin Airport
+SAC|Sacramento|CA|US|Executive Airport
+SAF|Santa Fe|NM|US|Santa Fe Airport
+SAH|Sana'a|null|YE|San'a International Airport
+SAL|San Salvador|null|SV|Comalapa International Airport
+SAN|San Diego|CA|US|San Diego International Airport
+SAO|Sao Paulo|null|BR|Metropolitan Area
+SAP|San Pedro Sula|null|HN|Ramon Villeda Morales Airport
+SAT|San Antonio|TX|US|San Antonio International Airport
+SAV|Savannah|GA|US|Savannah International Airport
+SBA|Santa Barbara|CA|US|Santa Barbara Municipal Airport
+SBH|St Barthelemy|null|GP|St. Barthelemy Airport
+SBN|South Bend|IN|US|South Bend Regional
+SBP|San Luis Obispo|CA|US|County Airport
+SBS|Steamboat Springs|CO|US|Steamboat Springs Airport
+SBY|Salisbury-Ocean City|MD|US|Wicomico County Airport
+SBZ|Sibiu|null|RO|Sibiu Airport
+SCE|State College|PA|US|University Park Airport
+SCK|Stockton|CA|US|Stockton Airport
+SCL|Santiago|null|CL|Arturo Merino Benitez Airport
+SCN|Saarbruecken|null|DE|Ensheim Airport
+SCO|Aktau|null|KZ|Aktau Airport
+SCQ|Santiago De Compostela|null|ES|Santiago De Compostela Airport
+SDF|Louisville|KY|US|Standiford Field
+SDJ|Sendai|null|JP|Sendai Airport
+SDL|Sundsvall|null|SE|Sundsvall/Harnosand Airport
+SDM|San Diego|CA|US|Brown Field Municipal Airport
+SDQ|Santo Domingo|null|DO|Las Americas Airport
+SDR|Santander|null|ES|Santander Airport
+SDU|Rio De Janeiro|null|BR|Santos Dumont Airport
+SDV|Tel Aviv Yafo|null|IL|Sde-Dov Airport
+SDY|Sidney|MT|US|Richland Municipal Airport
+SEA|Seattle|WA|US|Seattle/Tacoma International Airport
+SEL|Seoul|null|KR|Metropolitan Area
+SEZ|Mahe Island|null|SC|Seychelles International Airport
+SFA|Sfax|null|TN|Sfax El Maou Airport
+SFB|Orlando|FL|US|Central Florida Regional Airport
+SFB|Sanford|FL|US|Central Florida Regional Airport
+SFO|San Francisco|CA|US|SFO International Airport
+SFT|Skelleftea|null|SE|Skelleftea Airport
+SGD|Sonderborg|null|DK|Sonderborg Airport
+SGF|Springfield|MO|US|Springfield-Branson Regional Airport
+SGN|Ho Chi Minh City|null|VN|Ho Chi Minh City Airport
+SGU|Saint George|UT|US|Saint George Municipal Airport
+SGY|Skagway|AK|US|Skagway Municipal Airport
+SHA|Shanghai|null|CN|Hongqiao Airport
+SHC|Indaselassie|null|ET|Indaselassie Airport
+SHD|Staunton|VA|US|Shenandoah Valley Airport
+SHE|Shenyang|null|CN|Shenyang Airport
+SHJ|Sharjah|null|AE|Sharjah Airport
+SHR|Sheridan|WY|US|Sheridan Airport
+SHV|Shreveport|LA|US|Shreveport Regional Airport
+SIA|Xi An|null|CN|Xiguan Airport
+SID|Sal|null|CV|Amilcar Cabral International Airport
+SIN|Singapore|null|SG|Changi Airport
+SIR|Sion|null|CH|Sion Airport
+SIT|Sitka|AK|US|Sitka Airport
+SJC|San Jose|CA|US|San Jose Municipal Airport
+SJD|San Jose Cabo|null|MX|Los Cabos Airport
+SJJ|Sarajevo|null|BA|Butmir Airport
+SJO|San Jose|null|CR|Juan Santamaria International Airport
+SJT|San Angelo|TX|US|Mathis Field
+SJU|San Juan|null|PR|Luis Munoz Marin International Airport
+SKB|St Kitts|null|KN|Golden Rock Airport
+SKD|Samarkand|null|UZ|Samarkand Airport
+SKG|Thessaloniki|null|GR|Makedonia Airport
+SKP|Skopje|null|MK|Skopje Airport
+SLA|Salta|null|AR|Gen Belgrano Airport
+SLC|Salt Lake City|UT|US|Salt Lake City International Airport
+SLK|Saranac Lake|NY|US|Adirondack Airport
+SLL|Salalah|null|OM|Salalah Airport
+SLM|Salamanca|null|ES|Matacan Airport
+SLN|Salina|KS|US|Salina Airport
+SLP|San Luis Potosi|null|MX|San Luis Potosi Airport
+SLU|St Lucia|null|LC|Vigie Field
+SLV|Simla|null|IN|Simla Airport
+SLW|Saltillo|null|MX|Saltillo Airport
+SLZ|Sao Luiz|null|BR|Mal. Cunha Machado Airport
+SMF|Sacramento|CA|US|Sacramento Metropolitan Airport
+SMI|Samos|null|GR|Samos Airport
+SMR|Santa Marta|null|CO|Simon Bolivar Airport
+SMX|Santa Maria|CA|US|Santa Maria Public  Airport
+SNA|Santa Ana|CA|US|John Wayne International Airport
+SNN|Shannon|null|IE|Shannon Airport
+SOB|Saarmelleek|null|HU|Saarmelleek/Balaton Airport
+SOF|Sofia|null|BG|Vrazhdebna Airport
+SOO|Soderhamn|null|SE|Soderhamn Airport
+SOP|Southern Pines|NC|US|Pinehurst-S. Pines Airport
+SOU|Southampton|null|GB|Eastleigh Airport
+SOW|Show Low|AZ|US|Show Low Airport
+SPC|Santa Cruz De La Palma|null|ES|La Palma Airport
+SPI|Springfield|IL|US|Capital Airport
+SPK|Sapporo|null|JP|Metropolitan Area
+SPN|Saipan|null|MP|Saipan International Airport
+SPS|Wichita Falls|TX|US|Sheppard Air Force Base
+SPU|Split|null|HR|Split Airport
+SQV|Sequim|WA|US|Sequim Valley Airport
+SRG|Semarang|null|ID|Achmad Uani Airport
+SRQ|Sarasota|FL|US|Bradenton Airport
+SRQ|Bradenton|FL|US|Bradenton Airport
+SRZ|Santa Cruz|null|BO|El Trompillo Airport
+SSA|Salvador|null|BR|Airport Luis E. Magalhaes
+SSG|Malabo|null|GQ|Santa Isabel Airport
+SSH|Sharm El Sheikh|null|EG|Ophira Airport
+SSI|Brunswick|GA|US|McKinnon Airport
+SSJ|Sandnessjoen|null|NO|Stokka Airport
+STC|Saint Cloud|MN|US|St. Cloud Municipal Airport
+STI|Santiago|null|DO|Santiago Municipal Airport
+STL|St Louis|MO|US|Lambert-St. Louis International Airport
+STN|London|null|GB|Stansted Airport
+STO|Stockholm|null|SE|Metropolitan Area
+STP|St Paul|MN|US|St. Paul Downtown Airport
+STR|Stuttgart|null|DE|Echterdingen Airport
+STS|Santa Rosa|CA|US|Sonoma County Airport
+STT|St Thomas Island|null|VI|Cyril E. King Airport
+STV|Surat|null|IN|Surat Gujarat Airport
+STX|St Croix Island|null|VI|Alexander Hamilton Airport
+SUB|Surabaya|null|ID|Juanda Airport
+SUF|Lamezia-Terme|null|IT|S Eufemia Airport
+SUN|Sun Valley|ID|US|Sun Valley Airport
+SUN|Hailey|ID|US|Sun Valley Airport
+SUV|Suva|null|FJ|Nausori Airport
+SUX|Sioux City|IA|US|Sioux Gateway Airport
+SVC|Silver City|NM|US|Grant County Airport
+SVD|St Vincent|null|VC|E. T. Joshua
+SVG|Stavanger|null|NO|Sola Airport
+SVJ|Svolvaer|null|NO|Helle Airport
+SVO|Moscow|null|RU|Sheremetyevo Airport
+SVQ|Sevilla|null|ES|Sevilla Airport
+SVU|Savusavu|null|FJ|Savusavu Airport
+SVX|Ekaterinburg|null|RU|Ekaterinburg Airport
+SWA|Shantou|null|CN|Shantou Airport
+SWF|Newburgh|NY|US|Stewart Airport
+SWF|Poughkeepsie|NY|US|Stewart Airport
+SWP|Swakopmund|null|NA|Swakopmund Airport
+SXB|Strasbourg|null|FR|Entzheim Airport
+SXF|Berlin|null|DE|Schoenefeld Airport
+SXL|Sligo|null|IE|Collooney Airport
+SXM|St Maarten|null|AN|Princ. Juliana Airport
+SXR|Srinagar|null|IN|Srinagar Airport
+SYD|Sydney|NS|AU|Kingsford Smith Airport
+SYR|Syracuse|NY|US|Hancock International Airport
+SYX|Sanya|null|CN|Sanya Airport
+SZD|Sheffield|null|GB|Sheffield City Airport
+SZG|Salzburg|null|AT|W. A. Mozart Airport
+SZK|Skukuza|null|ZA|Skukuza Airport
+SZX|Shenzhen|null|CN|Shenzhen Airport
+SZZ|Szczecin|null|PL|Goleniow Airport
+TAB|Tobago|null|TT|Tobago Airport
+TAK|Takamatsu|null|JP|Takamatsu Airport
+TAM|Tampico|null|MX|Gen F Javier Mina Airport
+TAO|Qingdao|null|CN|Qingdao Airport
+TAP|Tapachula|null|MX|Tapachula International Airport
+TAS|Tashkent|null|UZ|Vostochny Airport
+TBI|The Bight|null|BS|The Bight Airport
+TBN|Fort Leonard Wood|MO|US|Forney Army Air Field
+TBS|Tbilisi|null|GE|Novo Alexeyevka Airport
+TBU|Nuku'Alofa|null|TO|Fua'Amotu International Airport
+TCB|Treasure Cay|null|BS|Treasure Cay Airport
+TER|Terceira Island|null|PT|Lajes Airport
+TEU|Te Anau|null|NZ|Manapouri Airport
+TEX|Telluride|CO|US|Telluride Airport
+TFN|Tenerife|null|ES|Norte Los Rodeos Airport
+TFS|Tenerife|null|ES|Sur Reina Sofia Airport
+TGD|Podgorica|null|YU|Golubovci Airport
+TGG|Kuala Terengganu|null|MY|Sultan Mahmood Airport
+TGU|Tegucigalpa|null|HN|Toncontin Airport
+TGZ|Tuxtla Gutierrez|null|MX|Llano San Juan Airport
+THE|Teresina|null|BR|Teresina Airport
+THF|Berlin|null|DE|Tempelhof Airport
+THR|Tehran|null|IR|Mehrabad Airport
+THU|Pituffik|null|GL|Pituffik Airport
+TIA|Tirana|null|AL|Rinas Airport
+TIH|Tikehau Atoll|null|PF|Tikehau Atoll Airport
+TIJ|Tijuana|null|MX|Rodriguez Airport
+TKQ|Kigoma|null|TZ|Kigoma Airport
+TKS|Tokushima|null|JP|Tokushima Airport
+TKU|Turku|null|FI|Turku Airport
+TLC|Toluca|null|MX|Toluca Airport
+TLH|Tallahassee|FL|US|Tallahassee Municipal Airport
+TLL|Tallinn|null|EE|Ulemiste Airport
+TLN|Toulon|null|FR|Hyeres Airport
+TLS|Toulouse|null|FR|Blagnac Airport
+TLV|Tel Aviv Yafo|null|IL|Ben Gurion International Airport
+TMP|Tampere|null|FI|Tampere-Pirkkala Airport
+TMW|Tamworth|NS|AU|Tamworth Airport
+TNG|Tangier|null|MA|Boukhalef Airport
+TNR|Antananarivo|null|MG|Antananarivo Airport
+TOE|Tozeur|null|TN|Tozeur Airport
+TOL|Toledo|OH|US|Express Airport
+TOP|Topeka|KS|US|Philip Billard Airport
+TOS|Tromso|null|NO|Tromso/Langnes Airport
+TOY|Toyama|null|JP|Toyama Airport
+TPA|Tampa|FL|US|Tampa International Airport
+TPE|Taipei|null|TW|Chiang Kai Shek Airport
+TPS|Trapani|null|IT|Birgi Airport
+TRC|Torreon|null|MX|Torreon Airport
+TRD|Trondheim|null|NO|Vaernes Airport
+TRF|Oslo|null|NO|Sandefjord Airport
+TRG|Tauranga|null|NZ|Tauranga Airport
+TRI|Kingsport|TN|US|Tri-Cities Regional
+TRI|Bristol|VA|US|Tri-Cities Regional
+TRI|Johnson City|TN|US|Tri-Cities Regional
+TRN|Turin|null|IT|Citta Di Torino Airport
+TRS|Trieste|null|IT|Dei Legionari Airport
+TRU|Trujillo|null|PE|Trujillo Airport
+TRV|Thiruvananthapuram|null|IN|Trivandrum International Airport
+TSA|Taipei|null|TW|Sung Shan Airport
+TSF|Venice|null|IT|Treviso Airport
+TSM|Taos|NM|US|Taos Airport
+TSN|Tianjin|null|CN|Tianjin Airport
+TSV|Townsville|QL|AU|Townsville Airport
+TTN|Trenton|NJ|US|Mercer County Airport
+TUC|Tucuman|null|AR|Benj Matienzo Airport
+TUF|Tours|null|FR|St Symphorien Airport
+TUL|Tulsa|OK|US|Tulsa International Airport
+TUN|Tunis|null|TN|Carthage Airport
+TUO|Taupo|null|NZ|Taupo Airport
+TUP|Tupelo|MS|US|Lemons Municipal Airport
+TUS|Tucson|AZ|US|Tucson International Airport
+TVC|Traverse City|MI|US|Traverse City Airport
+TVF|Thief River Falls|MN|US|Thief River Falls Regional Airport
+TVU|Taveuni|null|FJ|Matei Airport
+TWF|Twin Falls|ID|US|Twin Falls City County Airport
+TXG|Taichung|null|TW|Taichung Airport
+TXK|Texarkana|AR|US|Texarkana Municipal Airport
+TXL|Berlin|null|DE|Tegel Airport
+TYN|Taiyuan|null|CN|Taiyuan Airport
+TYO|Tokyo|null|JP|Metropolitan Area
+TYR|Tyler|TX|US|Pounds Field
+TYS|Knoxville|TN|US|Mc Ghee Tyson Airport
+TZA|Belize City|null|BZ|Belize City Municipal Airport
+TZX|Trabzon|null|TR|Trabzon Airport
+UAK|Narsarsuaq|null|GL|Narsarsuaq Airport
+UBJ|Ube|null|JP|Ube Airport
+UCA|Utica|NY|US|Oneida County Airport
+UDI|Uberlandia|null|BR|Eduardo Gomes Airport
+UDR|Udaipur|null|IN|Dabok Airport
+UET|Quetta|null|PK|Quetta Airport
+UIB|Quibdo|null|CO|Quibdo Airport
+UIN|Quincy|IL|US|Quincy Municipal Airport
+UIO|Quito|null|EC|Mariscal Sucre Airport
+UIP|Quimper|null|FR|Pluguffan Airport
+ULN|Ulaanbaatar|null|MN|Buyant Uhaa Airport
+UME|Umea|null|SE|Umea Airport
+UPG|Ujung Pandang|null|ID|Hasanudin Airport
+UPN|Uruapan|null|MX|Uruapan Airport
+URC|Urumqi|null|CN|Urumqi Airport
+URO|Rouen|null|FR|Boos Airport
+URT|Surat Thani|null|TH|Surat Thani Airport
+USH|Ushuaia|null|AR|Islas Malvinas Airport
+USM|Koh Samui|null|TH|Koh Samui Airport
+USN|Ulsan|null|KR|Ulsan Airport
+UTH|Udon Thani|null|TH|Udon Thani Airport
+UTN|Upington|null|ZA|Upington Airport
+UTP|Utapao|null|TH|Utapao Airport
+UTT|Umtata|null|ZA|Umtata Airport
+UVF|St Lucia|null|LC|Hewanorra Airport
+VAA|Vaasa|null|FI|Vaasa Airport
+VAR|Varna|null|BG|Varna Airport
+VBS|Brescia|null|IT|Montichiari Airport
+VBY|Visby|null|SE|Visby Airport
+VCE|Venice|null|IT|Marco Polo Airport
+VCP|Sao Paulo|null|BR|Viracopos Airport
+VCT|Victoria|TX|US|County-Foster Airport
+VDA|Ovda|null|IL|Ovda Airport
+VDZ|Valdez|AK|US|Valdez Municipal Airport
+VEL|Vernal|UT|US|Vernal Airport
+VER|Veracruz|null|MX|Las Bajadas Airport
+VFA|Victoria Falls|null|ZW|Victoria Falls Airport
+VGO|Vigo|null|ES|Vigo Airport
+VIE|Vienna|null|AT|Vienna International Airport
+VIL|Dakhla|null|MA|Dakhla Airport
+VIS|Visalia|CA|US|Visalia Airport
+VIT|Vitoria.|null|ES|Vitoria Airport
+VIX|Vitoria|null|BR|Eurico Sales Airport
+VKO|Moscow|null|RU|Vnukovo Airport
+VLC|Valencia|null|ES|Valencia Airport
+VLD|Valdosta|GA|US|Valdosta Regional Airport
+VLI|Port Vila|null|VU|Bauerfield Airport
+VLL|Valladolid|null|ES|Valladolid Airport
+VLN|Valencia|null|VE|Valencia Airport
+VNO|Vilnius|null|LT|Vilnius Airport
+VNS|Varanasi|null|IN|Varanasi Airport
+VOG|Volgograd|null|RU|Volgograd Airport
+VPS|Valparaiso|FL|US|Ft. Walton Beach Airport
+VQS|Vieques|null|PR|Vieques Airport
+VRN|Verona|null|IT|Verona Airport
+VSA|Villahermosa|null|MX|Capitan Carlos Perez Airport
+VST|Vasteras|null|SE|Hasslo Airport
+VVI|Santa Cruz|null|BO|Viru Viru International Airport
+VVO|Vladivostok|null|RU|Vladivostok Airport
+VXO|Vaxjo|null|SE|Vaxjo Airport
+VYS|Peru|IL|US|Illinois Valley Regional Airport
+WAG|Wanganui|null|NZ|Wanganui Airport
+WAT|Waterford|null|IE|Waterford Airport
+WAW|Warsaw|null|PL|Okecie Airport
+WDG|Enid|OK|US|Enid Woodring Municipal Airport
+WDH|Windhoek|null|NA|Hosea Kutako International Airport
+WGA|Wagga Wagga|NS|AU|Forrest Hill Airport
+WIL|Nairobi|null|KE|Wilson Airport
+WKA|Wanaka|null|NZ|Wanaka Airport
+WLG|Wellington|null|NZ|Wellington International Airport
+WLS|Wallis Island|null|WF|Wallis Island Airport
+WMH|Mountain Home|AR|US|Mountain Home Airport
+WRE|Whangarei|null|NZ|Whangarei Airport
+WRL|Worland|WY|US|Worland Airport
+WRO|Wroclaw|null|PL|Strachowice Airport
+WUH|Wuhan|null|CN|Wuhan Airport
+WVB|Walvis Bay|null|NA|Rooikop Airport
+WWD|Wildwood|NJ|US|Cape May County Airport
+WYA|Whyalla|SA|AU|Whyalla Airport
+WYS|West Yellowstone|MT|US|Yellowstone Airport
+XIY|Xi An|null|CN|Xianyang Airport
+XMH|Manihi|null|PF|Manihi Airport
+XMN|Xiamen|null|CN|Xiamen Airport
+XNA|Fayetteville|AR|US|Northwest Arkansas Regional Airport
+XQP|Quepos|null|CR|Quepos Airport
+XQU|Qualicum|BC|CA|Qualicum Airport
+XRY|Jerez De La Frontera|null|ES|La Parra Airport
+XSC|South Caicos|null|TC|South Caicos International Airport
+YAG|Fort Frances|ON|CA|Fort Frances Municipal Airport
+YAK|Yakutat|AK|US|Yakutat Airport
+YAM|Sault Ste Marie|ON|CA|Sault Ste. Marie Airport
+YAO|Yaounde|null|CM|Yaounde Airport
+YAP|Yap|null|FM|Yap Airport
+YBC|Baie Comeau|PQ|CA|Baie Comeau Airport
+YBG|Bagotville|PQ|CA|Bagotville Airport
+YBL|Campbell River|BC|CA|Campbell River Airport
+YBR|Brandon|MB|CA|Brandon Airport
+YCD|Nanaimo|BC|CA|Nanaimo Airport
+YCG|Castlegar|BC|CA|Castlegar Airport
+YCH|Miramichi|NB|CA|Miramichi Airport
+YDF|Deer Lake|NF|CA|Deer Lake Airport
+YDQ|Dawson Creek|BC|CA|Dawson Creek Airport
+YEG|Edmonton|AB|CA|Edmonton International Airport
+YEV|Inuvik|NT|CA|Inuvik/Mike Zubko Airport
+YFB|Iqaluit|NU|CA|Iqaluit Airport
+YFC|Fredericton|NB|CA|Fredericton Airport
+YFS|Fort Simpson|NT|CA|Fort Simpson Airport
+YGB|Gillies Bay|BC|CA|Gillies Bay Airport
+YGK|Kingston|ON|CA|Kingston Airport
+YGP|Gaspe|PQ|CA|Metropolitan Area Airport
+YGR|Iles De La Madeleine|PQ|CA|Iles De La Madeleine Airport
+YGT|Igloolik|NU|CA|Igloolik Airport
+YGW|Kuujjuarapik|PQ|CA|Kuujjuarapik Airport
+YGX|Gillam|MB|CA|Gillam Airport
+YHD|Dryden|ON|CA|Dryden Municipal Airport
+YHI|Holman|NT|CA|Holman Airport
+YHM|Hamilton|ON|CA|Hamilton Airport
+YHU|Montreal|PQ|CA|St. Hubert Airport
+YHY|Hay River|NT|CA|Hay River Airport
+YHZ|Halifax|NS|CA|Halifax International Airport
+YJP|Jasper-Hinton|AB|CA|Jasper-Hinton Airport
+YJT|Stephenville|NF|CA|Stephenville Airport
+YKA|Kamloops|BC|CA|Kamloops Airport
+YKF|Kitchener|ON|CA|Kitchener-Waterloo Regional Airport
+YKM|Yakima|WA|US|Yakima Air Terminal
+YKN|Yankton|SD|US|Chan Gurney Airport
+YLL|Lloydminster|AB|CA|Lloydminster Airport
+YLW|Kelowna|BC|CA|Kelowna Airport
+YMM|Fort Mcmurray|AB|CA|Fort McMurray Airport
+YMO|Moosonee|ON|CA|Moosonee Airport
+YMQ|Montreal|PQ|CA|Metropolitan Area
+YMT|Chibougamau|PQ|CA|Chibougamau Airport
+YMX|Montreal|PQ|CA|Mirabel International Airport
+YNG|Youngstown|OH|US|Youngstown Airport
+YOJ|High Level|AB|CA|Footner Lake Airport
+YOP|Rainbow Lake|AB|CA|Rainbow Lake Airport
+YOW|Ottawa|ON|CA|Ottawa International Airport
+YPA|Prince Albert|SK|CA|Prince Albert Airport
+YPE|Peace River|AB|CA|Peace River Airport
+YPR|Prince Rupert|BC|CA|Digby Island Airport
+YPW|Powell River|BC|CA|Powell River Airport
+YPX|Povungnituk|PQ|CA|Puvirnituq Airport
+YQB|Quebec|PQ|CA|Quebec Airport
+YQC|Quaqtaq|PQ|CA|Quaqtaq Airport
+YQD|The Pas|MB|CA|The Pas Airport
+YQG|Windsor|ON|CA|Windsor Airport
+YQI|Yarmouth|NS|CA|Yarmouth Airport
+YQK|Kenora|ON|CA|Kenora Airport
+YQL|Lethbridge|AB|CA|Lethbridge Airport
+YQM|Moncton|NB|CA|Metropolitan Area
+YQQ|Comox|BC|CA|Comox Airport
+YQR|Regina|SK|CA|Regina Airport
+YQT|Thunder Bay|ON|CA|Thunder Bay Airport
+YQU|Grande Prairie|AB|CA|Grande Prairie Airport
+YQX|Gander|NF|CA|Gander Airport
+YQY|Sydney|NS|CA|Sydney Airport
+YQZ|Quesnel|BC|CA|Quesnel Airport
+YRB|Resolute|NU|CA|Resolute Airport
+YRL|Red Lake|ON|CA|Red Lake Airport
+YSB|Sudbury|ON|CA|Sudbury Airport
+YSJ|Saint John|NB|CA|Saint John Airport
+YSL|St Leonard|NB|CA|Edmunston Airport
+YSM|Fort Smith|NT|CA|Fort Smith Airport
+YTA|Pembroke|ON|CA|Pembroke And Area Airport
+YTO|Toronto|ON|CA|Metropolitan Area
+YTO|Guildwood|ON|CA|Metropolitan Area
+YTS|Timmins|ON|CA|Timmins Airport
+YTZ|Toronto|ON|CA|Toronto Island Airport
+YUL|Montreal|PQ|CA|Dorval International Airport
+YUM|Yuma|AZ|US|Yuma International Airport
+YUY|Rouyn|PQ|CA|Rouyn Airport
+YVB|Bonaventure|PQ|CA|Bonaventure Airport
+YVC|La Ronge|SK|CA|La Ronge Airport
+YVO|Val D'Or|PQ|CA|Val D'Or Airport
+YVP|Kuujjuaq|PQ|CA|Kuujjuaq Airport
+YVR|Vancouver|BC|CA|Vancouver International Airport
+YWG|Winnipeg|MB|CA|Winnipeg Airport
+YWH|Victoria|BC|CA|Inner Harbour Airport
+YWL|Williams Lake|BC|CA|Williams Lake Airport
+YXC|Cranbrook|BC|CA|Cranbrook Airport
+YXD|Edmonton|AB|CA|Edmonton Municipal Airport
+YXE|Saskatoon|SK|CA|Saskatoon Airport
+YXH|Medicine Hat|AB|CA|Medicine Hat Airport
+YXJ|Fort St John|BC|CA|Fort St. John Airport
+YXL|Sioux Lookout|ON|CA|Sioux Lookout Airport
+YXS|Prince George|BC|CA|Prince George Airport
+YXT|Terrace|BC|CA|Terrace Airport
+YXU|London|ON|CA|Metropolitan Area Airport
+YXX|Abbotsford|BC|CA|Abbotsford Airport
+YXY|Whitehorse|YU|CA|Whitehorse Airport
+YYB|North Bay|ON|CA|North Bay Airport
+YYC|Calgary|AB|CA|Calgary International Airport
+YYD|Smithers|BC|CA|Smithers Airport
+YYE|Fort Nelson|BC|CA|Fort Nelson Airport
+YYF|Penticton|BC|CA|Penticton Airport
+YYG|Charlottetown|PE|CA|Charlottetown Airport
+YYJ|Victoria|BC|CA|Victoria International Airport
+YYQ|Churchill|MB|CA|Metropolitan Area Airport
+YYR|Goose Bay|NF|CA|Goose Bay Airport
+YYT|St Johns|NF|CA|St. John's Airport
+YYU|Kapuskasing|ON|CA|Kapuskasing Airport
+YYY|Mont Joli|PQ|CA|Mont Joli Airport
+YYZ|Toronto|ON|CA|Pearson International Airport
+YZF|Yellowknife|NT|CA|Yellowknife Airport
+YZR|Sarnia|ON|CA|Sarnia Airport
+YZT|Port Hardy|BC|CA|Port Hardy Airport
+YZV|Sept-Iles|PQ|CA|Sept-Iles Airport
+ZAD|Zadar|null|HR|Zadar Airport
+ZAG|Zagreb|null|HR|Pleso Airport
+ZAL|Valdivia|null|CL|Pichoy Airport
+ZAZ|Zaragoza|null|ES|Zaragoza Airport
+ZBF|Bathurst|NB|CA|Bathurst Airport
+ZCL|Zacatecas|null|MX|La Calera Airport
+ZCO|Temuco|null|CL|Temuco Airport
+ZGI|Gods River|MB|CA|Gods River Airport
+ZIH|Ixtapa/Zihuatanejo|null|MX|Extapa/Zihuatanejo Internacional Airport
+ZLO|Manzanillo|null|MX|Manzanillo Airport
+ZNA|Nanaimo|BC|CA|Harbour Airport
+ZNZ|Zanzibar|null|TZ|Kisauni Airport
+ZOS|Osorno|null|CL|Canal Balo Airport
+ZQN|Queenstown|null|NZ|Frankton Airport
+ZRH|Zurich|null|CH|Zurich Airport
+ZSW|Prince Rupert|BC|CA|Seal Cove Airport
+ZTH|Zakinthos Is|null|GR|Zakinthos Airport
+ZUH|Zhuhai|null|CN|Zhuhai Airport

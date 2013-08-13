@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  HotelID: 1
+  PropertyRating: MyString
+  PropertyName: MyString
+  Address1: MyString
+  Address2: MyString
+  Address3: MyString
+  City: MyString
+  StateProvince: MyString
+  Country: MyString
+  MarketingLevel: MyString
+
+two:
+  HotelID: 1
+  PropertyRating: MyString
+  PropertyName: MyString
+  Address1: MyString
+  Address2: MyString
+  Address3: MyString
+  City: MyString
+  StateProvince: MyString
+  Country: MyString
+  MarketingLevel: MyString
