@@ -301,7 +301,7 @@
         <span class="span6">
           <%=t(".rooms")%>
         </span>
-        <select class="span6" id="search-room" name="search_room">
+        <select class="sp_search_room" id="search-room" name="search_room">
           <% (1..8).each do |room_id| %>
             <option value="<%= room_id %>"><%= room_id %></option>
           <% end %>
@@ -317,8 +317,8 @@
           </div>
           <div class="span4 adult-field">
             <div id="adult-block-0">
-              <span class="span8"><%=t(".adults")%></span>
-              <select class="span3" id="adult-1">
+              <span class="span7"><%=t(".adults")%></span>
+              <select class="sp_search_room" id="adult-1">
                 <% (1..4).each do |a_id| %>
                   <option value="<%= a_id %>"><%= a_id %></option>
                 <% end %>
@@ -327,8 +327,8 @@
           </div>
           <div class="span4 child-field">
             <div id="children-block-0" class="children-block">
-              <span class="span8"><%=t(".children")%></span>
-              <select class="span4 child-box" id="children-1">
+              <span class="span7"><%=t(".children")%></span>
+              <select class="sp_search_room child-box" id="children-1">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -337,8 +337,8 @@
               <br />
               <% (0..3).each do |id| %>
               <div id="age-block-<%= id %>" style="display:none" class="age-block">
-                <span class="span3"><%=t(".age")%></span>
-                <select class="span3 age-field" id="age-<%= id %>">
+                <span class="span7"><%=t(".age")%></span>
+                <select class="sp_search_room age-field" id="age-<%= id %>">
                   <option value="0"><1</option>
                   <% (1..17).each do |id| %>
                   <option value="<%= id %>"><%= id %></option>
@@ -367,8 +367,8 @@
         </div>
         <div class="span4 adult-field">
           <div id="adult-block-0">
-            <span class="span8"><%=t(".adults")%></span>
-            <select class="span3" id="adult-1">
+            <span class="span7"><%=t(".adults")%></span>
+            <select class="sp_search_room" id="adult-1">
                 <% (1..4).each do |a_id| %>
                   <option value="<%= a_id %>"><%= a_id %></option>
                 <% end %>
@@ -377,8 +377,8 @@
         </div>
         <div class="span4 child-field">
           <div id="children-block-0" class="children-block">
-            <span class="span8"><%=t(".children")%></span>
-            <select class="span4 child-box" id="children-1">
+            <span class="span7"><%=t(".children")%></span>
+            <select class="sp_search_room child-box" id="children-1">
               <option value="0">0</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -386,8 +386,8 @@
             </select>
             <% (0..3).each do |id| %>
             <div id="age-block-<%= id %>" style="display:none" class="age-block">
-              <span class="span3"><%=t(".age")%></span>
-              <select class="span3 age-field" id="age-<%= id %>">
+              <span class="span7"><%=t(".age")%></span>
+              <select class="sp_search_room age-field" id="age-<%= id %>">
                 <option value="0"><1</option>
                 <% (1..17).each do |id| %>
                 <option value="<%= id %>"><%= id %></option>
